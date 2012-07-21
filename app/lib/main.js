@@ -1,3 +1,3 @@
-require('ember-skeleton/core');
-require('ember-skeleton/store');
-require('ember-skeleton/state_manager');
+require('dashboard/core');
+require('dashboard/store');
+require('dashboard/state_manager');
