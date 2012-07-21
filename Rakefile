@@ -38,7 +38,10 @@ task :test => :build do
 end
 
 desc "deploy app"
-task :deploy => :build do
+task :deploy do
+  ENV['RAKEP_MODE'] = "production"
+  Rake::Task["build"].invoke
+  
   origin = `git config remote.origin.url`.chomp
   username = `git config user.name`.chomp
   cd "assets" do
