@@ -36,3 +36,22 @@ task :test => :build do
     exit(1)
   end
 end
+
+desc "deploy app"
+task :deploy => :build do
+  origin = `git config remote.origin.url`.chomp
+  username = `git config user.name`.chomp
+  cd "assets" do
+    system "rm -rf .git"
+    system "git init"
+    system "git remote add origin #{origin}"
+    system "git checkout -b gh-pages"
+    system "git add ."
+    puts "\n## Commiting: Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc}"
+    system "git commit -m \"#{message}\""
+    puts "\n## Pushing generated website"
+    system "git push origin gh-pages --force"
+    puts "\n## Github Pages deploy complete -- http://#{username}.github.com/dashboard"
+  end
+end
