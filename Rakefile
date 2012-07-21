@@ -13,8 +13,8 @@ task :clean do
 end
 
 desc "Build #{APPNAME}"
-task :build do
-  Rake::Pipeline::Project.new('Assetfile').invoke
+task :build => :clean do
+  pipeline.invoke
 end
 
 desc "Run tests with PhantomJS"
