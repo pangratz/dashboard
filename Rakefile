@@ -3,6 +3,10 @@ APPNAME = 'ember-skeleton'
 require 'colored'
 require 'rake-pipeline'
 
+def pipeline
+  Rake::Pipeline::Project.new('Assetfile')
+end
+
 desc "Build #{APPNAME}"
 task :build do
   Rake::Pipeline::Project.new('Assetfile').invoke
