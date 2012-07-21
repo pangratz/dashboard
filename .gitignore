@@ -1,3 +1,5 @@
 .DS_Store
 tmp/
+
 assets/
+test_assets/
