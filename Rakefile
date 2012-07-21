@@ -7,6 +7,11 @@ def pipeline
   Rake::Pipeline::Project.new('Assetfile')
 end
 
+desc "Clean #{APPNAME}"
+task :clean do
+  pipeline.clean
+end
+
 desc "Build #{APPNAME}"
 task :build do
   Rake::Pipeline::Project.new('Assetfile').invoke
