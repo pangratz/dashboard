@@ -1,7 +1,7 @@
-Ember Skeleton
-==============
+[GitHub Dashboard](http://pangratz.github.com/dashboard)
+========================================================
 
-A skeleton application framework using Ember.js and Rake Pipeline.
+GitHub Dashboard using Ember.js and Twitter Bootstrap. This repo is developed in the course of the accompanying blog post at [code418.com](http://code418.com/blog/categories/github-dashboard/).
 
 Running
 -------
@@ -12,11 +12,12 @@ Running
 App Structure
 -------------
 
-    ember-skeleton
+    dashboard
     ├── Assetfile - App build file
     ├── Gemfile - Package dependencies for rakep/rack
     ├── Gemfile.lock - Here be dragons: don't touch, always include
     ├── app - App specific code
+    │   ├── index.html - The app entry point
     │   ├── css - App CSS or SCSS (.scss)
     │   ├── lib - App code, *modularized during build*
     │   ├── modules - Module code, *already modularized*
@@ -31,11 +32,12 @@ App Structure
     │   ├── app.js - Built out app JS
     │   └── loader.js - Built out JS module loader
     ├── config.ru - Rack development web server configuration
-    ├── index.html - The app entry point
     ├── tests - QUnit testing files
     │   ├── index.html - The testing entry point
     │   ├── qunit - Testing support files
     │   └── run-tests.js - The PhantomJS QUnit test runner
+    ├── test_assets - Built out test asset files
+    │   ├── app-tests.js - App test files
     └── tmp - Temporary build files used by rakep
 
 Testing
