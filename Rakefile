@@ -1,4 +1,4 @@
-APPNAME = 'ember-skeleton'
+APPNAME = 'dashboard'
 
 require 'colored'
 require 'rake-pipeline'
