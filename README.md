@@ -1,7 +1,7 @@
 [GitHub Dashboard](http://pangratz.github.com/dashboard)
 ========================================================
 
-GitHub Dashboard using Ember.js and Twitter Bootstrap. This repo is developed in the course of the accompanying blog post at [code418.com](http://code418.com/blog/categories/github-dashboard/).
+GitHub Dashboard using Ember.js and Twitter Bootstrap. This repo is developed in the course of the accompanying blog posts at [code418.com](http://code418.com/blog/categories/github-dashboard/).
 
 Running
 -------
