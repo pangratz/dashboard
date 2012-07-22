@@ -1,5 +1,7 @@
-module("dashboard");
+require('dashboard/core');
 
-test("App is defined", function () {
-  ok(typeof App !== undefined, "App is undefined");
+module("Dashboard");
+
+test("is defined", function () {
+  ok(Dashboard, "is defined");
 });
