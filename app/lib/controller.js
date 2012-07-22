@@ -1,6 +1,6 @@
 require('dashboard/core');
 
-Dashboard.ApplicationController = Ember.ObjectController.extend();
+Dashboard.ApplicationController = Ember.Controller.extend();
 
 Dashboard.RepositoriesController = Ember.ArrayController.extend({
   sortProperties: 'full_name'.w(),
