@@ -2,6 +2,12 @@ require('dashboard/controller');
 
 var controller;
 
+module("Dashboard.ApplicationController");
+
+test("it exists", function() {
+  ok(Dashboard.ApplicationController, "it exists");
+});
+
 module("Dashboard.RepositoriesController", {
   setup: function() {
     controller = Dashboard.RepositoriesController.create();

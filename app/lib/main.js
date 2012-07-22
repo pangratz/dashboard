@@ -1,15 +1,5 @@
-require('dashboard/core');
-require('dashboard/github_data_source');
 require('dashboard/controller');
+require('dashboard/view');
+require('dashboard/router');
 
-Dashboard.gitHubDataSource = Dashboard.GitHubDataSource.create();
-Dashboard.set('repositoriesController', Dashboard.RepositoriesController.create({
-  content: [],
-  dataSourceBinding: 'Dashboard.gitHubDataSource'
-}));
-Dashboard.get('repositoriesController').loadWatchedRepositories('pangratz');
-
-Ember.View.create({
-  templateName: 'repositories',
-  controllerBinding: 'Dashboard.repositoriesController'
-}).append();
+Dashboard.initialize();
