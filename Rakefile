@@ -38,14 +38,15 @@ task :test => :build do
 end
 
 desc "deploy app"
-task :deploy do
+task :deploy => :clean do
+  FileUtils.rm_rf "assets"
+
   ENV['RAKEP_MODE'] = "production"
   Rake::Task["build"].invoke
-  
+
   origin = `git config remote.origin.url`.chomp
   username = `git config user.name`.chomp
   cd "assets" do
-    system "rm -rf .git"
     system "git init"
     system "git remote add origin #{origin}"
     system "git checkout -b gh-pages"
