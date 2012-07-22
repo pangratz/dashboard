@@ -9,7 +9,7 @@ Ember.View.reopen({
 
     if (!template) {
       try {
-        template = require(name);
+        template = require('dashboard/~templates/' + name);
       } catch (e) {
         throw new Ember.Error(fmt('%@ - Unable to find %@ "%@".', [this, type, name]));
       }
