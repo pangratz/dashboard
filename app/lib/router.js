@@ -15,6 +15,7 @@ Dashboard.Router = Ember.Router.extend({
     user: Ember.Route.extend({
       route: '/:username',
       connectOutlets: function(router, context) {
+        router.get('applicationController').connectOutlet('breadCrumbs', 'breadCrumbs');
         router.set('userController.username', context.username);
       },
 
@@ -22,6 +23,8 @@ Dashboard.Router = Ember.Router.extend({
         route: '/',
         connectOutlets: function(router) {
           var username = router.get('userController.username');
+          router.get('breadCrumbsController').addHistoryItem(username);
+
           var store = router.get('store');
 
           // get watched repositories for given username
@@ -43,6 +46,7 @@ Dashboard.Router = Ember.Router.extend({
         connectOutlets: function(router, context) {
           var username = router.get('userController.username');
           var repoName = context.repository;
+          router.get('breadCrumbsController').addHistoryItem(username + '/' + repoName);
 
           // fetch repo for current user
           var repo = router.get('store').find(Dashboard.Repository, '%@/%@'.fmt(username, repoName));

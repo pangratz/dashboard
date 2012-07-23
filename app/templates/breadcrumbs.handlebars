@@ -1,0 +1,8 @@
+<ul class="breadcrumb">
+  Recent items: 
+  {{#each item in controller}}
+    {{#view view.BreadCrumbView itemBinding="item"}}
+      {{view.item.text}} {{#unless view.isLast}} <span class="divider">/</span> {{/unless}}
+    {{/view}}
+  {{/each}}
+</ul>
