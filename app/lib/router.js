@@ -23,11 +23,8 @@ Dashboard.Router = Ember.Router.extend({
         repositoriesController.set('content', []);
         repositoriesController.loadWatchedRepositories(context.username);
 
-        // finally add a view which renders repositories template for given controller
-        Ember.View.create({
-          templateName: 'repositories',
-          controller: repositoriesController
-        }).append();
+        // connect {{outlet}} with repositoriesController & RepositoriesView
+        router.get('applicationController').connectOutlet('repositories');
       }
     })
   })
