@@ -1,4 +1,5 @@
 require('dashboard/core');
+require('dashboard/model');
 
 Dashboard.GitHubDataSource = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
@@ -29,7 +30,13 @@ Dashboard.GitHubDataSource = DS.Adapter.extend({
       this.set('limit', response.meta['X-RateLimit-Limit']);
     }
   },
-  
+
+  findQuery: function(store, type, query, modelArray) {
+    if (Dashboard.Repository.detect(type) && 'watched' === query.type) {
+      this.watchedRepositories(query.username, modelArray, 'load');
+    }
+  },
+
   watchedRepositories: function(username, target, callback) {
     this.ajax('/users/%@/watched'.fmt(username), target, callback);
   }
