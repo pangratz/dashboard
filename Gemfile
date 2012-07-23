@@ -1,6 +1,7 @@
 source :rubygems
 
 gem 'colored'
+gem 'versionomy'
 
 gem 'guard'
 gem 'guard-rake'
