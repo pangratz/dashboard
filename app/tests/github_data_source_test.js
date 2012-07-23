@@ -12,7 +12,6 @@ var setupDataSource = {
   }
 };
 
-
 module("Dashboard.GitHubDataSource", setupDataSource);
 
 test("is defined", function() {
@@ -39,7 +38,7 @@ test("_ajaxSuccess invokes callback on target", function() {
     }
   };
 
-  dataSource._ajaxSuccess(target, 'callback', response);
+  dataSource._ajaxSuccess(response, target, 'callback');
 
   equal(get(dataSource, 'remaining'), 42, "remaining has been read from repsonse.meta and set on the dataSource");
   equal(get(dataSource, 'limit'), 100, "limit has been read from repsonse.meta and set on the dataSource");
@@ -49,6 +48,31 @@ test("_ajaxSuccess invokes callback on target", function() {
   deepEqual(callbackResponse, {a: 1, b: 'hello'}, "data of response is passed to callback");
 });
 
+test("_ajaxSuccess accepts function as target", function() {
+  var callbackCalled, callbackResponse;
+  var response = {
+    meta: {
+      'X-RateLimit-Remaining': 42,
+      'X-RateLimit-Limit': 100
+    },
+    data: {
+      a: 1,
+      b: 'hello'
+    }
+  };
+  var callback = function(response) {
+    callbackCalled = true;
+    callbackResponse = response;
+  };
+
+  dataSource._ajaxSuccess(response, callback);
+
+  equal(get(dataSource, 'remaining'), 42, "remaining has been read from repsonse.meta and set on the dataSource");
+  equal(get(dataSource, 'limit'), 100, "limit has been read from repsonse.meta and set on the dataSource");
+
+  ok(callbackCalled, 'callback has been called');
+  deepEqual(callbackResponse, {a: 1, b: 'hello'}, "data of response is passed to callback");  
+});
 
 module("Dashboard.GitHubDataSource#watchedRepositories", setupDataSource);
 

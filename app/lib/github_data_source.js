@@ -9,14 +9,18 @@ Dashboard.GitHubDataSource = Ember.Object.extend({
       dataType: 'jsonp',
       context: this,
       success: function(data) {
-        this._ajaxSuccess(target, callback, data);
+        this._ajaxSuccess(data, target, callback);
       }
     });
   },
   
-  _ajaxSuccess: function(target, callback, response) {
+  _ajaxSuccess: function(response, target, callback) {
     this._updateLimits(response);
-    Ember.tryInvoke(target, callback, [response.data]);
+    if (Ember.typeOf(target) === 'function') {
+      target.apply(this, [response.data]);
+    } else {
+      Ember.tryInvoke(target, callback, [response.data]);
+    }
   },
   
   _updateLimits: function(response) {
