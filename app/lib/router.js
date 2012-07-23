@@ -51,7 +51,33 @@ Dashboard.Router = Ember.Router.extend({
           // show repository
           router.get('applicationController').connectOutlet('repository');
         }
-      })
+      }),
+
+      showUser: function(router, evt) {
+        var username;
+        var context = evt.context;
+
+        // context is a Dashboard.RepositoryController if this action
+        // is called from repository template --> this needs to be fixed
+        if (Dashboard.RepositoryController.detectInstance(context)) {
+          username = context.get('owner.login');
+        } else {
+          username = context;
+        }
+
+        router.transitionTo('user.index', {
+          username: username
+        });
+      },
+
+      showRepository: function(router, evt) {
+        // context is the full_name of a repository: username/repository
+        var split = evt.context.split('/'),
+            username = split[0],
+            repository = split[1];
+
+        router.transitionTo('user.repository', {username: username}, {repository: repository});
+      }
     })
   })
 });
