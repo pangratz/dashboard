@@ -1,7 +1,7 @@
 require('dashboard/core');
 require('dashboard/model');
 
-Dashboard.GitHubDataSource = DS.Adapter.extend({
+Dashboard.GitHubAdpater = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
   
   ajax: function(url, target, callback) {
