@@ -6,6 +6,14 @@ Dashboard.Router = Ember.Router.extend({
     index: Ember.Route.extend({
       route: '/',
       connectOutlets: function(router) {
+        router.transitionTo('user', {
+          username: 'pangratz'
+        });
+      }
+    }),
+    user: Ember.Route.extend({
+      route: '/:username',
+      connectOutlets: function(router, context) {
         // create the data source which connects to GitHub API
         var dataSource = Dashboard.GitHubDataSource.create();
 
@@ -13,7 +21,7 @@ Dashboard.Router = Ember.Router.extend({
         var repositoriesController = router.get('repositoriesController');
         repositoriesController.set('dataSource', dataSource);
         repositoriesController.set('content', []);
-        repositoriesController.loadWatchedRepositories('pangratz');
+        repositoriesController.loadWatchedRepositories(context.username);
 
         // finally add a view which renders repositories template for given controller
         Ember.View.create({
