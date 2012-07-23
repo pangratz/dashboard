@@ -6,6 +6,12 @@ test("it exists", function() {
   ok(Dashboard.ApplicationView, "it exists");
 });
 
+module("Dashboard.RepositoryView");
+
+test("it exists", function() {
+  ok(Dashboard.RepositoryView, "it exists");
+});
+
 module("Dashboard.RepositoriesView");
 
 test("it exists", function() {
