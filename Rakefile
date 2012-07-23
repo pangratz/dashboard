@@ -37,6 +37,12 @@ task :test => :build do
   end
 end
 
+desc "release"
+task :release, :version do |t, args|
+  system "git tag -a v#{args[:version]}"
+  system "git push --tag"
+end
+
 desc "deploy app"
 task :deploy => :clean do
   FileUtils.rm_rf "assets"
