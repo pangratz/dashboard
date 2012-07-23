@@ -2,12 +2,25 @@ require('dashboard/github_data_source');
 
 var get = Ember.get;
 
+var ajaxCalled, ajaxParams;
+var ajaxUrl, ajaxTarget, ajaxCallback;
 var dataSource;
+
 var setupDataSource = {
   setup: function() {
-    dataSource = Dashboard.GitHubDataSource.create();
+    dataSource = Dashboard.GitHubDataSource.create({
+      ajax: function(url, target, callback) {
+        ajaxCalled = true;
+        ajaxParams = arguments;
+        ajaxUrl = url;
+        ajaxTarget = target;
+        ajaxCallback = callback;
+      }
+    });
   },
   teardowm: function() {
+    ajaxCallback = ajaxParams = null;
+    ajaxUrl = ajaxTarget = ajaxCallback = null;
     dataSource.destroy();
   }
 };
@@ -78,19 +91,7 @@ test("_ajaxSuccess accepts function as target", function() {
 module("Dashboard.GitHubDataSource#watchedRepositories", setupDataSource);
 
 test("invokes ajax", function() {
-  var ajaxCalled, ajaxParams;
-  var ajaxUrl, ajaxTarget, ajaxCallback;
-  dataSource.reopen({
-    ajax: function(url, target, callback) {
-      ajaxCalled = true;
-      ajaxParams = arguments;
-      ajaxUrl = url;
-      ajaxTarget = target;
-      ajaxCallback = callback;
-    }
-  });
   var target = {};
-
   dataSource.watchedRepositories('buster', target, 'callback');
 
   ok(ajaxCalled, 'ajax has been called');
