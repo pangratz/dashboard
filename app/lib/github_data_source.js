@@ -1,6 +1,6 @@
 require('dashboard/core');
 
-Dashboard.GitHubDataSource = Ember.Object.extend({
+Dashboard.GitHubDataSource = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
   
   ajax: function(url, target, callback) {

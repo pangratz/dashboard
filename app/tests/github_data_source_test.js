@@ -16,6 +16,7 @@ module("Dashboard.GitHubDataSource", setupDataSource);
 
 test("is defined", function() {
   ok(Dashboard.GitHubDataSource, "is defined");
+  ok(DS.Adapter.detect(Dashboard.GitHubDataSource), "it is a DS.Adapter");
 });
 
 test("_ajaxSuccess invokes callback on target", function() {
