@@ -31,6 +31,14 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
     }
   },
 
+  find: function(store, type, id) {
+    if (Dashboard.Repository.detect(type)) {
+      this.ajax('/repos/%@'.fmt(id), function(data) {
+        store.load(type, id, data);
+      });
+    }
+  },
+
   findQuery: function(store, type, query, modelArray) {
     if (Dashboard.Repository.detect(type) && 'watched' === query.type) {
       this.watchedRepositories(query.username, modelArray, 'load');

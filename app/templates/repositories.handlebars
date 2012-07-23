@@ -1,11 +1,8 @@
 <div class="row">Watched repositories:</div>
 <div class="row" >
-    <ul>
     {{#each repository in controller}}
-        <li>
-            <a {{bindAttr href="repository.html_url"}} >{{repository.full_name}}</a>
-            {{repository.description}}
-        </li>
+        <a {{action showUser context="repository.owner.login"}} >{{repository.owner.login}}</a> / <a {{action showRepository context="repository.full_name"}} >{{repository.name}}</a>
+        {{repository.description}}
+        <dl class="dl-horizontal">
     {{/each}}
-    </ul>
 </div>

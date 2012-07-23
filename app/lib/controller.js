@@ -2,6 +2,10 @@ require('dashboard/core');
 
 Dashboard.ApplicationController = Ember.Controller.extend();
 
+Dashboard.UserController = Ember.Controller.extend();
+
+Dashboard.RepositoryController = Ember.ObjectController.extend();
+
 Dashboard.RepositoriesController = Ember.ArrayController.extend({
   sortProperties: 'full_name'.w(),
   loadWatchedRepositories: function(username) {
