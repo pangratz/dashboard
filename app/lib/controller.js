@@ -2,7 +2,7 @@ require('dashboard/core');
 
 Dashboard.ApplicationController = Ember.Controller.extend();
 
-Dashboard.UserController = Ember.Controller.extend();
+Dashboard.UserController = Ember.ObjectController.extend();
 
 Dashboard.RepositoryController = Ember.ObjectController.extend();
 

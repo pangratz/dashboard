@@ -43,6 +43,10 @@ Dashboard.EventsView = Ember.View.extend({
   })
 });
 
+Dashboard.UserView = Ember.View.extend({
+  templateName: 'user'
+});
+
 Dashboard.RepositoryView = Ember.View.extend({
   templateName: 'repository'
 });
