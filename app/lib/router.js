@@ -48,8 +48,14 @@ Dashboard.Router = Ember.Router.extend({
           var repo = router.get('store').find(Dashboard.Repository, '%@/%@'.fmt(username, repoName));
           router.set('repositoryController.content', repo);
 
-          // show repository
+          var events = router.get('store').findQuery(Dashboard.Event, {
+            username: username,
+            repository: repoName
+          });
+
+          // connect repository and events
           router.get('applicationController').connectOutlet('repository');
+          router.get('repositoryController').connectOutlet('events', 'events', events);
         }
       }),
 
