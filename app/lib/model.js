@@ -24,6 +24,7 @@ Dashboard.Event = DS.Model.extend({
 });
 
 Dashboard.User = DS.Model.extend({
+  primaryKey: 'login',
   login: DS.attr('string'),
   avatar_url: DS.attr('string'),
   name: DS.attr('string'),

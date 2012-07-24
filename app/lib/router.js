@@ -12,22 +12,20 @@ Dashboard.Router = Ember.Router.extend({
     index: Ember.Route.extend({
       route: '/',
       connectOutlets: function(router) {
-        router.transitionTo('user.index', {
-          username: 'pangratz'
-        });
+        router.transitionTo('user.index', Dashboard.User.find('pangratz'));
       }
     }),
 
     user: Ember.Route.extend({
-      route: '/:username',
-      connectOutlets: function(router, context) {
-        router.set('userController.username', context.username);
+      route: '/:user_id',
+      connectOutlets: function(router, user) {
+        router.set('userController.content', user);
       },
 
       index: Ember.Route.extend({
         route: '/',
         connectOutlets: function(router) {
-          var username = router.get('userController.username');
+          var username = router.get('userController.id');
           var store = router.get('store');
 
           // get watched repositories for given username
@@ -47,7 +45,7 @@ Dashboard.Router = Ember.Router.extend({
       repository: Ember.Route.extend({
         route: '/:repository',
         connectOutlets: function(router, context) {
-          var username = router.get('userController.username');
+          var username = router.get('userController.id');
           var repoName = context.repository;
 
           // fetch repo for current user
@@ -77,9 +75,7 @@ Dashboard.Router = Ember.Router.extend({
           username = context;
         }
 
-        router.transitionTo('user.index', {
-          username: username
-        });
+        router.transitionTo('user.index', Dashboard.User.find(username));
       },
 
       showRepository: function(router, evt) {
@@ -88,7 +84,7 @@ Dashboard.Router = Ember.Router.extend({
             username = split[0],
             repository = split[1];
 
-        router.transitionTo('user.repository', {username: username}, {repository: repository});
+        router.transitionTo('user.repository', Dashboard.User.find(username), {repository: repository});
       }
     })
   })
