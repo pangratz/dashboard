@@ -1,0 +1,9 @@
+{{#view view.ActorView}}
+  reviewed on commit
+  <a {{bindAttr href="event.payload.comment._links.html.href"}}>
+    {{trim event.payload.comment.commit_id length=7}}
+  </a>
+{{/view}}
+<div class="additional-info" >
+  {{event.payload.comment.body}}
+</div>

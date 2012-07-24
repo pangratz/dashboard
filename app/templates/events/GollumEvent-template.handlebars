@@ -1,0 +1,8 @@
+{{#view view.ActorView}}
+  modified the <a href="{{unbound event.repo.html_url}}/wiki">wiki</a>
+{{/view}}
+<div class="additional-info" >
+  {{#each event.payload.pages }}
+    <span>{{echo "action"}} <a {{bindAttr href="html_url"}}>{{page_name}}</a></span>
+  {{/each}}
+</div>
