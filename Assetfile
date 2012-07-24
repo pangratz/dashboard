@@ -65,7 +65,7 @@ input 'app' do
       filter EmberAssertFilter
       uglify {|input| input}
     end
-    concat 'app.js'
+    concat 'js/app.js'
   end
 
   match 'vendor/**/*.js' do
@@ -82,7 +82,7 @@ input 'app' do
       vendor/jquery.js
       vendor/ember.js
       vendor/ember-data.js
-    ], 'app.js'
+    ], 'js/app.js'
   end
 
   match 'modules/**/*.js' do
@@ -90,7 +90,7 @@ input 'app' do
       filter EmberAssertFilter
       uglify {|input| input}
     end
-    concat 'app.js'
+    concat 'js/app.js'
   end
 
   match 'plugins/**/*.js' do
@@ -98,7 +98,7 @@ input 'app' do
       uglify {|input| input}
     end
     concat do |input|
-      input.sub(/plugins\//, '')
+      input.sub(/plugins\//, 'js/')
     end
   end
 
@@ -111,14 +111,14 @@ input 'app' do
     if ENV['RAKEP_MODE'] == 'production'
       uglify {|input| input}
     end
-    concat 'app.js'
+    concat 'js/app.js'
   end
 
   match 'css/**/*.css' do
     if ENV['RAKEP_MODE'] == 'production'
       yui_css
     end
-    concat ['bootstrap.css', 'main.css'], 'app.css'
+    concat ['bootstrap.css', 'main.css'], 'css/app.css'
   end
 
   match 'css/**/*.scss' do
@@ -126,7 +126,7 @@ input 'app' do
     if ENV['RAKEP_MODE'] == 'production'
       yui_css
     end
-    concat 'app.css'
+    concat 'css/app.css'
   end
 
   match "static/**/*" do
