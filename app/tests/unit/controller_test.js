@@ -8,6 +8,12 @@ test("it exists", function() {
   ok(Dashboard.ApplicationController, "it exists");
 });
 
+module("Dashboard.UserController");
+
+test("it exists", function() {
+  ok(Dashboard.UserController, "it exists");
+});
+
 module("Dashboard.EventsController");
 
 test("it exists", function() {
