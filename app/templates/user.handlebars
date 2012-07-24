@@ -1,0 +1,21 @@
+<div class="well" >
+    <div class="profilePic" >
+        <img width="40" height="40" {{bindAttr src="avatar_url"}} ></img>
+    </div>
+    <div>
+        <div>
+            <strong>{{login}}</strong> - {{name}}
+            {{#if blog}}
+                - <a {{bindAttr href="blog"}} >{{blog}}</a>
+            {{/if}}
+        </div>
+        <div>
+            <span class="badge" ><i class="icon-inbox" ></i> {{public_repos}} public repos</span>
+        </div>
+    </div>
+    <div style="clear: both;" ></div>
+</div>
+<div>
+    <h3>Watched repositories</h3>
+    {{outlet "watchedRepositories"}}
+</div>
