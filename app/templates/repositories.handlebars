@@ -1,8 +1,10 @@
-<div class="row">Watched repositories:</div>
-<div class="row" >
+<h3>Watched repositories</h3>
+<ul class="unstyled">
     {{#each repository in controller}}
-        <a {{action showUser context="repository.owner.login"}} >{{repository.owner.login}}</a> / <a {{action showRepository context="repository.full_name"}} >{{repository.name}}</a>
-        {{repository.description}}
-        <dl class="dl-horizontal">
+        <li>
+            <div><a {{action showUser context="repository.owner.login"}} >{{repository.owner.login}}</a> / <a {{action showRepository context="repository.full_name"}} >{{repository.name}}</a></div>
+            <div>{{repository.description}}</div>
+            <dl class="dl-horizontal">
+        </li>
     {{/each}}
-</div>
+</ul>
