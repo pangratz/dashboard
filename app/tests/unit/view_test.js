@@ -17,3 +17,9 @@ module("Dashboard.RepositoriesView");
 test("it exists", function() {
   ok(Dashboard.RepositoriesView, "it exists");
 });
+
+module("Dashboard.EventsView");
+
+test("it exists", function() {
+  ok(Dashboard.EventsView, "it exists");
+});

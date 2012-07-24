@@ -99,3 +99,15 @@ test("invokes ajax", function() {
   deepEqual(ajaxTarget, target, "the target has been passed");
   deepEqual(ajaxCallback, 'callback', "the callback has been passed");
 });
+
+module("Dashboard.GitHubAdpater#findQuery for Dashboard.Event", setupDataSource);
+
+test("invokes ajax", function() {
+  var target = {};
+  dataSource.repositoryEvents('buster', 'bluth', target, 'callback');
+
+  ok(ajaxCalled, 'ajax has been called');
+  deepEqual(ajaxUrl, '/repos/buster/bluth/events', "the passed url is correct");
+  deepEqual(ajaxTarget, target, "the target has been passed");
+  deepEqual(ajaxCallback, 'callback', "the callback has been passed");
+});
