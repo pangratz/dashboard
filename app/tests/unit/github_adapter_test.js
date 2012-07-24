@@ -88,6 +88,16 @@ test("_ajaxSuccess accepts function as target", function() {
   deepEqual(callbackResponse, {a: 1, b: 'hello'}, "data of response is passed to callback");  
 });
 
+module("Dashboard.GitHubAdpater#find for Dashboard.User", setupDataSource);
+
+test("invokes ajax", function() {
+  var store = {};
+  dataSource.find(store, Dashboard.User, 'buster');
+
+  ok(ajaxCalled, 'ajax has been called');
+  deepEqual(ajaxUrl, '/users/buster', "the passed url is correct");
+});
+
 module("Dashboard.GitHubAdpater#watchedRepositories", setupDataSource);
 
 test("invokes ajax", function() {

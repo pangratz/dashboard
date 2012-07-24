@@ -36,6 +36,10 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
       this.ajax('/repos/%@'.fmt(id), function(data) {
         store.load(type, id, data);
       });
+    } else if (Dashboard.User.detect(type)) {
+      this.ajax('/users/%@'.fmt(id), function(data) {
+        store.load(type, id, data);
+      });
     }
   },
 
