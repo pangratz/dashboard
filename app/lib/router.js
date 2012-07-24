@@ -3,6 +3,12 @@ require('dashboard/model');
 
 Dashboard.Router = Ember.Router.extend({
   root: Ember.Route.extend({
+
+    gotoIndex: function(router) {
+      // FIXME: somehow router.transitionTo('root.index') doesn't work
+      router.route('/');
+    },
+
     index: Ember.Route.extend({
       route: '/',
       connectOutlets: function(router) {

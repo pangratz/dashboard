@@ -1,9 +1,11 @@
-{{view.timeAgoString}}
+<i>{{view.timeAgoString}}</i>
 
-<div class="profilePic" >
-  <img width="30" {{bindAttr src="view.avatarUrl"}} ></img>
+<div class="event" >
+    <div class="profilePic" >
+        <img width="30" {{bindAttr src="view.avatarUrl"}} ></img>
+    </div>
+    
+    {{view view.DetailView eventBinding="event" }}
+    
+    <div style="clear: both;" ></div>
 </div>
-
-{{view view.DetailView eventBinding="event" }}
-
-<dl class="dl-horizontal">

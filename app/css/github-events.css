@@ -16,3 +16,13 @@ div.additional-info {
   margin-left: 5px;
   margin-top: 5px;
 }
+
+div.event {
+  background-color: #F7F7F9;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: 1px solid #E1E1E8;
+}
