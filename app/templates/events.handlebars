@@ -2,5 +2,7 @@
 <ul class="unstyled">
     {{#each event in controller}}
         {{view view.EventView eventBinding="event"}}
+    {{else}}
+        loading ...
     {{/each}}
 </ul>
