@@ -6,6 +6,8 @@ Dashboard.UserController = Ember.Controller.extend();
 
 Dashboard.RepositoryController = Ember.ObjectController.extend();
 
+Dashboard.EventsController = Ember.ArrayController.extend();
+
 Dashboard.RepositoriesController = Ember.ArrayController.extend({
   sortProperties: 'full_name'.w(),
   loadWatchedRepositories: function(username) {

@@ -8,6 +8,12 @@ test("it exists", function() {
   ok(Dashboard.ApplicationController, "it exists");
 });
 
+module("Dashboard.EventsController");
+
+test("it exists", function() {
+  ok(Dashboard.EventsController, "it exists");
+});
+
 module("Dashboard.RepositoriesController", {
   setup: function() {
     controller = Dashboard.RepositoriesController.create();
