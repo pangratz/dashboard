@@ -37,8 +37,9 @@ Dashboard.Router = Ember.Router.extend({
           // set watched repositories on repositoriesController
           router.set('repositoriesController.content', watchedRepositories);
 
-          // show repositories
-          router.get('applicationController').connectOutlet('repositories');
+          // connect user and watched repositories
+          router.get('applicationController').connectOutlet('user');
+          router.get('userController').connectOutlet('watchedRepositories', 'repositories', watchedRepositories);
         }
       }),
 
