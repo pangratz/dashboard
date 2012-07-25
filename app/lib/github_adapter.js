@@ -4,26 +4,22 @@ require('dashboard/model');
 Dashboard.GitHubAdpater = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
   
-  ajax: function(url, target, callback) {
+  _ajax: function(url, callback) {
     Ember.$.ajax({
       url: this.PREFIX + url,
       dataType: 'jsonp',
       context: this,
-      success: function(data) {
-        this._ajaxSuccess(data, target, callback);
-      }
+      success: callback
     });
   },
-  
-  _ajaxSuccess: function(response, target, callback) {
-    this._updateLimits(response);
-    if (Ember.typeOf(target) === 'function') {
-      target.apply(this, [response.data]);
-    } else {
-      Ember.tryInvoke(target, callback, [response.data]);
-    }
+
+  ajax: function(url, callback) {
+    this._ajax(url, function(response) {
+      this._updateLimits(response);
+      callback.call(this, response.data);
+    });
   },
-  
+
   _updateLimits: function(response) {
     if (response.meta) {
       this.set('remaining', response.meta['X-RateLimit-Remaining']);
@@ -31,50 +27,42 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
     }
   },
 
+  _invoke: function(target, callback) {
+    return function(data) {
+      Ember.tryInvoke(target, callback, [data]);
+    }
+  },
+
+  _storeLoad: function(store, type, id) {
+    return function(data) {
+      store.load(type, id, data);
+    }
+  },
+
   find: function(store, type, id) {
     if (Dashboard.Repository.detect(type)) {
-      this.ajax('/repos/%@'.fmt(id), function(data) {
-        store.load(type, id, data);
-      });
+      this.ajax('/repos/%@'.fmt(id), this._storeLoad(store, type, id));
     } else if (Dashboard.User.detect(type)) {
-      this.ajax('/users/%@'.fmt(id), function(data) {
-        store.load(type, id, data);
-      });
+      this.ajax('/users/%@'.fmt(id), this._storeLoad(store, type, id));
     }
   },
 
   findQuery: function(store, type, query, modelArray) {
     // watched repositories for a user
     if (Dashboard.Repository.detect(type) && query.username && 'watched' === query.type) {
-      this.watchedRepositories(query.username, modelArray, 'load');
+      this.ajax('/users/%@/watched'.fmt(query.username), this._invoke(modelArray, 'load'));
 
     // repositories for a user
     } else if (Dashboard.Repository.detect(type) && query.username) {
-      this.repositories(query.username, modelArray, 'load');
+      this.ajax('/users/%@/repos'.fmt(query.username), this._invoke(modelArray, 'load'));
 
     // events for a repository
     } else if (Dashboard.Event.detect(type) && query.username && query.repository) {
-      this.repositoryEvents(query.username, query.repository, modelArray, 'load');
+      this.ajax('/repos/%@/%@/events'.fmt(query.username, query.repository), this._invoke(modelArray, 'load'));
 
     // events for a user
     } else if (Dashboard.Event.detect(type) && query.username && !query.repository) {
-      this.userEvents(query.username, modelArray, 'load');
+      this.ajax('/users/%@/events'.fmt(query.username), this._invoke(modelArray, 'load'));
     }
-  },
-
-  userEvents: function(username, target, callback) {
-    this.ajax('/users/%@/events'.fmt(username), target, callback);
-  },
-
-  repositoryEvents: function(username, repository, target, callback) {
-    this.ajax('/repos/%@/%@/events'.fmt(username, repository), target, callback);
-  },
-
-  repositories: function(username, target, callback) {
-    this.ajax('/users/%@/repos'.fmt(username), target, callback);
-  },
-
-  watchedRepositories: function(username, target, callback) {
-    this.ajax('/users/%@/watched'.fmt(username), target, callback);
   }
 });

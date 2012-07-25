@@ -1,6 +1,7 @@
 require('dashboard/core');
 
 Dashboard.Repository = DS.Model.extend({
+  primaryKey: 'full_name',
   name: DS.attr('string'),
   full_name: DS.attr('string'),
   description: DS.attr('string'),
