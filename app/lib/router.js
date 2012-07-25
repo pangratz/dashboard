@@ -28,20 +28,17 @@ Dashboard.Router = Ember.Router.extend({
           var username = router.get('userController.id');
           var store = router.get('store');
 
-          // get watched repositories for given username
-          var watchedRepositories = store.findQuery(Dashboard.Repository, {
-            username: username,
-            type: 'watched'
-          });
-          router.set('repositoriesController.content', watchedRepositories);
+          // get repositories for given username
+          var repos = store.findQuery(Dashboard.Repository, { username: username });
+          router.set('repositoriesController.content', repos);
 
           var userEvents = store.findQuery(Dashboard.Event, { username: username });
           router.set('eventsController.content', userEvents);
 
           // connect user with events and watched repositories
           router.get('applicationController').connectOutlet('user');
-          router.get('userController').connectOutlet('watchedRepositories', 'repositories', watchedRepositories);
-          router.get('userController').connectOutlet('events', 'events', userEvents);
+          router.get('userController').connectOutlet('repositories', 'repositories');
+          router.get('userController').connectOutlet('events', 'events');
         }
       }),
 
