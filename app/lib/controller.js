@@ -9,7 +9,8 @@ Dashboard.RepositoryController = Ember.ObjectController.extend();
 Dashboard.EventsController = Ember.ArrayController.extend();
 
 Dashboard.RepositoriesController = Ember.ArrayController.extend({
-  sortProperties: 'full_name'.w(),
+  sortProperties: 'updated_at'.w(),
+  sortAscending: false,
   loadWatchedRepositories: function(username) {
     this.get('dataSource').watchedRepositories(username, this, 'addObjects');
   }

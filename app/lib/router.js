@@ -12,7 +12,7 @@ Dashboard.Router = Ember.Router.extend({
     index: Ember.Route.extend({
       route: '/',
       connectOutlets: function(router) {
-        router.transitionTo('user.index', Dashboard.User.find('pangratz'));
+        router.route('/pangratz');
       }
     }),
 
@@ -28,20 +28,18 @@ Dashboard.Router = Ember.Router.extend({
           var username = router.get('userController.id');
           var store = router.get('store');
 
-          // get watched repositories for given username
-          var watchedRepositories = store.findQuery(Dashboard.Repository, {
-            username: username,
-            type: 'watched'
-          });
-          router.set('repositoriesController.content', watchedRepositories);
+          // get repositories for user
+          var repos = store.findQuery(Dashboard.Repository, { username: username });
+          router.set('repositoriesController.content', repos);
 
+          // get events performed by user
           var userEvents = store.findQuery(Dashboard.Event, { username: username });
           router.set('eventsController.content', userEvents);
 
           // connect user with events and watched repositories
           router.get('applicationController').connectOutlet('user');
-          router.get('userController').connectOutlet('watchedRepositories', 'repositories', watchedRepositories);
-          router.get('userController').connectOutlet('events', 'events', userEvents);
+          router.get('userController').connectOutlet('repositories', 'repositories');
+          router.get('userController').connectOutlet('events', 'events');
         }
       }),
 
@@ -78,16 +76,12 @@ Dashboard.Router = Ember.Router.extend({
           username = context;
         }
 
-        router.transitionTo('user.index', Dashboard.User.find(username));
+        router.route('/%@'.fmt(username));
       },
 
       showRepository: function(router, evt) {
         // context is the full_name of a repository: username/repository
-        var split = evt.context.split('/'),
-            username = split[0],
-            repository = split[1];
-
-        router.transitionTo('user.repository', Dashboard.User.find(username), {repository: repository});
+        router.route('/%@'.fmt(evt.context));
       }
     })
   })

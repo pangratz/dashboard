@@ -1,6 +1,7 @@
 require('dashboard/core');
 
 Dashboard.Repository = DS.Model.extend({
+  primaryKey: 'full_name',
   name: DS.attr('string'),
   full_name: DS.attr('string'),
   description: DS.attr('string'),
@@ -9,6 +10,7 @@ Dashboard.Repository = DS.Model.extend({
   watchers: DS.attr('number'),
   forks: DS.attr('number'),
   language: DS.attr('string'),
+  updated_at: DS.attr('date'),
   owner: function() {
     return this.get('data.owner')
   }.property('data')
