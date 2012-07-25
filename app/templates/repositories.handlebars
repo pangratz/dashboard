@@ -1,7 +1,7 @@
 <ul class="unstyled">
     {{#each repository in controller}}
         <li>
-            <div><a {{action showUser context="repository.owner.login"}} >{{repository.owner.login}}</a> / <a {{action showRepository context="repository.full_name"}} >{{repository.name}}</a></div>
+            <div><a {{action showUser "repository.owner.login"}} >{{repository.owner.login}}</a> / <a {{action showRepository "repository.full_name"}} >{{repository.name}}</a></div>
             <div>{{repository.description}}</div>
             <dl class="dl-horizontal">
         </li>
