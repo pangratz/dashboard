@@ -12,7 +12,7 @@ Dashboard.Router = Ember.Router.extend({
     index: Ember.Route.extend({
       route: '/',
       connectOutlets: function(router) {
-        router.transitionTo('user.index', Dashboard.User.find('pangratz'));
+        router.route('/pangratz');
       }
     }),
 
@@ -78,16 +78,12 @@ Dashboard.Router = Ember.Router.extend({
           username = context;
         }
 
-        router.transitionTo('user.index', Dashboard.User.find(username));
+        router.route('/%@'.fmt(username));
       },
 
       showRepository: function(router, evt) {
         // context is the full_name of a repository: username/repository
-        var split = evt.context.split('/'),
-            username = split[0],
-            repository = split[1];
-
-        router.transitionTo('user.repository', Dashboard.User.find(username), {repository: repository});
+        router.route('/%@'.fmt(evt.context));
       }
     })
   })
