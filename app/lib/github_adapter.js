@@ -44,10 +44,19 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
   },
 
   findQuery: function(store, type, query, modelArray) {
-    if (Dashboard.Repository.detect(type) && 'watched' === query.type) {
+    // watched repositories for a user
+    if (Dashboard.Repository.detect(type) && query.username && 'watched' === query.type) {
       this.watchedRepositories(query.username, modelArray, 'load');
+
+    // repositories for a user
+    } else if (Dashboard.Repository.detect(type) && query.username) {
+      this.repositories(query.username, modelArray, 'load');
+
+    // events for a repository
     } else if (Dashboard.Event.detect(type) && query.username && query.repository) {
       this.repositoryEvents(query.username, query.repository, modelArray, 'load');
+
+    // events for a user
     } else if (Dashboard.Event.detect(type) && query.username && !query.repository) {
       this.userEvents(query.username, modelArray, 'load');
     }
@@ -59,6 +68,10 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
 
   repositoryEvents: function(username, repository, target, callback) {
     this.ajax('/repos/%@/%@/events'.fmt(username, repository), target, callback);
+  },
+
+  repositories: function(username, target, callback) {
+    this.ajax('/users/%@/repos'.fmt(username), target, callback);
   },
 
   watchedRepositories: function(username, target, callback) {
