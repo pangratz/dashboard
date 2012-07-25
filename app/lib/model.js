@@ -9,6 +9,7 @@ Dashboard.Repository = DS.Model.extend({
   watchers: DS.attr('number'),
   forks: DS.attr('number'),
   language: DS.attr('string'),
+  updated_at: DS.attr('date'),
   owner: function() {
     return this.get('data.owner')
   }.property('data')
