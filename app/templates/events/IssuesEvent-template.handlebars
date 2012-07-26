@@ -1,4 +1,4 @@
 {{#view view.ActorView}}
   {{event.payload.action}} issue
-  <a {{bindAttr href="event.payload.issue.html_url"}}>#{{event.payload.issue.number}}</a>
+  <a target="_blank" {{bindAttr href="event.payload.issue.html_url"}}>#{{event.payload.issue.number}}</a>
 {{/view}}
