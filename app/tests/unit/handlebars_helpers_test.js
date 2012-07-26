@@ -66,3 +66,49 @@ function() {
   
   equal(Ember.$('#qunit-fixture').text(), 'mystring', "it trims the string to given length");
 });
+
+module("{{ago}}");
+
+test("helper is available", function() {
+  ok(Ember.Handlebars.helpers.ago, "ago helper is availbale");
+});
+
+test("ago can handle Date objects", function() {
+  var view = Ember.View.create({
+    time: new Date(),
+    template: Ember.Handlebars.compile('{{ago time}}')
+  });
+
+  Ember.run(function() {
+    view.appendTo('#qunit-fixture');
+  });
+
+  equal(Ember.$('#qunit-fixture').text(), "a few seconds ago", "ago helper outputs correct value");
+});
+
+test("ago can handle numbers", function() {
+  var view = Ember.View.create({
+    time: new Date().getTime(),
+    template: Ember.Handlebars.compile('{{ago time}}')
+  });
+
+  Ember.run(function() {
+    view.appendTo('#qunit-fixture');
+  });
+
+  equal(Ember.$('#qunit-fixture').text(), "a few seconds ago", "ago helper outputs correct value");
+});
+
+test("ago respects 'isSeconds' parameter", function() {
+  var nowInSeconds = new Date().getTime() / 1000;
+  var view = Ember.View.create({
+    time: nowInSeconds,
+    template: Ember.Handlebars.compile('{{ago time isSeconds=true}}')
+  });
+
+  Ember.run(function() {
+    view.appendTo('#qunit-fixture');
+  });
+
+  equal(Ember.$('#qunit-fixture').text(), "a few seconds ago", "ago helper outputs correct value");
+});
