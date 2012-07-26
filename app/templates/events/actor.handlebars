@@ -1,1 +1,5 @@
-<strong><a {{action showUserOfEvent event }} >{{event.actor.login}}</a> {{yield}}</strong>
+<strong>
+    <a {{action showUserOfEvent event }} >{{event.actor.login}}</a>
+    {{yield}}
+    <a {{action showRepositoryOfEvent event }}>{{event.repo.name}}</a>
+</strong>
