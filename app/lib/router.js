@@ -64,23 +64,24 @@ Dashboard.Router = Ember.Router.extend({
         }
       }),
 
-      showUser: function(router, evt) {
-        var username;
-        var context = evt.context;
-
-        // context is a Dashboard.RepositoryController if this action
-        // is called from repository template --> this needs to be fixed
-        if (Dashboard.RepositoryController.detectInstance(context)) {
-          username = context.get('owner.login');
-        } else {
-          username = context;
-        }
-
+      showUserOfEvent: function(router, evt) {
+        var e = evt.context;
+        var username = e.get('actor.login');
+        router.route('/%@'.fmt(username));
+      },
+      showUserOfRepository: function(router, evt) {
+        var repository = evt.context;
+        var username = repository.get('owner.login');
         router.route('/%@'.fmt(username));
       },
 
       showRepository: function(router, evt) {
-        // context is the full_name of a repository: username/repository
+        var repository = evt.context;
+        var full_name = repository.get('full_name');
+        router.route('/%@'.fmt(full_name));
+      },
+      showRepositoryOfEvent: function(router, evt) {
+        var repository = evt.context;
         router.route('/%@'.fmt(evt.context));
       }
     })
