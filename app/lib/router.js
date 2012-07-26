@@ -81,8 +81,9 @@ Dashboard.Router = Ember.Router.extend({
         router.route('/%@'.fmt(full_name));
       },
       showRepositoryOfEvent: function(router, evt) {
-        var repository = evt.context;
-        router.route('/%@'.fmt(evt.context));
+        var e = evt.context;
+        var full_name = e.get('repo.name');
+        router.route('/%@'.fmt(full_name));
       }
     })
   })
