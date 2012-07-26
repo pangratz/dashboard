@@ -5,3 +5,10 @@ a {
 a[href^="http"] {
   color: green;
 }
+
+a[href^="https://github.com"] {
+  display: inline-block;
+  line-height: 18px;
+  background:url('https://github.com/favicon.ico') center right no-repeat;
+  padding-right: 18px;
+}
