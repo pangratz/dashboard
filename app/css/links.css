@@ -1,0 +1,7 @@
+a {
+  cursor: pointer;
+}
+
+a[href^="http"] {
+  color: green;
+}
