@@ -3,6 +3,7 @@ APPNAME = 'dashboard'
 require 'colored'
 require 'rake-pipeline'
 require 'versionomy'
+require 'rack'
 
 def pipeline
   Rake::Pipeline::Project.new('Assetfile')
@@ -47,6 +48,63 @@ task :download_mock_responses do
   download "repos/pangratz/dashboard/events"
 
   download "repos/nokinen/fdc/events"
+end
+
+task :test => ["test:all"]
+namespace :test do
+  task :all => [:unit, :functional]
+
+  desc "Run casper.js tests"
+  task :functional do
+    ENV["TEST_MODE"] = "functional"
+    Rake::Task["build"].invoke
+
+    unless system("which casperjs > /dev/null 2>&1")
+      abort "Casper.js is not installed. Download from http://casperjs.org/"
+    end
+
+    puts "start Rack server"
+    pid = Thread.new do
+      server = Rack::Server.new({
+        :config => "config.ru",
+        :Port => 9292,
+        :Logger => nil
+      })
+      server.start
+    end
+
+    puts "Running #{APPNAME} Casper.js tests"
+    success = system("casperjs test app/tests/functional/")
+
+    pid.kill
+
+    if success
+      puts "Tests Passed".green
+    else
+      puts "Tests Failed".red
+      exit(1)
+    end
+  end
+
+  desc "Run Unit and Integration test"
+  task :unit => :build do
+    unless system("which phantomjs > /dev/null 2>&1")
+      abort "PhantomJS is not installed. Download from http://phantomjs.org/"
+    end
+
+    cmd = "phantomjs tests/run-tests.js \"file://#{File.dirname(__FILE__)}/tests/index.html\""
+
+    # Run the tests
+    puts "Running #{APPNAME} tests"
+    success = system(cmd)
+
+    if success
+      puts "Tests Passed".green
+    else
+      puts "Tests Failed".red
+      exit(1)
+    end
+  end
 end
 
 desc "Bumps current version"

@@ -3,6 +3,8 @@ source :rubygems
 gem 'colored'
 gem 'versionomy'
 
+gem 'casperjs'
+
 gem 'guard'
 gem 'guard-rake'
 
