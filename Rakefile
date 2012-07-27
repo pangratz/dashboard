@@ -3,6 +3,7 @@ APPNAME = 'dashboard'
 require 'colored'
 require 'rake-pipeline'
 require 'versionomy'
+require 'rack'
 
 def pipeline
   Rake::Pipeline::Project.new('Assetfile')
@@ -22,23 +23,87 @@ task :build => :clean do
   pipeline.invoke
 end
 
-desc "Run tests with PhantomJS"
-task :test => :build do
-  unless system("which phantomjs > /dev/null 2>&1")
-    abort "PhantomJS is not installed. Download from http://phantomjs.org/"
+def download(path)
+  last_slash = path.rindex("/")
+  system "mkdir -p app/tests/data/#{path[0..last_slash]}"
+  system "wget https://api.github.com/#{path} -O app/tests/data/#{path}.json"
+end
+
+task :download_mock_responses do
+  download "users/pangratz"
+  download "users/nokinen"
+
+  download "users/pangratz/repos"
+  download "users/nokinen/repos"
+
+  download "users/pangratz/events"
+  download "users/nokinen/events"
+
+  download "repos/pangratz/ember.js"
+  download "repos/pangratz/dashboard"
+
+  download "repos/nokinen/fdc"
+
+  download "repos/pangratz/ember.js/events"
+  download "repos/pangratz/dashboard/events"
+
+  download "repos/nokinen/fdc/events"
+end
+
+task :test => ["test:all"]
+namespace :test do
+  task :all => [:unit, :functional]
+
+  desc "Run casper.js tests"
+  task :functional do
+    ENV["TEST_MODE"] = "functional"
+    Rake::Task["build"].invoke
+
+    unless system("which casperjs > /dev/null 2>&1")
+      abort "Casper.js is not installed. Download from http://casperjs.org/"
+    end
+
+    puts "start Rack server"
+    pid = Thread.new do
+      server = Rack::Server.new({
+        :config => "config.ru",
+        :Port => 9292,
+        :Logger => nil
+      })
+      server.start
+    end
+
+    puts "Running #{APPNAME} Casper.js tests"
+    success = system("casperjs test app/tests/functional/")
+
+    pid.kill
+
+    if success
+      puts "Tests Passed".green
+    else
+      puts "Tests Failed".red
+      exit(1)
+    end
   end
 
-  cmd = "phantomjs tests/run-tests.js \"file://#{File.dirname(__FILE__)}/tests/index.html\""
+  desc "Run Unit and Integration test"
+  task :unit => :build do
+    unless system("which phantomjs > /dev/null 2>&1")
+      abort "PhantomJS is not installed. Download from http://phantomjs.org/"
+    end
 
-  # Run the tests
-  puts "Running #{APPNAME} tests"
-  success = system(cmd)
+    cmd = "phantomjs tests/run-tests.js \"file://#{File.dirname(__FILE__)}/tests/index.html\""
 
-  if success
-    puts "Tests Passed".green
-  else
-    puts "Tests Failed".red
-    exit(1)
+    # Run the tests
+    puts "Running #{APPNAME} tests"
+    success = system(cmd)
+
+    if success
+      puts "Tests Passed".green
+    else
+      puts "Tests Failed".red
+      exit(1)
+    end
   end
 end
 

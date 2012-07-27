@@ -48,6 +48,16 @@ class VersionFilter < Filter
   end
 end
 
+class GitHubFixtureAdpater < Filter
+  def generate_output(inputs, output)
+    inputs.each do |input|
+      result = input.read
+      result.gsub!("adapter: Dashboard.GitHubAdpater.create()", "adapter: Dashboard.GitHubFixtureAdpater.create()")
+      output.write(result)
+    end
+  end
+end
+
 output 'assets'
 input 'app' do
   match 'index.html' do
@@ -55,6 +65,9 @@ input 'app' do
   end
 
   match 'lib/**/*.js' do
+    if ENV["TEST_MODE"] == "functional"
+      filter GitHubFixtureAdpater
+    end
     filter VersionFilter
     filter LoaderFilter,
       :module_id_generator => proc { |input|
@@ -138,7 +151,7 @@ end
 
 output 'test_assets'
 input 'app' do
-  match 'tests/**/*.js' do
+  match 'tests/{unit,integration}/**/*.js' do
     filter LoaderFilter,
       :module_id_generator => proc { |input|
         input.path.sub(/^lib\//, "#{APPNAME}/").sub(/\.js$/, '')

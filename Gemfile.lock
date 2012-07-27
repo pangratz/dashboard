@@ -22,6 +22,7 @@ GEM
       open4
     Platform (0.4.0)
     blockenspiel (0.4.5)
+    casperjs (1.0.0.RC1)
     chunky_png (1.2.5)
     colored (1.2)
     compass (0.12.1)
@@ -66,6 +67,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  casperjs
   colored
   compass
   guard

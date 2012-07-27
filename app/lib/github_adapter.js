@@ -3,7 +3,7 @@ require('dashboard/model');
 
 Dashboard.GitHubAdpater = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
-  
+
   _ajax: function(url, callback) {
     Ember.$.ajax({
       url: this.PREFIX + url,
@@ -14,7 +14,8 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
   },
 
   ajax: function(url, callback) {
-    this._ajax(url, function(response) {
+    this._ajax(url,
+    function(response) {
       this._updateLimits(response);
       callback.call(this, response.data);
     });
@@ -64,5 +65,18 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
     } else if (Dashboard.Event.detect(type) && query.username && !query.repository) {
       this.ajax('/users/%@/events'.fmt(query.username), this._invoke(modelArray, 'load'));
     }
+  }
+});
+
+Dashboard.GitHubFixtureAdpater = Dashboard.GitHubAdpater.extend({
+  PREFIX: 'http://localhost:9292/app/tests/mock_response_data',
+  _ajax: function(url, callback) {
+    Ember.$.ajax({
+      url: this.PREFIX + url + '.json',
+      context: this,
+      success: function(data) {
+       callback.call(this, {meta: {}, data: data});
+      }
+    });
   }
 });
