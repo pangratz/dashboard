@@ -22,24 +22,31 @@ task :build => :clean do
   pipeline.invoke
 end
 
-desc "Run tests with PhantomJS"
-task :test => :build do
-  unless system("which phantomjs > /dev/null 2>&1")
-    abort "PhantomJS is not installed. Download from http://phantomjs.org/"
-  end
+def download(path)
+  last_slash = path.rindex("/")
+  system "mkdir -p app/tests/data/#{path[0..last_slash]}"
+  system "wget https://api.github.com/#{path} -O app/tests/data/#{path}.json"
+end
 
-  cmd = "phantomjs tests/run-tests.js \"file://#{File.dirname(__FILE__)}/tests/index.html\""
+task :download_mock_responses do
+  download "users/pangratz"
+  download "users/nokinen"
 
-  # Run the tests
-  puts "Running #{APPNAME} tests"
-  success = system(cmd)
+  download "users/pangratz/repos"
+  download "users/nokinen/repos"
 
-  if success
-    puts "Tests Passed".green
-  else
-    puts "Tests Failed".red
-    exit(1)
-  end
+  download "users/pangratz/events"
+  download "users/nokinen/events"
+
+  download "repos/pangratz/ember.js"
+  download "repos/pangratz/dashboard"
+
+  download "repos/nokinen/fdc"
+
+  download "repos/pangratz/ember.js/events"
+  download "repos/pangratz/dashboard/events"
+
+  download "repos/nokinen/fdc/events"
 end
 
 desc "Bumps current version"
