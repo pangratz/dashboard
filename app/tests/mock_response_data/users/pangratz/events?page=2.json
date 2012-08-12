@@ -1,0 +1,1405 @@
+[
+  {
+    "type": "CreateEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "master_branch": "master",
+      "ref_type": "branch",
+      "ref": "master",
+      "description": null
+    },
+    "created_at": "2012-08-01T13:20:27Z",
+    "repo": {
+      "id": 5259427,
+      "url": "https://api.github.com/repos/pangratz/myapp",
+      "name": "pangratz/myapp"
+    },
+    "id": "1580225315"
+  },
+  {
+    "type": "CreateEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "master_branch": "master",
+      "ref_type": "repository",
+      "ref": null,
+      "description": null
+    },
+    "created_at": "2012-08-01T13:18:29Z",
+    "repo": {
+      "id": 5259427,
+      "url": "https://api.github.com/repos/pangratz/myapp",
+      "name": "pangratz/myapp"
+    },
+    "id": "1580224577"
+  },
+  {
+    "type": "DownloadEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "download": {
+        "download_count": 0,
+        "size": 118784,
+        "id": 284612,
+        "url": "https://api.github.com/repos/pangratz/data/downloads/284612",
+        "content_type": "application/javascript",
+        "html_url": "https://github.com/downloads/pangratz/data/ember-data-latest.js",
+        "name": "ember-data-latest.js",
+        "created_at": "2012-08-01T04:49:31Z",
+        "description": "Ember Data Master"
+      }
+    },
+    "created_at": "2012-08-01T04:49:32Z",
+    "repo": {
+      "id": 3021258,
+      "url": "https://api.github.com/repos/pangratz/data",
+      "name": "pangratz/data"
+    },
+    "id": "1580086234"
+  },
+  {
+    "type": "DownloadEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "download": {
+        "download_count": 0,
+        "size": 36864,
+        "id": 284611,
+        "url": "https://api.github.com/repos/pangratz/data/downloads/284611",
+        "name": "ember-data-latest.min.js",
+        "html_url": "https://github.com/downloads/pangratz/data/ember-data-latest.min.js",
+        "content_type": "application/javascript",
+        "description": "Ember Data Master (minified)",
+        "created_at": "2012-08-01T04:49:28Z"
+      }
+    },
+    "created_at": "2012-08-01T04:49:29Z",
+    "repo": {
+      "id": 3021258,
+      "url": "https://api.github.com/repos/pangratz/data",
+      "name": "pangratz/data"
+    },
+    "id": "1580086220"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "9e047ab472d685838fad9388644b9f42caede0a2",
+      "size": 2,
+      "push_id": 94019331,
+      "commits": [
+        {
+          "message": "Fix the on / trigger interface for adding custom events.\n\nWhen an event is triggered on a record a method with the same name is invoked.\nExistence of this method should be confirmed before invocation.",
+          "author": {
+            "email": "bestie@gmail.com",
+            "name": "Stephen Best"
+          },
+          "distinct": true,
+          "sha": "5207e8cf8296b1538a311eb613b8eeb16492ae3a",
+          "url": "https://api.github.com/repos/pangratz/data/commits/5207e8cf8296b1538a311eb613b8eeb16492ae3a"
+        },
+        {
+          "message": "Merge pull request #344 from bestie/fix-custom-event-listeners\n\nFix the on / trigger interface for adding custom events.",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true,
+          "sha": "79de8f684ecaebb04816da6371f1d1012033c3ac",
+          "url": "https://api.github.com/repos/pangratz/data/commits/79de8f684ecaebb04816da6371f1d1012033c3ac"
+        }
+      ],
+      "ref": "refs/heads/master",
+      "head": "79de8f684ecaebb04816da6371f1d1012033c3ac"
+    },
+    "created_at": "2012-08-01T04:49:21Z",
+    "repo": {
+      "id": 3021258,
+      "url": "https://api.github.com/repos/pangratz/data",
+      "name": "pangratz/data"
+    },
+    "id": "1580086192"
+  },
+  {
+    "type": "DownloadEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "download": {
+        "download_count": 0,
+        "size": 615424,
+        "id": 284610,
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/284610",
+        "name": "ember-latest.js",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "description": "Ember.js Master",
+        "created_at": "2012-08-01T04:49:00Z",
+        "content_type": "application/javascript"
+      }
+    },
+    "created_at": "2012-08-01T04:49:00Z",
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1580086130"
+  },
+  {
+    "type": "DownloadEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "download": {
+        "download_count": 0,
+        "size": 139264,
+        "id": 284609,
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/284609",
+        "description": "Ember.js Master (minified)",
+        "name": "ember-latest.min.js",
+        "content_type": "application/javascript",
+        "created_at": "2012-08-01T04:48:55Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js"
+      }
+    },
+    "created_at": "2012-08-01T04:48:56Z",
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1580086119"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "d7e24acbf4eaf95c74974b5540344ef2fdad34a0",
+      "push_id": 94019210,
+      "size": 4,
+      "commits": [
+        {
+          "message": "Call pushState when state null and at initial url",
+          "author": {
+            "email": "digitaltoad@gmail.com",
+            "name": "Joshua Borton"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/6a863c6cbef95f232d2933486c69830e381bcc1c",
+          "sha": "6a863c6cbef95f232d2933486c69830e381bcc1c"
+        },
+        {
+          "message": "Adding test for pushState when at initialURL",
+          "author": {
+            "email": "digitaltoad@gmail.com",
+            "name": "Joshua Borton"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/37e2a9c2f8effc02831ef68d401918ccdde513c9",
+          "sha": "37e2a9c2f8effc02831ef68d401918ccdde513c9"
+        },
+        {
+          "message": "Merge pull request #1220 from digitaltoad/bug/fix_push_state_back_button\n\nCall pushState when state null and at initial url",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/8bb9f59336d752ad29cb1751b532e5b5063a24fc",
+          "sha": "8bb9f59336d752ad29cb1751b532e5b5063a24fc"
+        },
+        {
+          "message": "Added support for uploading docs to multiple locations",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/6442f2b1fb7c457ac92baa7893021147caaabca5",
+          "sha": "6442f2b1fb7c457ac92baa7893021147caaabca5"
+        }
+      ],
+      "ref": "refs/heads/master",
+      "head": "6442f2b1fb7c457ac92baa7893021147caaabca5"
+    },
+    "created_at": "2012-08-01T04:48:20Z",
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1580085994"
+  },
+  {
+    "type": "CreateEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "master_branch": "master",
+      "ref_type": "repository",
+      "ref": null,
+      "description": null
+    },
+    "created_at": "2012-07-31T20:03:39Z",
+    "repo": {
+      "id": 5250768,
+      "url": "https://api.github.com/repos/pangratz/skizeit-app-server",
+      "name": "pangratz/skizeit-app-server"
+    },
+    "id": "1579936868"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "425ec184c908ba2c2f1d38f0523492fb18741106",
+      "push_id": 93930030,
+      "size": 15,
+      "commits": [
+        {
+          "message": "added first version of my theme af-magic",
+          "author": {
+            "email": "afleming@variableaction.com",
+            "name": "Andy Fleming"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/b97cc939ec50cbd424beb4d9d5d61625b209ccac",
+          "sha": "b97cc939ec50cbd424beb4d9d5d61625b209ccac"
+        },
+        {
+          "message": "theme cleanup",
+          "author": {
+            "email": "afleming@variableaction.com",
+            "name": "Andy Fleming"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/98d7a010994cd39758e4a1599cefe9e130a346db",
+          "sha": "98d7a010994cd39758e4a1599cefe9e130a346db"
+        },
+        {
+          "message": "Remove bogus \"-\" from nomz=\"ps -aux\" alias.\n\nInfo from http://procps.sourceforge.net/faq.html .",
+          "author": {
+            "email": "Eustachy.kapusta@gmail.com",
+            "name": "Eustachy Kapusta"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/e2ddf1ef8c1147586a11c25007b201e9cbcfe278",
+          "sha": "e2ddf1ef8c1147586a11c25007b201e9cbcfe278"
+        },
+        {
+          "message": "escape whitespace",
+          "author": {
+            "email": "joshvermaire@gmail.com",
+            "name": "Josh Vermaire"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/92b6cae02638f644e6359e3f553805e2c3eba957",
+          "sha": "92b6cae02638f644e6359e3f553805e2c3eba957"
+        },
+        {
+          "message": "utilize sublime's embedded command line binary",
+          "author": {
+            "email": "joshvermaire@gmail.com",
+            "name": "Josh Vermaire"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/a15bcd6461b5b8237844c4e2968df0518dab5e9a",
+          "sha": "a15bcd6461b5b8237844c4e2968df0518dab5e9a"
+        },
+        {
+          "message": "Merge pull request #1216 from joshvermaire/patch-1\n\nEscape whitespace for Sublime Text plugin",
+          "author": {
+            "email": "robby@planetargon.com",
+            "name": "Robby Russell"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/ddafaf65fb8c968278f66a84d23f518f4c91dae6",
+          "sha": "ddafaf65fb8c968278f66a84d23f518f4c91dae6"
+        },
+        {
+          "message": "Merge pull request #1206 from Eustachy/upstream\n\nRemove bogus \"-\" from nomz=\"ps -aux\" alias.",
+          "author": {
+            "email": "robby@planetargon.com",
+            "name": "Robby Russell"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/11f441a3ac1f08923bea2c9f69a7a0edc9233534",
+          "sha": "11f441a3ac1f08923bea2c9f69a7a0edc9233534"
+        },
+        {
+          "message": "Merge pull request #1200 from andyfleming/master\n\nNew theme af-magic.zsh-theme",
+          "author": {
+            "email": "robby@planetargon.com",
+            "name": "Robby Russell"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/11034217a7ea3cffe6e0fe631837c518b8c7e1a5",
+          "sha": "11034217a7ea3cffe6e0fe631837c518b8c7e1a5"
+        },
+        {
+          "message": "Merge branch 'master' of https://github.com/robbyrussell/oh-my-zsh",
+          "author": {
+            "email": "clemens@Administrators-MacBook-Pro.local",
+            "name": "Clemens Müller"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/203fb4bfbe4cce9f5f2047feebf4fc11d0bd51d2",
+          "sha": "203fb4bfbe4cce9f5f2047feebf4fc11d0bd51d2"
+        },
+        {
+          "message": "'rails' command should not be run with bundle exec\n\nhttp://blog.wyeworks.com/2011/12/27/bundle-exec-rails-executes-bundler-setup-3-times\nhttp://yehudakatz.com/2011/05/30/gem-versioning-and-bundler-doing-it-right/",
+          "author": {
+            "email": "sebastian.nowak@gmail.com",
+            "name": "Sebastian Nowak"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/87ab8771dac655272895e5904fcf93217ea4a64b",
+          "sha": "87ab8771dac655272895e5904fcf93217ea4a64b"
+        },
+        {
+          "message": "auto-upadate feature will now reset the epoch so that if a user doesn't say yes, it won't ask them again for a while. fixes #1240",
+          "author": {
+            "email": "robby@planetargon.com",
+            "name": "Robby Russell"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/1c23a52f5744ef419e83733d18a6a698ddd14d1e",
+          "sha": "1c23a52f5744ef419e83733d18a6a698ddd14d1e"
+        },
+        {
+          "message": "Merge branch 'master' of https://github.com/robbyrussell/oh-my-zsh",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/957135a3e64a483692d26034edfa51cc724bfcc0",
+          "sha": "957135a3e64a483692d26034edfa51cc724bfcc0"
+        },
+        {
+          "message": "Merge pull request #1229 from seban/run_rails_without_bundle_exec\n\n'rails' command should not be run with bundle exec",
+          "author": {
+            "email": "robby@planetargon.com",
+            "name": "Robby Russell"
+          },
+          "distinct": true,
+          "sha": "d05b2010ffd4cd33ff9402c402051b1caf985d97",
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/d05b2010ffd4cd33ff9402c402051b1caf985d97"
+        },
+        {
+          "message": "Merge branch 'master' of https://github.com/robbyrussell/oh-my-zsh",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "sha": "c26f598975b58a3567bed179029d88cb64ac3130",
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/c26f598975b58a3567bed179029d88cb64ac3130"
+        },
+        {
+          "message": "Add more cd utilities and add Z functionality",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "sha": "c2ad224a2299166c25f80bbe0b3a4fdb0345fabc",
+          "url": "https://api.github.com/repos/pangratz/oh-my-zsh/commits/c2ad224a2299166c25f80bbe0b3a4fdb0345fabc"
+        }
+      ],
+      "ref": "refs/heads/master",
+      "head": "c2ad224a2299166c25f80bbe0b3a4fdb0345fabc"
+    },
+    "created_at": "2012-07-31T20:03:02Z",
+    "repo": {
+      "id": 3316778,
+      "url": "https://api.github.com/repos/pangratz/oh-my-zsh",
+      "name": "pangratz/oh-my-zsh"
+    },
+    "id": "1579936621"
+  },
+  {
+    "type": "WatchEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "started"
+    },
+    "created_at": "2012-07-31T18:52:02Z",
+    "repo": {
+      "id": 2296348,
+      "url": "https://api.github.com/repos/pferdefleisch/vagrant-or-chef-solo-bootstrap",
+      "name": "pferdefleisch/vagrant-or-chef-solo-bootstrap"
+    },
+    "id": "1579906081"
+  },
+  {
+    "type": "WatchEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "started"
+    },
+    "created_at": "2012-07-30T13:51:13Z",
+    "repo": {
+      "id": 4447359,
+      "url": "https://api.github.com/repos/frodsan/qunit-rails",
+      "name": "frodsan/qunit-rails"
+    },
+    "id": "1579294548"
+  },
+  {
+    "type": "IssueCommentEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "created",
+      "issue": {
+        "closed_at": null,
+        "title": "pushing problem",
+        "milestone": null,
+        "user": {
+          "gravatar_id": "683b0d0d75ba887dafd8137ad0843c95",
+          "login": "iwtu",
+          "avatar_url": "https://secure.gravatar.com/avatar/683b0d0d75ba887dafd8137ad0843c95?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 1164429,
+          "url": "https://api.github.com/users/iwtu"
+        },
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        },
+        "id": 5902172,
+        "updated_at": "2012-07-29T21:26:06Z",
+        "number": 13,
+        "assignee": null,
+        "labels": [
+          {
+            "color": "444444",
+            "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/labels/Bug",
+            "name": "Bug"
+          }
+        ],
+        "body": "Hi. When I try push a couchapp via this Netbeans plugin I will get following exception:\n\njava.lang.StringIndexOutOfBoundsException: String index out of range: -1\n\tat java.lang.String.substring(String.java:1952)\n\tat java.lang.String.substring(String.java:1925)\n\tat org.pangratz.netbeans.couchapp.RuntimeCouchAppUtil.pushCouchApp(RuntimeCouchAppUtil.java:132)\n\tat org.pangratz.netbeans.couchapp.actions.PushCouchAppAction.generate(PushCouchAppAction.java:51)\n\tat org.pangratz.netbeans.couchapp.actions.AbstractGenerateAction.actionPerformed(AbstractGenerateAction.java:41)\n\tat javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)\n\tat javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)\n\tat javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)\n\tat javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)\n\tat javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)\n\tat java.awt.Component.processMouseEvent(Component.java:6505)\n\tat javax.swing.JComponent.processMouseEvent(JComponent.java:3312)\n\tat java.awt.Component.processEvent(Component.java:6270)\n\tat java.awt.Container.processEvent(Container.java:2229)\n\tat java.awt.Component.dispatchEventImpl(Component.java:4861)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2287)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)\n\tat java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)\n\tat java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2273)\n\tat java.awt.Window.dispatchEventImpl(Window.java:2719)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.EventQueue.dispatchEventImpl(EventQueue.java:703)\n\tat java.awt.EventQueue.access$000(EventQueue.java:102)\n\tat java.awt.EventQueue$3.run(EventQueue.java:662)\n\tat java.awt.EventQueue$3.run(EventQueue.java:660)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)\n\tat java.awt.EventQueue$4.run(EventQueue.java:676)\n\tat java.awt.EventQueue$4.run(EventQueue.java:674)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.awt.EventQueue.dispatchEvent(EventQueue.java:673)\n\tat org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)\n[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:244)\n\tat java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:163)\n\tat java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:151)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:147)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:139)\n\tat java.awt.EventDispatchThread.run(EventDispatchThread.java:97)",
+        "comments": 5,
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/13",
+        "html_url": "https://github.com/pangratz/netbeans-couchapp/issues/13",
+        "state": "open",
+        "created_at": "2012-07-29T08:42:07Z"
+      },
+      "comment": {
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "id": 7356682,
+        "updated_at": "2012-07-29T21:26:06Z",
+        "body": "Ok, I'll have a look at it and post the updates here.\n\nThanks for your feedback!! :v:",
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/comments/7356682",
+        "created_at": "2012-07-29T21:26:06Z"
+      }
+    },
+    "created_at": "2012-07-29T21:26:08Z",
+    "repo": {
+      "id": 1359031,
+      "url": "https://api.github.com/repos/pangratz/netbeans-couchapp",
+      "name": "pangratz/netbeans-couchapp"
+    },
+    "id": "1579094299"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "6851158840b274790363653a16881223c8fd74c7",
+      "size": 2,
+      "push_id": 93442847,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "message": "add failing test",
+          "author": {
+            "email": "kris.selden@gmail.com",
+            "name": "Kris Selden"
+          },
+          "distinct": true,
+          "sha": "464d9502d6221946864028a716d1c4f8b5fe35f9",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/464d9502d6221946864028a716d1c4f8b5fe35f9"
+        },
+        {
+          "message": "fix #1211",
+          "author": {
+            "email": "kris.selden@gmail.com",
+            "name": "Kris Selden"
+          },
+          "distinct": true,
+          "sha": "d7e24acbf4eaf95c74974b5540344ef2fdad34a0",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/d7e24acbf4eaf95c74974b5540344ef2fdad34a0"
+        }
+      ],
+      "head": "d7e24acbf4eaf95c74974b5540344ef2fdad34a0"
+    },
+    "created_at": "2012-07-29T20:26:15Z",
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1579085635"
+  },
+  {
+    "type": "IssueCommentEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "created",
+      "issue": {
+        "closed_at": null,
+        "title": "pushing problem",
+        "milestone": null,
+        "user": {
+          "gravatar_id": "683b0d0d75ba887dafd8137ad0843c95",
+          "login": "iwtu",
+          "avatar_url": "https://secure.gravatar.com/avatar/683b0d0d75ba887dafd8137ad0843c95?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 1164429,
+          "url": "https://api.github.com/users/iwtu"
+        },
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        },
+        "id": 5902172,
+        "updated_at": "2012-07-29T20:00:40Z",
+        "number": 13,
+        "assignee": null,
+        "labels": [
+          {
+            "color": "444444",
+            "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/labels/Bug",
+            "name": "Bug"
+          }
+        ],
+        "body": "Hi. When I try push a couchapp via this Netbeans plugin I will get following exception:\n\njava.lang.StringIndexOutOfBoundsException: String index out of range: -1\n\tat java.lang.String.substring(String.java:1952)\n\tat java.lang.String.substring(String.java:1925)\n\tat org.pangratz.netbeans.couchapp.RuntimeCouchAppUtil.pushCouchApp(RuntimeCouchAppUtil.java:132)\n\tat org.pangratz.netbeans.couchapp.actions.PushCouchAppAction.generate(PushCouchAppAction.java:51)\n\tat org.pangratz.netbeans.couchapp.actions.AbstractGenerateAction.actionPerformed(AbstractGenerateAction.java:41)\n\tat javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)\n\tat javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)\n\tat javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)\n\tat javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)\n\tat javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)\n\tat java.awt.Component.processMouseEvent(Component.java:6505)\n\tat javax.swing.JComponent.processMouseEvent(JComponent.java:3312)\n\tat java.awt.Component.processEvent(Component.java:6270)\n\tat java.awt.Container.processEvent(Container.java:2229)\n\tat java.awt.Component.dispatchEventImpl(Component.java:4861)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2287)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)\n\tat java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)\n\tat java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2273)\n\tat java.awt.Window.dispatchEventImpl(Window.java:2719)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.EventQueue.dispatchEventImpl(EventQueue.java:703)\n\tat java.awt.EventQueue.access$000(EventQueue.java:102)\n\tat java.awt.EventQueue$3.run(EventQueue.java:662)\n\tat java.awt.EventQueue$3.run(EventQueue.java:660)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)\n\tat java.awt.EventQueue$4.run(EventQueue.java:676)\n\tat java.awt.EventQueue$4.run(EventQueue.java:674)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.awt.EventQueue.dispatchEvent(EventQueue.java:673)\n\tat org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)\n[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:244)\n\tat java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:163)\n\tat java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:151)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:147)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:139)\n\tat java.awt.EventDispatchThread.run(EventDispatchThread.java:97)",
+        "comments": 3,
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/13",
+        "html_url": "https://github.com/pangratz/netbeans-couchapp/issues/13",
+        "state": "open",
+        "created_at": "2012-07-29T08:42:07Z"
+      },
+      "comment": {
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "id": 7355975,
+        "updated_at": "2012-07-29T20:00:40Z",
+        "body": "Okay, thanks. I'll try to free some time to look at it. In the meantime, would it be possible to test it with a push to a database which doesn't need authentication? I have a feeling that this might be the issue here ...",
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/comments/7355975",
+        "created_at": "2012-07-29T20:00:40Z"
+      }
+    },
+    "created_at": "2012-07-29T20:00:43Z",
+    "repo": {
+      "id": 1359031,
+      "url": "https://api.github.com/repos/pangratz/netbeans-couchapp",
+      "name": "pangratz/netbeans-couchapp"
+    },
+    "id": "1579082169"
+  },
+  {
+    "type": "IssueCommentEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "created",
+      "issue": {
+        "closed_at": null,
+        "title": "pushing problem",
+        "milestone": null,
+        "user": {
+          "gravatar_id": "683b0d0d75ba887dafd8137ad0843c95",
+          "login": "iwtu",
+          "avatar_url": "https://secure.gravatar.com/avatar/683b0d0d75ba887dafd8137ad0843c95?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 1164429,
+          "url": "https://api.github.com/users/iwtu"
+        },
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        },
+        "id": 5902172,
+        "updated_at": "2012-07-29T14:47:17Z",
+        "number": 13,
+        "assignee": null,
+        "labels": [
+
+        ],
+        "body": "Hi. When I try push a couchapp via this Netbeans plugin I will get following exception:\n\njava.lang.StringIndexOutOfBoundsException: String index out of range: -1\n\tat java.lang.String.substring(String.java:1952)\n\tat java.lang.String.substring(String.java:1925)\n\tat org.pangratz.netbeans.couchapp.RuntimeCouchAppUtil.pushCouchApp(RuntimeCouchAppUtil.java:132)\n\tat org.pangratz.netbeans.couchapp.actions.PushCouchAppAction.generate(PushCouchAppAction.java:51)\n\tat org.pangratz.netbeans.couchapp.actions.AbstractGenerateAction.actionPerformed(AbstractGenerateAction.java:41)\n\tat javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:2018)\n\tat javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2341)\n\tat javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:402)\n\tat javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:259)\n\tat javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:252)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:290)\n\tat java.awt.AWTEventMulticaster.mouseReleased(AWTEventMulticaster.java:289)\n\tat java.awt.Component.processMouseEvent(Component.java:6505)\n\tat javax.swing.JComponent.processMouseEvent(JComponent.java:3312)\n\tat java.awt.Component.processEvent(Component.java:6270)\n\tat java.awt.Container.processEvent(Container.java:2229)\n\tat java.awt.Component.dispatchEventImpl(Component.java:4861)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2287)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4832)\n\tat java.awt.LightweightDispatcher.processMouseEvent(Container.java:4492)\n\tat java.awt.LightweightDispatcher.dispatchEvent(Container.java:4422)\n\tat java.awt.Container.dispatchEventImpl(Container.java:2273)\n\tat java.awt.Window.dispatchEventImpl(Window.java:2719)\n\tat java.awt.Component.dispatchEvent(Component.java:4687)\n\tat java.awt.EventQueue.dispatchEventImpl(EventQueue.java:703)\n\tat java.awt.EventQueue.access$000(EventQueue.java:102)\n\tat java.awt.EventQueue$3.run(EventQueue.java:662)\n\tat java.awt.EventQueue$3.run(EventQueue.java:660)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:87)\n\tat java.awt.EventQueue$4.run(EventQueue.java:676)\n\tat java.awt.EventQueue$4.run(EventQueue.java:674)\n\tat java.security.AccessController.doPrivileged(Native Method)\n\tat java.security.ProtectionDomain$1.doIntersectionPrivilege(ProtectionDomain.java:76)\n\tat java.awt.EventQueue.dispatchEvent(EventQueue.java:673)\n\tat org.netbeans.core.TimableEventQueue.dispatchEvent(TimableEventQueue.java:158)\n[catch] at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:244)\n\tat java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:163)\n\tat java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:151)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:147)\n\tat java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:139)\n\tat java.awt.EventDispatchThread.run(EventDispatchThread.java:97)",
+        "comments": 1,
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/13",
+        "html_url": "https://github.com/pangratz/netbeans-couchapp/issues/13",
+        "state": "open",
+        "created_at": "2012-07-29T08:42:07Z"
+      },
+      "comment": {
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "id": 7353458,
+        "updated_at": "2012-07-29T14:47:17Z",
+        "body": "What's the url you are trying to push to?",
+        "url": "https://api.github.com/repos/pangratz/netbeans-couchapp/issues/comments/7353458",
+        "created_at": "2012-07-29T14:47:17Z"
+      }
+    },
+    "created_at": "2012-07-29T14:47:17Z",
+    "repo": {
+      "id": 1359031,
+      "url": "https://api.github.com/repos/pangratz/netbeans-couchapp",
+      "name": "pangratz/netbeans-couchapp"
+    },
+    "id": "1579040203"
+  },
+  {
+    "type": "GistEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "update",
+      "gist": {
+        "git_pull_url": "git://gist.github.com/3197673.git",
+        "public": true,
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "git_push_url": "git@gist.github.com:3197673.git",
+        "updated_at": "2012-07-29T11:19:25Z",
+        "id": "3197673",
+        "url": "https://api.github.com/gists/3197673",
+        "comments": 0,
+        "files": {
+
+        },
+        "html_url": "https://gist.github.com/3197673",
+        "created_at": "2012-07-29T11:19:25Z",
+        "description": "Usage of `controllers` property on a controller"
+      }
+    },
+    "created_at": "2012-07-29T11:20:20Z",
+    "repo": {
+      "url": "https://api.github.com/repos//",
+      "name": "/"
+    },
+    "id": "1579015793"
+  },
+  {
+    "type": "GistEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "create",
+      "gist": {
+        "git_pull_url": "git://gist.github.com/3197673.git",
+        "public": true,
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "git_push_url": "git@gist.github.com:3197673.git",
+        "updated_at": "2012-07-29T11:19:25Z",
+        "id": "3197673",
+        "comments": 0,
+        "url": "https://api.github.com/gists/3197673",
+        "files": {
+
+        },
+        "description": "Usage of `controllers` property on a controller",
+        "html_url": "https://gist.github.com/3197673",
+        "created_at": "2012-07-29T11:19:25Z"
+      }
+    },
+    "created_at": "2012-07-29T11:19:25Z",
+    "repo": {
+      "url": "https://api.github.com/repos//",
+      "name": "/"
+    },
+    "id": "1579015732"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "8564bda769d8040f9feda9cd46f94b9a690dc3bb",
+      "size": 0,
+      "push_id": 93128869,
+      "commits": [
+
+      ],
+      "ref": "refs/heads/feature-add-functional-tests",
+      "head": "36f201419e4543cd6a8333f48b103ced09c954dc"
+    },
+    "created_at": "2012-07-27T10:49:25Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578503664"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "a13333e9156b322a86d774f669063b5dfe0e7bed",
+      "size": 3,
+      "push_id": 93128754,
+      "commits": [
+        {
+          "message": "Add download_mock_responses task",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/a13c6741951df3ee870e85a49d94304a576dac16",
+          "sha": "a13c6741951df3ee870e85a49d94304a576dac16"
+        },
+        {
+          "message": "Add functional tests\n\n- Move tests into :tests namespace\n- Add GitHubFixtureAdpater which returns mock responses",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/36f201419e4543cd6a8333f48b103ced09c954dc",
+          "sha": "36f201419e4543cd6a8333f48b103ced09c954dc"
+        },
+        {
+          "message": "Merge branch 'feature-add-functional-tests' into develop",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/bc6275c29d12a612954c3d384f52efb20209f0dd",
+          "sha": "bc6275c29d12a612954c3d384f52efb20209f0dd"
+        }
+      ],
+      "ref": "refs/heads/develop",
+      "head": "bc6275c29d12a612954c3d384f52efb20209f0dd"
+    },
+    "created_at": "2012-07-27T10:48:43Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578503471"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695",
+      "size": 1,
+      "push_id": 93028733,
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 22:21:18 UTC",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/3528609833d56ba3511af829044f7a64313b1d12",
+          "sha": "3528609833d56ba3511af829044f7a64313b1d12"
+        }
+      ],
+      "ref": "refs/heads/gh-pages",
+      "head": "3528609833d56ba3511af829044f7a64313b1d12"
+    },
+    "created_at": "2012-07-26T22:21:28Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578334974"
+  },
+  {
+    "type": "IssuesEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "issue": {
+        "closed_at": null,
+        "title": "Add filter to hide TravisBot comments on issues",
+        "milestone": null,
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "pull_request": {
+          "patch_url": null,
+          "html_url": null,
+          "diff_url": null
+        },
+        "id": 5865669,
+        "updated_at": "2012-07-26T22:15:56Z",
+        "number": 18,
+        "assignee": null,
+        "labels": [
+          {
+            "color": "02e10c",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/Idea",
+            "name": "Idea"
+          },
+          {
+            "color": "d7e102",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "name": "view"
+          }
+        ],
+        "body": "",
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/18",
+        "comments": 0,
+        "html_url": "https://github.com/pangratz/dashboard/issues/18",
+        "state": "open",
+        "created_at": "2012-07-26T22:15:56Z"
+      },
+      "action": "opened"
+    },
+    "created_at": "2012-07-26T22:15:56Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578333019"
+  },
+  {
+    "type": "DeleteEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "ref_type": "branch",
+      "ref": "add_casper"
+    },
+    "created_at": "2012-07-26T21:32:36Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578315781"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "50a0b18e4637f6c40d102007e9bd654c2b9941eb",
+      "push_id": 93007063,
+      "size": 5,
+      "commits": [
+        {
+          "message": "Fix broken link to the wiki in template for GollumEvent",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false,
+          "sha": "d8c094bef28242d010a62250c5342080f5a8ed5a",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/d8c094bef28242d010a62250c5342080f5a8ed5a"
+        },
+        {
+          "message": "Merge branch 'fix-broken-wiki-template' into develop",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false,
+          "sha": "ccbf586670b6a75ab46e560c35ab7c216ffc4ba4",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/ccbf586670b6a75ab46e560c35ab7c216ffc4ba4"
+        },
+        {
+          "message": "Show link to repository for an event",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/6b121b1ebc724ecc1a44f95e86b6503216f0da69",
+          "sha": "6b121b1ebc724ecc1a44f95e86b6503216f0da69"
+        },
+        {
+          "message": "Merge branch 'feature-show-repository-in-github-events' into develop",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/42df1ff7d6a28f6706a0f33994fdec8c9d3290c3",
+          "sha": "42df1ff7d6a28f6706a0f33994fdec8c9d3290c3"
+        },
+        {
+          "message": "Minor update on how a repository for an event is shown",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/a13333e9156b322a86d774f669063b5dfe0e7bed",
+          "sha": "a13333e9156b322a86d774f669063b5dfe0e7bed"
+        }
+      ],
+      "ref": "refs/heads/develop",
+      "head": "a13333e9156b322a86d774f669063b5dfe0e7bed"
+    },
+    "created_at": "2012-07-26T20:53:20Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298378"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "bd4896ffd9e29af097cca7ce377207a0dce45ed8",
+      "push_id": 93007060,
+      "size": 1,
+      "commits": [
+        {
+          "message": "Rack server: shut up!! aka Logging silent = true",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/3adf6adda33d8b2066b2634249d9e8c28f9e39a3",
+          "sha": "3adf6adda33d8b2066b2634249d9e8c28f9e39a3"
+        }
+      ],
+      "ref": "refs/heads/add_casper",
+      "head": "3adf6adda33d8b2066b2634249d9e8c28f9e39a3"
+    },
+    "created_at": "2012-07-26T20:53:20Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298376"
+  },
+  {
+    "type": "CreateEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "master_branch": "develop",
+      "ref_type": "branch",
+      "ref": "feature-add-functional-tests",
+      "description": "GitHub Dashboard using Ember.js and Twitter Bootstrap"
+    },
+    "created_at": "2012-07-26T20:53:09Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298285"
+  },
+  {
+    "type": "IssueCommentEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "created",
+      "issue": {
+        "closed_at": "2012-07-26T20:35:21Z",
+        "title": "Order repositories by last updated",
+        "milestone": null,
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        },
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "updated_at": "2012-07-26T20:35:21Z",
+        "id": 5297274,
+        "number": 5,
+        "assignee": null,
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/5",
+        "comments": 1,
+        "labels": [
+          {
+            "color": "d7e102",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "name": "view"
+          }
+        ],
+        "body": "",
+        "state": "closed",
+        "created_at": "2012-06-27T13:47:41Z",
+        "html_url": "https://github.com/pangratz/dashboard/issues/5"
+      },
+      "comment": {
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "updated_at": "2012-07-26T20:35:21Z",
+        "id": 7289549,
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/comments/7289549",
+        "body": "Implemented in 0122b2a33bece2288ad16ce5b40984d31d6204e0",
+        "created_at": "2012-07-26T20:35:21Z"
+      }
+    },
+    "created_at": "2012-07-26T20:35:21Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578290474"
+  },
+  {
+    "type": "IssuesEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "closed_at": "2012-07-26T20:35:21Z",
+        "title": "Order repositories by last updated",
+        "milestone": null,
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        },
+        "user": {
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "login": "pangratz",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "id": 341877,
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "updated_at": "2012-07-26T20:35:21Z",
+        "id": 5297274,
+        "number": 5,
+        "assignee": null,
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/5",
+        "comments": 1,
+        "labels": [
+          {
+            "color": "d7e102",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "name": "view"
+          }
+        ],
+        "body": "",
+        "state": "closed",
+        "created_at": "2012-06-27T13:47:41Z",
+        "html_url": "https://github.com/pangratz/dashboard/issues/5"
+      }
+    },
+    "created_at": "2012-07-26T20:35:22Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578290480"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "c9c835da629d00c0a4f6979c6c2beb8777dc223c",
+      "size": 1,
+      "push_id": 93002112,
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 20:33:35 UTC",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/9b79923b64f91ab0bdf3c0879ab43d7bfcc68695",
+          "sha": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695"
+        }
+      ],
+      "ref": "refs/heads/gh-pages",
+      "head": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695"
+    },
+    "created_at": "2012-07-26T20:34:21Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578289892"
+  },
+  {
+    "type": "PushEvent",
+    "actor": {
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "login": "pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "public": true,
+    "payload": {
+      "before": "18a742c5cb1281a8194f292154801517069d0187",
+      "size": 1,
+      "push_id": 93000515,
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 20:27:33 UTC",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true,
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/c9c835da629d00c0a4f6979c6c2beb8777dc223c",
+          "sha": "c9c835da629d00c0a4f6979c6c2beb8777dc223c"
+        }
+      ],
+      "ref": "refs/heads/gh-pages",
+      "head": "c9c835da629d00c0a4f6979c6c2beb8777dc223c"
+    },
+    "created_at": "2012-07-26T20:27:44Z",
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578287114"
+  }
+]

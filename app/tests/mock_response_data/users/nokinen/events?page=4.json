@@ -1,0 +1,1322 @@
+[
+  {
+    "created_at": "2012-07-23T11:16:39Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "7f0d612bee5c3a3b2d50df075b3ff9b088f7f504",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/05e6f396cb2f923d31b5e0a7e93c46434f068ade",
+          "message": "Remove whitespace chars before video label in post heading\nFixes #26",
+          "sha": "05e6f396cb2f923d31b5e0a7e93c46434f068ade"
+        }
+      ],
+      "push_id": 92067318,
+      "ref": "refs/heads/master",
+      "head": "05e6f396cb2f923d31b5e0a7e93c46434f068ade",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576681333"
+  },
+  {
+    "created_at": "2012-07-23T11:16:38Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-21T15:55:13Z",
+        "body": "",
+        "title": "Unknown symbol is displayed in post date on the Nexus One's Android 2.3.7",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/26",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/26",
+        "milestone": null,
+        "comments": 0,
+        "id": 5754292,
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/labels/bug",
+            "color": "fc2929",
+            "name": "bug"
+          }
+        ],
+        "closed_at": "2012-07-23T11:16:38Z",
+        "updated_at": "2012-07-23T11:16:38Z",
+        "assignee": null,
+        "number": 26,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576681330"
+  },
+  {
+    "created_at": "2012-07-23T11:09:06Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "dd9f96bbc9b845b0eba363a3dd5f17b5b42e4048",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/7f0d612bee5c3a3b2d50df075b3ff9b088f7f504",
+          "message": "Add rake task for deploying to heroku\nCommands:\n- rake deploy (deploys master branch to heroku)\n- rake deploy[migrate] (deploys master branch to heroku and resets, migrates and populates db)",
+          "sha": "7f0d612bee5c3a3b2d50df075b3ff9b088f7f504"
+        }
+      ],
+      "push_id": 92066150,
+      "ref": "refs/heads/master",
+      "head": "7f0d612bee5c3a3b2d50df075b3ff9b088f7f504",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576679249"
+  },
+  {
+    "created_at": "2012-07-23T09:49:44Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-21T20:03:43Z",
+        "body": "",
+        "title": "Video page should have pagination and two columns",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/27",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/27",
+        "milestone": null,
+        "comments": 0,
+        "id": 5755868,
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/labels/enhancement",
+            "color": "84b6eb",
+            "name": "enhancement"
+          }
+        ],
+        "closed_at": "2012-07-23T09:49:44Z",
+        "updated_at": "2012-07-23T09:49:44Z",
+        "assignee": null,
+        "number": 27,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576658082"
+  },
+  {
+    "created_at": "2012-07-23T09:49:27Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "ce3373cd96fba31b93239a9c12940f1ae4a518bd",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/7f1295136dff31ffd0fc0a709a3d86ca1d5dbcdf",
+          "message": "Display videos on index in two columns",
+          "sha": "7f1295136dff31ffd0fc0a709a3d86ca1d5dbcdf"
+        },
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/dd9f96bbc9b845b0eba363a3dd5f17b5b42e4048",
+          "message": "Add pagination to video page and wrap video columns in rows\nNecessary to avoid broken grid if thumbnails have varying height\nAdd _video partial for this task",
+          "sha": "dd9f96bbc9b845b0eba363a3dd5f17b5b42e4048"
+        }
+      ],
+      "push_id": 92053474,
+      "ref": "refs/heads/master",
+      "head": "dd9f96bbc9b845b0eba363a3dd5f17b5b42e4048",
+      "size": 2
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576658020"
+  },
+  {
+    "created_at": "2012-07-23T08:15:30Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "created_at": "2012-07-23T08:15:30Z",
+        "body": "Two columns would be nice: span6 with the form for post input, another span6 to the right containing html/markdown cheat sheet to the right",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/comments/7172611",
+        "id": 7172611,
+        "updated_at": "2012-07-23T08:15:30Z"
+      },
+      "issue": {
+        "created_at": "2012-07-22T10:12:17Z",
+        "body": "Especially the form for writing/editing postings!",
+        "title": "Improve form layout",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/33",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/33",
+        "milestone": null,
+        "comments": 1,
+        "id": 5759215,
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/labels/enhancement",
+            "color": "84b6eb",
+            "name": "enhancement"
+          }
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-23T08:15:30Z",
+        "assignee": null,
+        "number": 33,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576631286"
+  },
+  {
+    "created_at": "2012-07-23T08:11:31Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "7c8d13a6c94436d299e0d27079512614d6e0f368",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/ce3373cd96fba31b93239a9c12940f1ae4a518bd",
+          "message": "Fix huge bottom margin of address in caption of member thumbnail",
+          "sha": "ce3373cd96fba31b93239a9c12940f1ae4a518bd"
+        }
+      ],
+      "push_id": 92037911,
+      "ref": "refs/heads/master",
+      "head": "ce3373cd96fba31b93239a9c12940f1ae4a518bd",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576630244"
+  },
+  {
+    "created_at": "2012-07-23T08:01:23Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "94f883646a3c3d9aeffa3ac5167c48aeb13e0dd3",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/7c8d13a6c94436d299e0d27079512614d6e0f368",
+          "message": "Apply html structure of show photos view to show members view\nFixes #34",
+          "sha": "7c8d13a6c94436d299e0d27079512614d6e0f368"
+        }
+      ],
+      "push_id": 92036486,
+      "ref": "refs/heads/master",
+      "head": "7c8d13a6c94436d299e0d27079512614d6e0f368",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576627608"
+  },
+  {
+    "created_at": "2012-07-23T08:01:23Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-22T10:17:46Z",
+        "body": "",
+        "title": "Member thumbnail should behave like photo thumbnail",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/34",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/34",
+        "milestone": null,
+        "comments": 0,
+        "id": 5759243,
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/labels/bug",
+            "color": "fc2929",
+            "name": "bug"
+          }
+        ],
+        "closed_at": "2012-07-23T08:01:23Z",
+        "updated_at": "2012-07-23T08:01:23Z",
+        "assignee": null,
+        "number": 34,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576627607"
+  },
+  {
+    "created_at": "2012-07-22T20:59:48Z",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 4557641,
+      "url": "https://api.github.com/repos/pangratz/homebrew-alt",
+      "name": "pangratz/homebrew-alt"
+    },
+    "id": "1576527795"
+  },
+  {
+    "created_at": "2012-07-22T20:58:59Z",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 4770945,
+      "url": "https://api.github.com/repos/pangratz/github_downloads",
+      "name": "pangratz/github_downloads"
+    },
+    "id": "1576527694"
+  },
+  {
+    "created_at": "2012-07-22T20:56:11Z",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3639923,
+      "url": "https://api.github.com/repos/pangratz/pangratz.github.com",
+      "name": "pangratz/pangratz.github.com"
+    },
+    "id": "1576527313"
+  },
+  {
+    "created_at": "2012-07-22T20:54:38Z",
+    "type": "WatchEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1576527084"
+  },
+  {
+    "created_at": "2012-07-22T14:07:06Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "7d58e7f118e4d670373fa2550efa8f5b99c38c8e",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/94f883646a3c3d9aeffa3ac5167c48aeb13e0dd3",
+          "message": "Move debugger to development group in Gemfile",
+          "sha": "94f883646a3c3d9aeffa3ac5167c48aeb13e0dd3"
+        }
+      ],
+      "push_id": 91947871,
+      "ref": "refs/heads/master",
+      "head": "94f883646a3c3d9aeffa3ac5167c48aeb13e0dd3",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576474418"
+  },
+  {
+    "created_at": "2012-07-22T14:06:06Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "8a8944e18a50bb0d7a28481deaf1fe71f9311066",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/7d58e7f118e4d670373fa2550efa8f5b99c38c8e",
+          "message": "Update debugger gem dependency",
+          "sha": "7d58e7f118e4d670373fa2550efa8f5b99c38c8e"
+        }
+      ],
+      "push_id": 91947806,
+      "ref": "refs/heads/master",
+      "head": "7d58e7f118e4d670373fa2550efa8f5b99c38c8e",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576474220"
+  },
+  {
+    "created_at": "2012-07-22T14:01:49Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "406d7be983895fba8d7abb317868e7636cc07266",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias@noig.es",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/8a8944e18a50bb0d7a28481deaf1fe71f9311066",
+          "message": "Update Readme.md with information about posts with photos",
+          "sha": "8a8944e18a50bb0d7a28481deaf1fe71f9311066"
+        }
+      ],
+      "push_id": 91947546,
+      "ref": "refs/heads/master",
+      "head": "8a8944e18a50bb0d7a28481deaf1fe71f9311066",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576473412"
+  },
+  {
+    "created_at": "2012-07-22T13:49:18Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "created_at": "2012-07-22T13:49:16Z",
+        "body": "",
+        "title": "Request specs contain logic that should be in model/view specs",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/35",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/35",
+        "milestone": null,
+        "comments": 0,
+        "id": 5765366,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T13:49:16Z",
+        "assignee": null,
+        "number": 35,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576471025"
+  },
+  {
+    "created_at": "2012-07-22T13:48:37Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "b58b89e6a8832409c2a6d439190ccfdca0b04fbe",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/ded0146e256e4b1d98b9352c5aa0e7fb16cb2794",
+          "message": "Add tests for routing of photos controller",
+          "sha": "ded0146e256e4b1d98b9352c5aa0e7fb16cb2794"
+        },
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/406d7be983895fba8d7abb317868e7636cc07266",
+          "message": "Add tests for photos and posts with photos\nAdd model specs\n- For post model primarily to test validation\nAdd view specs\n- For dynamic pages to check thumbnail creation on home page\n- For show post page to check correct display of photo\n- For posts index page to check if checkmark for photos is correctly displayed\n\nCloses #23",
+          "sha": "406d7be983895fba8d7abb317868e7636cc07266"
+        }
+      ],
+      "push_id": 91946735,
+      "ref": "refs/heads/master",
+      "head": "406d7be983895fba8d7abb317868e7636cc07266",
+      "size": 2
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576470916"
+  },
+  {
+    "created_at": "2012-07-22T13:48:37Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-15T07:26:04Z",
+        "body": "Same procedure as for video",
+        "title": "Post with Photo",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/23",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/23",
+        "milestone": null,
+        "comments": 5,
+        "id": 5625545,
+        "labels": [
+          {
+            "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/labels/feature",
+            "color": "0b02e1",
+            "name": "feature"
+          }
+        ],
+        "closed_at": "2012-07-22T13:48:37Z",
+        "updated_at": "2012-07-22T13:48:37Z",
+        "assignee": null,
+        "number": 23,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576470917"
+  },
+  {
+    "created_at": "2012-07-22T10:17:47Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "created_at": "2012-07-22T10:17:46Z",
+        "body": "",
+        "title": "Member thumbnail should behave like photo thumbnail",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/34",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/34",
+        "milestone": null,
+        "comments": 0,
+        "id": 5759243,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T10:17:46Z",
+        "assignee": null,
+        "number": 34,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576441847"
+  },
+  {
+    "created_at": "2012-07-22T10:12:17Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "created_at": "2012-07-22T10:12:17Z",
+        "body": "Especially the form for writing/editing postings!",
+        "title": "Improve form layout",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/33",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/33",
+        "milestone": null,
+        "comments": 0,
+        "id": 5759215,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T10:12:17Z",
+        "assignee": null,
+        "number": 33,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576441355"
+  },
+  {
+    "created_at": "2012-07-22T10:11:32Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "created_at": "2012-07-22T10:11:32Z",
+        "body": "",
+        "title": "Markdown support",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/32",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/32",
+        "milestone": null,
+        "comments": 0,
+        "id": 5759207,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T10:11:32Z",
+        "assignee": null,
+        "number": 32,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576441264"
+  },
+  {
+    "created_at": "2012-07-22T10:04:35Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "125976d45d33a468ab6ef53fbfcc31ae75ac539f",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/65b135f8d1199af0c06190e1897f6acd3696d5a9",
+          "message": "Add basic page to show a photo\nCloses #29",
+          "sha": "65b135f8d1199af0c06190e1897f6acd3696d5a9"
+        },
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/b58b89e6a8832409c2a6d439190ccfdca0b04fbe",
+          "message": "Improve views for displaying photos\nLink thumbnail of show post page to show photo page\nAdd caption to thumbnail on show photo page:\n- Add post title and created_at date\n- Add button to return to related post",
+          "sha": "b58b89e6a8832409c2a6d439190ccfdca0b04fbe"
+        }
+      ],
+      "push_id": 91935117,
+      "ref": "refs/heads/master",
+      "head": "b58b89e6a8832409c2a6d439190ccfdca0b04fbe",
+      "size": 2
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576440518"
+  },
+  {
+    "created_at": "2012-07-22T10:04:34Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-21T21:53:20Z",
+        "body": "",
+        "title": "Photo should be viewable",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/29",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/29",
+        "milestone": null,
+        "comments": 0,
+        "id": 5756604,
+        "labels": [
+
+        ],
+        "closed_at": "2012-07-22T10:04:34Z",
+        "updated_at": "2012-07-22T10:04:34Z",
+        "assignee": null,
+        "number": 29,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576440516"
+  },
+  {
+    "created_at": "2012-07-22T09:09:13Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "5d09b33b72a34fef3007bf5ac84d098cf9eedf3e",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/125976d45d33a468ab6ef53fbfcc31ae75ac539f",
+          "message": "Add checkmark for photos to posts index page\nCloses #30",
+          "sha": "125976d45d33a468ab6ef53fbfcc31ae75ac539f"
+        }
+      ],
+      "push_id": 91932578,
+      "ref": "refs/heads/master",
+      "head": "125976d45d33a468ab6ef53fbfcc31ae75ac539f",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576435939"
+  },
+  {
+    "created_at": "2012-07-22T09:09:13Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-22T06:57:03Z",
+        "body": "",
+        "title": "Post index should have photo checkmark",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/30",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/30",
+        "milestone": null,
+        "comments": 0,
+        "id": 5758551,
+        "labels": [
+
+        ],
+        "closed_at": "2012-07-22T09:09:12Z",
+        "updated_at": "2012-07-22T09:09:12Z",
+        "assignee": null,
+        "number": 30,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576435936"
+  },
+  {
+    "created_at": "2012-07-22T08:20:18Z",
+    "type": "PushEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "before": "71bfd08639ec4767bff7fc2eb4449dee9b49e165",
+      "commits": [
+        {
+          "distinct": true,
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/commits/5d09b33b72a34fef3007bf5ac84d098cf9eedf3e",
+          "message": "Add validation for photo url\nFix error through empty fields and their missing params on update\n- Add tests for this error\nFix error through vimeo workaround in video validation if umlaute are contained in the URI\n- Test this\n- Add encoding information to post pages request spec file\nImplement validation of photo url\n- Open uri\n- Check if content type is image\n\nCloses #28",
+          "sha": "5d09b33b72a34fef3007bf5ac84d098cf9eedf3e"
+        }
+      ],
+      "push_id": 91930222,
+      "ref": "refs/heads/master",
+      "head": "5d09b33b72a34fef3007bf5ac84d098cf9eedf3e",
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576431740"
+  },
+  {
+    "created_at": "2012-07-22T08:20:18Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "created_at": "2012-07-21T20:07:07Z",
+        "body": "",
+        "title": "Photo url should be validated",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/28",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/28",
+        "milestone": null,
+        "comments": 0,
+        "id": 5755895,
+        "labels": [
+
+        ],
+        "closed_at": "2012-07-22T08:20:17Z",
+        "updated_at": "2012-07-22T08:20:17Z",
+        "assignee": null,
+        "number": 28,
+        "state": "closed",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576431739"
+  },
+  {
+    "created_at": "2012-07-22T07:30:39Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "created",
+      "comment": {
+        "created_at": "2012-07-22T07:30:38Z",
+        "body": "Haha! After the comment about the tests i accidently clicked on close!",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/comments/7159395",
+        "id": 7159395,
+        "updated_at": "2012-07-22T07:30:38Z"
+      },
+      "issue": {
+        "created_at": "2012-07-15T07:26:04Z",
+        "body": "Same procedure as for video",
+        "title": "Post with Photo",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/23",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/23",
+        "milestone": null,
+        "comments": 5,
+        "id": 5625545,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T07:30:38Z",
+        "assignee": null,
+        "number": 23,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576427733"
+  },
+  {
+    "created_at": "2012-07-22T06:58:37Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "id": 435811,
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "url": "https://api.github.com/users/nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "login": "nokinen"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "created_at": "2012-07-22T06:58:35Z",
+        "body": "",
+        "title": "Export members as Vcard",
+        "user": {
+          "url": "https://api.github.com/users/nokinen",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "login": "nokinen"
+        },
+        "html_url": "https://github.com/nokinen/gamsjaga-ramsau/issues/31",
+        "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau/issues/31",
+        "milestone": null,
+        "comments": 0,
+        "id": 5758556,
+        "labels": [
+
+        ],
+        "closed_at": null,
+        "updated_at": "2012-07-22T06:58:35Z",
+        "assignee": null,
+        "number": 31,
+        "state": "open",
+        "pull_request": {
+          "diff_url": null,
+          "html_url": null,
+          "patch_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4750558,
+      "url": "https://api.github.com/repos/nokinen/gamsjaga-ramsau",
+      "name": "nokinen/gamsjaga-ramsau"
+    },
+    "id": "1576425325"
+  }
+]
