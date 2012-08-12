@@ -1,0 +1,1439 @@
+[
+  {
+    "created_at": "2012-05-12T08:30:14Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 78012622,
+      "ref": "refs/heads/master",
+      "size": 2,
+      "commits": [
+        {
+          "message": "moved jsdoc statements to correct location.",
+          "sha": "d9a66f4c6f2396d697044adb5ae1502b0cc4e6ed",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/d9a66f4c6f2396d697044adb5ae1502b0cc4e6ed",
+          "author": {
+            "email": "trek.glowacki@gmail.com",
+            "name": "Trek Glowacki"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #808 from trek/DocumentationForCollectionHelper\n\nmoved jsdoc statements to correct location.",
+          "sha": "ffaf987e14497b9b3bcdbfbe23a93098cfe5276c",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/ffaf987e14497b9b3bcdbfbe23a93098cfe5276c",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "ffaf987e14497b9b3bcdbfbe23a93098cfe5276c"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1551414097"
+  },
+  {
+    "created_at": "2012-05-09T08:31:55Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 234796,
+        "created_at": "2012-05-09T08:31:55Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/234796",
+        "description": "Ember.js Master",
+        "size": 590848,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1550227449"
+  },
+  {
+    "created_at": "2012-05-09T08:31:51Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 234795,
+        "created_at": "2012-05-09T08:31:51Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/234795",
+        "description": "Ember.js Master (minified)",
+        "size": 153600,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1550227431"
+  },
+  {
+    "created_at": "2012-05-09T08:31:21Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 77334081,
+      "ref": "refs/heads/master",
+      "size": 7,
+      "commits": [
+        {
+          "message": "Re-enable enumerable properties: [], firstObject and lastObject\n\nThis were previously disabled due to over-zealous firing of firstObject\nand lastObject. However, [] was still useful for non-array enumerables.\nAdditionally, firstObject and lastObject were made smarter so as to only\nfire notifications when necessary.",
+          "sha": "d5e659bc8a8abaa3524bf66b7eb9b8f1bcdd18a3",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/d5e659bc8a8abaa3524bf66b7eb9b8f1bcdd18a3",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Use 'in' notation for 'cacheFor'",
+          "sha": "7d9806c61cff47a59b8ba17f19d334a889b2870d",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/7d9806c61cff47a59b8ba17f19d334a889b2870d",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Alternate method of handling first/lastObject changes",
+          "sha": "9022e6087e074dd2ae82cf4a65e6a9116b0c4129",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/9022e6087e074dd2ae82cf4a65e6a9116b0c4129",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #789 from emberjs/enumerable-observers\n\nRe-enable enumerable properties: [], firstObject and lastObject",
+          "sha": "026caebf2d09376a15160caf25611361d346ce27",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/026caebf2d09376a15160caf25611361d346ce27",
+          "author": {
+            "email": "wycats@gmail.com",
+            "name": "Yehuda Katz"
+          },
+          "distinct": true
+        },
+        {
+          "message": "typos in state_manager",
+          "sha": "3d18ccbc87ccf2df8d3bd1d0b2ade35072f643a2",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/3d18ccbc87ccf2df8d3bd1d0b2ade35072f643a2",
+          "author": {
+            "email": "lrodriguezsanc@gmail.com",
+            "name": "Francesco Rodriguez"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #797 from frodsan/fix_typo\n\ntypos in state_manager",
+          "sha": "5bd5bdcda1db9d92d560731dab88ccf8642ccbe8",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/5bd5bdcda1db9d92d560731dab88ccf8642ccbe8",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Added flag to tests for VIEW_PRESERVE_CONTEXT",
+          "sha": "8d0b0b3f85f6c5b01704d5c72b528adc3c50723e",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/8d0b0b3f85f6c5b01704d5c72b528adc3c50723e",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "8d0b0b3f85f6c5b01704d5c72b528adc3c50723e"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1550227310"
+  },
+  {
+    "created_at": "2012-05-07T10:12:49Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76885853,
+      "ref": "refs/heads/add_travisci_webhook",
+      "size": 26,
+      "commits": [
+        {
+          "message": "Namespace debugging functions",
+          "sha": "837a27c620d204f0c9f045796c92638e5d1f266f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/837a27c620d204f0c9f045796c92638e5d1f266f",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Proper Regexp escaping",
+          "sha": "3e9dd6ca2e92dc4ff3bbdab7c3b145aab298d5b1",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/3e9dd6ca2e92dc4ff3bbdab7c3b145aab298d5b1",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Add currentView property to Ember.ContainerView",
+          "sha": "00b8940af1c948dd1974be184e022269a87a461d",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/00b8940af1c948dd1974be184e022269a87a461d",
+          "author": {
+            "email": "tom@sproutcore.com",
+            "name": "Tom Dale"
+          },
+          "distinct": false
+        },
+        {
+          "message": "add docs regarding observers and computed properties (ref #774)",
+          "sha": "0e7822160454101bff40bee26c16b933fc15b45f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/0e7822160454101bff40bee26c16b933fc15b45f",
+          "author": {
+            "email": "adam@edgecase.com",
+            "name": "Adam McCrea"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Fix Em namespace in dev mode",
+          "sha": "74f574e3accf18be16a8f473c06cd79179b89d3a",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/74f574e3accf18be16a8f473c06cd79179b89d3a",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Get Array tests running again and fix duplicate notifications.",
+          "sha": "09d7ad62b214c094621ade5515d2a29a59464f89",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/09d7ad62b214c094621ade5515d2a29a59464f89",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Fixed MutableArray#unshiftObjects",
+          "sha": "fb0848b2d22e7325f59f89507cd4e855bdad9255",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/fb0848b2d22e7325f59f89507cd4e855bdad9255",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Merge pull request #780 from adamlogic/computed_property_observers\n\nadd docs regarding observers and computed properties (ref #774)",
+          "sha": "f46e1262f290cb3f866dd5c4190b7bc4604c69a4",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/f46e1262f290cb3f866dd5c4190b7bc4604c69a4",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "correct camelCase'd event names.",
+          "sha": "a5920dae329130b13c0c19dcb25e3481cdfb9878",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/a5920dae329130b13c0c19dcb25e3481cdfb9878",
+          "author": {
+            "email": "trek.glowacki@gmail.com",
+            "name": "Trek Glowacki"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Merge pull request #785 from trek/DocumentationForViewClass\n\ncorrect camelCase'd event names.",
+          "sha": "cabc43614219d50773bc689f54ea11bee96b7c02",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/cabc43614219d50773bc689f54ea11bee96b7c02",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Fix double \"made\"",
+          "sha": "ec00a608bf94fd2ec2bf2b4ec56e1b068ee2a3f1",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/ec00a608bf94fd2ec2bf2b4ec56e1b068ee2a3f1",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Merge pull request #786 from pangratz/fix_doc\n\nFix double \"made\"",
+          "sha": "6cc81de8c7bec054111530990430d570611f82f5",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/6cc81de8c7bec054111530990430d570611f82f5",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Implement {{#with foo as bar}} syntax\n\nWith these changes to the {{#with}} helper, you\ncan now assign the value at the specified path\nto a keyword.\n\nIf you do this, it does not change the scope,\nbut simply makes the value available within the\nhelper's block as a keyword.\n\nFor example:\n\n    {{#with controller.stateManager as manager}}\n      {{! title refers to the parent context }}\n      {{title}}\n      {{manager.currentState.name}}\n    {{/with}}",
+          "sha": "e1ca514901f00c014eea97e74c43cf79d8b33335",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/e1ca514901f00c014eea97e74c43cf79d8b33335",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Fixes #784 (if/unless incorrectly changes context)\n\nFixes a bug where if or unless would change the\ncontext of its block to the current view.",
+          "sha": "9f2ea82682966ebd30b17f7c28a3e7c271c3bc64",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/9f2ea82682966ebd30b17f7c28a3e7c271c3bc64",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Add support for #each foo in bar\n\nThis implementation takes on some new technical\ndebt, mostly caused by existing technical debt.\nBecause this is a very bad thing, we plan to work\non refactoring and paying down as much of the\ntemplateData technical debt as possible tomorrow.",
+          "sha": "dd1851eea9fc6979570ba761cd1931c3a1ee7e57",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/dd1851eea9fc6979570ba761cd1931c3a1ee7e57",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Updated Metamorph - fixes #783",
+          "sha": "90fc6dbe46525ce67ea156bd887ff5c178d6dd64",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/90fc6dbe46525ce67ea156bd887ff5c178d6dd64",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Allow GitHub uploader token to be set via ENV",
+          "sha": "a9282d90d6497576aa07c7398ea7d80989bd9f6b",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/a9282d90d6497576aa07c7398ea7d80989bd9f6b",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Add explicit value field (for documentation later)",
+          "sha": "5dde927641c9152c53624a3ffaaa99d5c1777c9f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/5dde927641c9152c53624a3ffaaa99d5c1777c9f",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Fix Ember.View class documentation so it is rendered by JsDoc",
+          "sha": "42d18954ecd3b3820ec4cd663fade05dd7ab5af2",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/42d18954ecd3b3820ec4cd663fade05dd7ab5af2",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Add documentation for Ember.Select and Ember.TextField",
+          "sha": "f1ee1c7f811051a0c7a1d98f0e4165960f9735c0",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/f1ee1c7f811051a0c7a1d98f0e4165960f9735c0",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": false
+        }
+      ],
+      "head": "e7157f1e048366539b3001afafc0b56613e3275b"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1549459570"
+  },
+  {
+    "created_at": "2012-05-07T10:05:54Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76884973,
+      "ref": "refs/heads/master",
+      "size": 10,
+      "commits": [
+        {
+          "message": "Updated Metamorph - fixes #783",
+          "sha": "90fc6dbe46525ce67ea156bd887ff5c178d6dd64",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/90fc6dbe46525ce67ea156bd887ff5c178d6dd64",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Allow GitHub uploader token to be set via ENV",
+          "sha": "a9282d90d6497576aa07c7398ea7d80989bd9f6b",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/a9282d90d6497576aa07c7398ea7d80989bd9f6b",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Add explicit value field (for documentation later)",
+          "sha": "5dde927641c9152c53624a3ffaaa99d5c1777c9f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/5dde927641c9152c53624a3ffaaa99d5c1777c9f",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fix Ember.View class documentation so it is rendered by JsDoc",
+          "sha": "42d18954ecd3b3820ec4cd663fade05dd7ab5af2",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/42d18954ecd3b3820ec4cd663fade05dd7ab5af2",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Add documentation for Ember.Select and Ember.TextField",
+          "sha": "f1ee1c7f811051a0c7a1d98f0e4165960f9735c0",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/f1ee1c7f811051a0c7a1d98f0e4165960f9735c0",
+          "author": {
+            "email": "joliss42@gmail.com",
+            "name": "Jo Liss"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #793 from joliss/control-docs\n\nAdd documentation for Ember.Select and Ember.TextField",
+          "sha": "c5872b0a04737fc568734eb14689e6c9a4f2ff85",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/c5872b0a04737fc568734eb14689e6c9a4f2ff85",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #792 from joliss/view-docs\n\nEmber.View class documentation missing from JsDoc output (docs.emberjs.com)",
+          "sha": "695694ac390edf7a54ddf07e101fd14802533311",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/695694ac390edf7a54ddf07e101fd14802533311",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Correct Enumerable documentation",
+          "sha": "23dc092684edaba57ad2eeb2c5a75f7a2b570c03",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/23dc092684edaba57ad2eeb2c5a75f7a2b570c03",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Always send Array#contentWillChange with contentDidChange",
+          "sha": "7e839f0fc32371c8776fc6da900a30a3e6906aa1",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/7e839f0fc32371c8776fc6da900a30a3e6906aa1",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fix handling of Array changes of unknown lengths - Fixes #795",
+          "sha": "e2d22aa0f8c326f9303eea2d1f23b6f2652bd341",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/e2d22aa0f8c326f9303eea2d1f23b6f2652bd341",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "e2d22aa0f8c326f9303eea2d1f23b6f2652bd341"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1549458159"
+  },
+  {
+    "created_at": "2012-05-04T08:56:44Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76499385,
+      "ref": "refs/heads/master",
+      "size": 3,
+      "commits": [
+        {
+          "message": "Implement {{#with foo as bar}} syntax\n\nWith these changes to the {{#with}} helper, you\ncan now assign the value at the specified path\nto a keyword.\n\nIf you do this, it does not change the scope,\nbut simply makes the value available within the\nhelper's block as a keyword.\n\nFor example:\n\n    {{#with controller.stateManager as manager}}\n      {{! title refers to the parent context }}\n      {{title}}\n      {{manager.currentState.name}}\n    {{/with}}",
+          "sha": "e1ca514901f00c014eea97e74c43cf79d8b33335",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/e1ca514901f00c014eea97e74c43cf79d8b33335",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fixes #784 (if/unless incorrectly changes context)\n\nFixes a bug where if or unless would change the\ncontext of its block to the current view.",
+          "sha": "9f2ea82682966ebd30b17f7c28a3e7c271c3bc64",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/9f2ea82682966ebd30b17f7c28a3e7c271c3bc64",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Add support for #each foo in bar\n\nThis implementation takes on some new technical\ndebt, mostly caused by existing technical debt.\nBecause this is a very bad thing, we plan to work\non refactoring and paying down as much of the\ntemplateData technical debt as possible tomorrow.",
+          "sha": "dd1851eea9fc6979570ba761cd1931c3a1ee7e57",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/dd1851eea9fc6979570ba761cd1931c3a1ee7e57",
+          "author": {
+            "email": "tomhuda@tilde.io",
+            "name": "tomhuda"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "dd1851eea9fc6979570ba761cd1931c3a1ee7e57"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548737663"
+  },
+  {
+    "created_at": "2012-05-03T20:13:41Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76400114,
+      "ref": "refs/heads/master",
+      "size": 12,
+      "commits": [
+        {
+          "message": "Namespace debugging functions",
+          "sha": "837a27c620d204f0c9f045796c92638e5d1f266f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/837a27c620d204f0c9f045796c92638e5d1f266f",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Proper Regexp escaping",
+          "sha": "3e9dd6ca2e92dc4ff3bbdab7c3b145aab298d5b1",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/3e9dd6ca2e92dc4ff3bbdab7c3b145aab298d5b1",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Add currentView property to Ember.ContainerView",
+          "sha": "00b8940af1c948dd1974be184e022269a87a461d",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/00b8940af1c948dd1974be184e022269a87a461d",
+          "author": {
+            "email": "tom@sproutcore.com",
+            "name": "Tom Dale"
+          },
+          "distinct": true
+        },
+        {
+          "message": "add docs regarding observers and computed properties (ref #774)",
+          "sha": "0e7822160454101bff40bee26c16b933fc15b45f",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/0e7822160454101bff40bee26c16b933fc15b45f",
+          "author": {
+            "email": "adam@edgecase.com",
+            "name": "Adam McCrea"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fix Em namespace in dev mode",
+          "sha": "74f574e3accf18be16a8f473c06cd79179b89d3a",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/74f574e3accf18be16a8f473c06cd79179b89d3a",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Get Array tests running again and fix duplicate notifications.",
+          "sha": "09d7ad62b214c094621ade5515d2a29a59464f89",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/09d7ad62b214c094621ade5515d2a29a59464f89",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fixed MutableArray#unshiftObjects",
+          "sha": "fb0848b2d22e7325f59f89507cd4e855bdad9255",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/fb0848b2d22e7325f59f89507cd4e855bdad9255",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #780 from adamlogic/computed_property_observers\n\nadd docs regarding observers and computed properties (ref #774)",
+          "sha": "f46e1262f290cb3f866dd5c4190b7bc4604c69a4",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/f46e1262f290cb3f866dd5c4190b7bc4604c69a4",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "correct camelCase'd event names.",
+          "sha": "a5920dae329130b13c0c19dcb25e3481cdfb9878",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/a5920dae329130b13c0c19dcb25e3481cdfb9878",
+          "author": {
+            "email": "trek.glowacki@gmail.com",
+            "name": "Trek Glowacki"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Merge pull request #785 from trek/DocumentationForViewClass\n\ncorrect camelCase'd event names.",
+          "sha": "cabc43614219d50773bc689f54ea11bee96b7c02",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/cabc43614219d50773bc689f54ea11bee96b7c02",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Fix double \"made\"",
+          "sha": "ec00a608bf94fd2ec2bf2b4ec56e1b068ee2a3f1",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/ec00a608bf94fd2ec2bf2b4ec56e1b068ee2a3f1",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Merge pull request #786 from pangratz/fix_doc\n\nFix double \"made\"",
+          "sha": "6cc81de8c7bec054111530990430d570611f82f5",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/6cc81de8c7bec054111530990430d570611f82f5",
+          "author": {
+            "email": "peter.wagenet@gmail.com",
+            "name": "Peter Wagenet"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "6cc81de8c7bec054111530990430d570611f82f5"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548568369"
+  },
+  {
+    "created_at": "2012-05-03T20:07:34Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "fix_doc",
+      "master_branch": "master",
+      "ref_type": "branch",
+      "description": "Ember.js - formerly known as SproutCore 2.0"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548566073"
+  },
+  {
+    "created_at": "2012-05-03T10:33:37Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "add_task_to_upload_latest_build",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548367974"
+  },
+  {
+    "created_at": "2012-05-03T10:33:26Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "add_travisci_webhook",
+      "master_branch": "master",
+      "ref_type": "branch",
+      "description": "Ember.js - formerly known as SproutCore 2.0"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548367927"
+  },
+  {
+    "created_at": "2012-05-03T10:06:44Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76277598,
+      "ref": "refs/heads/add_task_to_upload_latest_build",
+      "size": 2,
+      "commits": [
+        {
+          "message": "Add gathering of credentials from ENV",
+          "sha": "955b869dcc12413299dd8903ec63006fc336da31",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/955b869dcc12413299dd8903ec63006fc336da31",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true
+        },
+        {
+          "message": "Add webhooks notification",
+          "sha": "8bdde5937e0a000da65b2458c272e1fac107c9ec",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/8bdde5937e0a000da65b2458c272e1fac107c9ec",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "8bdde5937e0a000da65b2458c272e1fac107c9ec"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548361564"
+  },
+  {
+    "created_at": "2012-05-03T09:57:30Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231456,
+        "created_at": "2012-05-03T09:57:29Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231456",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548359241"
+  },
+  {
+    "created_at": "2012-05-03T09:57:27Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231455,
+        "created_at": "2012-05-03T09:57:26Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231455",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548359225"
+  },
+  {
+    "created_at": "2012-05-03T09:55:48Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231454,
+        "created_at": "2012-05-03T09:55:47Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231454",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358838"
+  },
+  {
+    "created_at": "2012-05-03T09:55:44Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231453,
+        "created_at": "2012-05-03T09:55:44Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231453",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358817"
+  },
+  {
+    "created_at": "2012-05-03T09:54:50Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231452,
+        "created_at": "2012-05-03T09:54:50Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231452",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358617"
+  },
+  {
+    "created_at": "2012-05-03T09:54:48Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231451,
+        "created_at": "2012-05-03T09:54:47Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231451",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358603"
+  },
+  {
+    "created_at": "2012-05-03T09:54:36Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231449,
+        "created_at": "2012-05-03T09:54:36Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231449",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358555"
+  },
+  {
+    "created_at": "2012-05-03T09:54:32Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231448,
+        "created_at": "2012-05-03T09:54:32Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231448",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548358540"
+  },
+  {
+    "created_at": "2012-05-03T09:50:35Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231444,
+        "created_at": "2012-05-03T09:50:35Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231444",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548357543"
+  },
+  {
+    "created_at": "2012-05-03T09:50:30Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 231443,
+        "created_at": "2012-05-03T09:50:30Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/231443",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1548357523"
+  },
+  {
+    "created_at": "2012-05-02T08:06:49Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230868,
+        "created_at": "2012-05-02T08:06:49Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230868",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547863337"
+  },
+  {
+    "created_at": "2012-05-02T08:06:48Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230867,
+        "created_at": "2012-05-02T08:06:47Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230867",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547863332"
+  },
+  {
+    "created_at": "2012-05-02T08:06:46Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230866,
+        "created_at": "2012-05-02T08:06:46Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230866",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547863328"
+  },
+  {
+    "created_at": "2012-05-02T08:06:44Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230865,
+        "created_at": "2012-05-02T08:06:44Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230865",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547863322"
+  },
+  {
+    "created_at": "2012-05-02T08:03:17Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230864,
+        "created_at": "2012-05-02T08:03:14Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230864",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547862477"
+  },
+  {
+    "created_at": "2012-05-02T08:03:13Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230863,
+        "created_at": "2012-05-02T08:03:12Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.js",
+        "name": "ember-latest.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230863",
+        "description": "Ember.js Master",
+        "size": 581632,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547862458"
+  },
+  {
+    "created_at": "2012-05-02T08:03:08Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 76025230,
+      "ref": "refs/heads/add_task_to_upload_latest_build",
+      "size": 1,
+      "commits": [
+        {
+          "message": "Another try",
+          "sha": "f96fe1a0ffacd734d5c4a5a96c295c6e4915c9ea",
+          "url": "https://api.github.com/repos/pangratz/ember.js/commits/f96fe1a0ffacd734d5c4a5a96c295c6e4915c9ea",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true
+        }
+      ],
+      "head": "f96fe1a0ffacd734d5c4a5a96c295c6e4915c9ea"
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547862438"
+  },
+  {
+    "created_at": "2012-05-02T08:02:41Z",
+    "type": "DownloadEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "download": {
+        "id": 230862,
+        "created_at": "2012-05-02T08:02:40Z",
+        "html_url": "https://github.com/downloads/pangratz/ember.js/ember-latest.min.js",
+        "name": "ember-latest.min.js",
+        "url": "https://api.github.com/repos/pangratz/ember.js/downloads/230862",
+        "description": "Ember.js Master (minified)",
+        "size": 151552,
+        "download_count": 0,
+        "content_type": "application/json"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 2997378,
+      "url": "https://api.github.com/repos/pangratz/ember.js",
+      "name": "pangratz/ember.js"
+    },
+    "id": "1547862330"
+  }
+]

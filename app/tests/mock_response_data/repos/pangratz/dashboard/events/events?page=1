@@ -1,0 +1,1160 @@
+[
+  {
+    "created_at": "2012-08-09T12:57:35Z",
+    "type": "WatchEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/4e515deb518e9195f0dc45ec2af6a541?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 4790,
+      "login": "karmi",
+      "gravatar_id": "4e515deb518e9195f0dc45ec2af6a541",
+      "url": "https://api.github.com/users/karmi"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1583315491"
+  },
+  {
+    "created_at": "2012-08-06T09:19:03Z",
+    "type": "WatchEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/d9f465d65cc3dd88bbfe3f14f6bef096?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 438944,
+      "login": "divout",
+      "gravatar_id": "d9f465d65cc3dd88bbfe3f14f6bef096",
+      "url": "https://api.github.com/users/divout"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1581813091"
+  },
+  {
+    "created_at": "2012-08-02T13:16:14Z",
+    "type": "WatchEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b3fb36a136fd74bb6dbb3419b776e434?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 893030,
+      "login": "rdamborsky",
+      "gravatar_id": "b3fb36a136fd74bb6dbb3419b776e434",
+      "url": "https://api.github.com/users/rdamborsky"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1580688773"
+  },
+  {
+    "created_at": "2012-08-01T21:17:24Z",
+    "type": "WatchEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/a29ba635c752b03b8c62e66f68eefcf2?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 186297,
+      "login": "Andrewmp1",
+      "gravatar_id": "a29ba635c752b03b8c62e66f68eefcf2",
+      "url": "https://api.github.com/users/Andrewmp1"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1580436844"
+  },
+  {
+    "created_at": "2012-08-01T16:27:18Z",
+    "type": "WatchEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/0d2c43d3421437dc710e39729c58fa3e?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 127349,
+      "login": "sroussey",
+      "gravatar_id": "0d2c43d3421437dc710e39729c58fa3e",
+      "url": "https://api.github.com/users/sroussey"
+    },
+    "payload": {
+      "action": "started"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1580310503"
+  },
+  {
+    "created_at": "2012-07-27T10:49:25Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93128869,
+      "ref": "refs/heads/feature-add-functional-tests",
+      "before": "8564bda769d8040f9feda9cd46f94b9a690dc3bb",
+      "commits": [
+
+      ],
+      "size": 0,
+      "head": "36f201419e4543cd6a8333f48b103ced09c954dc"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578503664"
+  },
+  {
+    "created_at": "2012-07-27T10:48:43Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93128754,
+      "ref": "refs/heads/develop",
+      "before": "a13333e9156b322a86d774f669063b5dfe0e7bed",
+      "size": 3,
+      "commits": [
+        {
+          "message": "Add download_mock_responses task",
+          "sha": "a13c6741951df3ee870e85a49d94304a576dac16",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/a13c6741951df3ee870e85a49d94304a576dac16",
+          "distinct": true
+        },
+        {
+          "message": "Add functional tests\n\n- Move tests into :tests namespace\n- Add GitHubFixtureAdpater which returns mock responses",
+          "sha": "36f201419e4543cd6a8333f48b103ced09c954dc",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/36f201419e4543cd6a8333f48b103ced09c954dc",
+          "distinct": true
+        },
+        {
+          "message": "Merge branch 'feature-add-functional-tests' into develop",
+          "sha": "bc6275c29d12a612954c3d384f52efb20209f0dd",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/bc6275c29d12a612954c3d384f52efb20209f0dd",
+          "distinct": true
+        }
+      ],
+      "head": "bc6275c29d12a612954c3d384f52efb20209f0dd"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578503471"
+  },
+  {
+    "created_at": "2012-07-26T22:21:28Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93028733,
+      "ref": "refs/heads/gh-pages",
+      "before": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695",
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 22:21:18 UTC",
+          "sha": "3528609833d56ba3511af829044f7a64313b1d12",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/3528609833d56ba3511af829044f7a64313b1d12",
+          "distinct": true
+        }
+      ],
+      "size": 1,
+      "head": "3528609833d56ba3511af829044f7a64313b1d12"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578334974"
+  },
+  {
+    "created_at": "2012-07-26T22:15:56Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "issue": {
+        "id": 5865669,
+        "milestone": null,
+        "updated_at": "2012-07-26T22:15:56Z",
+        "state": "open",
+        "number": 18,
+        "user": {
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "body": "",
+        "created_at": "2012-07-26T22:15:56Z",
+        "html_url": "https://github.com/pangratz/dashboard/issues/18",
+        "comments": 0,
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/18",
+        "assignee": null,
+        "title": "Add filter to hide TravisBot comments on issues",
+        "closed_at": null,
+        "labels": [
+          {
+            "name": "Idea",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/Idea",
+            "color": "02e10c"
+          },
+          {
+            "name": "view",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "color": "d7e102"
+          }
+        ],
+        "pull_request": {
+          "patch_url": null,
+          "html_url": null,
+          "diff_url": null
+        }
+      },
+      "action": "opened"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578333019"
+  },
+  {
+    "created_at": "2012-07-26T21:32:36Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "add_casper",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578315781"
+  },
+  {
+    "created_at": "2012-07-26T20:53:20Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93007063,
+      "ref": "refs/heads/develop",
+      "before": "50a0b18e4637f6c40d102007e9bd654c2b9941eb",
+      "commits": [
+        {
+          "message": "Fix broken link to the wiki in template for GollumEvent",
+          "sha": "d8c094bef28242d010a62250c5342080f5a8ed5a",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/d8c094bef28242d010a62250c5342080f5a8ed5a",
+          "distinct": false
+        },
+        {
+          "message": "Merge branch 'fix-broken-wiki-template' into develop",
+          "sha": "ccbf586670b6a75ab46e560c35ab7c216ffc4ba4",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/ccbf586670b6a75ab46e560c35ab7c216ffc4ba4",
+          "distinct": false
+        },
+        {
+          "message": "Show link to repository for an event",
+          "sha": "6b121b1ebc724ecc1a44f95e86b6503216f0da69",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/6b121b1ebc724ecc1a44f95e86b6503216f0da69",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Merge branch 'feature-show-repository-in-github-events' into develop",
+          "sha": "42df1ff7d6a28f6706a0f33994fdec8c9d3290c3",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/42df1ff7d6a28f6706a0f33994fdec8c9d3290c3",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false
+        },
+        {
+          "message": "Minor update on how a repository for an event is shown",
+          "sha": "a13333e9156b322a86d774f669063b5dfe0e7bed",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/a13333e9156b322a86d774f669063b5dfe0e7bed",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": false
+        }
+      ],
+      "size": 5,
+      "head": "a13333e9156b322a86d774f669063b5dfe0e7bed"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298378"
+  },
+  {
+    "created_at": "2012-07-26T20:53:20Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93007060,
+      "ref": "refs/heads/add_casper",
+      "before": "bd4896ffd9e29af097cca7ce377207a0dce45ed8",
+      "commits": [
+        {
+          "message": "Rack server: shut up!! aka Logging silent = true",
+          "sha": "3adf6adda33d8b2066b2634249d9e8c28f9e39a3",
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/3adf6adda33d8b2066b2634249d9e8c28f9e39a3",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "distinct": true
+        }
+      ],
+      "size": 1,
+      "head": "3adf6adda33d8b2066b2634249d9e8c28f9e39a3"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298376"
+  },
+  {
+    "created_at": "2012-07-26T20:53:09Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "master_branch": "develop",
+      "ref": "feature-add-functional-tests",
+      "description": "GitHub Dashboard using Ember.js and Twitter Bootstrap",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578298285"
+  },
+  {
+    "created_at": "2012-07-26T20:35:21Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "comment": {
+        "id": 7289549,
+        "updated_at": "2012-07-26T20:35:21Z",
+        "created_at": "2012-07-26T20:35:21Z",
+        "body": "Implemented in 0122b2a33bece2288ad16ce5b40984d31d6204e0",
+        "user": {
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/comments/7289549"
+      },
+      "issue": {
+        "id": 5297274,
+        "milestone": null,
+        "updated_at": "2012-07-26T20:35:21Z",
+        "state": "closed",
+        "number": 5,
+        "created_at": "2012-06-27T13:47:41Z",
+        "body": "",
+        "user": {
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "comments": 1,
+        "html_url": "https://github.com/pangratz/dashboard/issues/5",
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/5",
+        "title": "Order repositories by last updated",
+        "assignee": null,
+        "closed_at": "2012-07-26T20:35:21Z",
+        "labels": [
+          {
+            "name": "view",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "color": "d7e102"
+          }
+        ],
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "created"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578290474"
+  },
+  {
+    "created_at": "2012-07-26T20:35:22Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "issue": {
+        "id": 5297274,
+        "milestone": null,
+        "updated_at": "2012-07-26T20:35:21Z",
+        "state": "closed",
+        "number": 5,
+        "created_at": "2012-06-27T13:47:41Z",
+        "body": "",
+        "user": {
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "comments": 1,
+        "html_url": "https://github.com/pangratz/dashboard/issues/5",
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/5",
+        "title": "Order repositories by last updated",
+        "assignee": null,
+        "closed_at": "2012-07-26T20:35:21Z",
+        "labels": [
+          {
+            "name": "view",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/view",
+            "color": "d7e102"
+          }
+        ],
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578290480"
+  },
+  {
+    "created_at": "2012-07-26T20:34:21Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93002112,
+      "ref": "refs/heads/gh-pages",
+      "before": "c9c835da629d00c0a4f6979c6c2beb8777dc223c",
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 20:33:35 UTC",
+          "sha": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/9b79923b64f91ab0bdf3c0879ab43d7bfcc68695",
+          "distinct": true
+        }
+      ],
+      "size": 1,
+      "head": "9b79923b64f91ab0bdf3c0879ab43d7bfcc68695"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578289892"
+  },
+  {
+    "created_at": "2012-07-26T20:27:44Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 93000515,
+      "ref": "refs/heads/gh-pages",
+      "before": "18a742c5cb1281a8194f292154801517069d0187",
+      "size": 1,
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 20:27:33 UTC",
+          "sha": "c9c835da629d00c0a4f6979c6c2beb8777dc223c",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/c9c835da629d00c0a4f6979c6c2beb8777dc223c",
+          "distinct": true
+        }
+      ],
+      "head": "c9c835da629d00c0a4f6979c6c2beb8777dc223c"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578287114"
+  },
+  {
+    "created_at": "2012-07-26T20:08:46Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92995816,
+      "ref": "refs/heads/gh-pages",
+      "before": "abd5891664c01efa2855870267f7662d082131da",
+      "size": 1,
+      "commits": [
+        {
+          "message": "Site updated at 2012-07-26 20:08:33 UTC",
+          "sha": "18a742c5cb1281a8194f292154801517069d0187",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/18a742c5cb1281a8194f292154801517069d0187",
+          "distinct": true
+        }
+      ],
+      "head": "18a742c5cb1281a8194f292154801517069d0187"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578279221"
+  },
+  {
+    "created_at": "2012-07-26T20:04:23Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92994841,
+      "ref": "refs/heads/develop",
+      "before": "75c4a573c4ff62cf50046b55aa1cd1b41e4f4aef",
+      "commits": [
+        {
+          "message": "Add target=\"_blank\" to external links",
+          "sha": "5c029b2ec647a7b11aab9d5e84a39a96396c7b9b",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/5c029b2ec647a7b11aab9d5e84a39a96396c7b9b",
+          "distinct": true
+        },
+        {
+          "message": "Show links to external pages in green",
+          "sha": "ca635cdd9bed6828d8ebc446a81aadae5b4a7654",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/ca635cdd9bed6828d8ebc446a81aadae5b4a7654",
+          "distinct": true
+        },
+        {
+          "message": "Indicate links to GitHub by adding GitHub's favicon",
+          "sha": "6832d5aef6caf59f2e71c13359111113fd6f8491",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/6832d5aef6caf59f2e71c13359111113fd6f8491",
+          "distinct": true
+        },
+        {
+          "message": "Merge branch 'feature-enhance-links' into develop",
+          "sha": "50a0b18e4637f6c40d102007e9bd654c2b9941eb",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/50a0b18e4637f6c40d102007e9bd654c2b9941eb",
+          "distinct": true
+        }
+      ],
+      "size": 4,
+      "head": "50a0b18e4637f6c40d102007e9bd654c2b9941eb"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578277544"
+  },
+  {
+    "created_at": "2012-07-26T19:53:34Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92992117,
+      "ref": "refs/heads/develop",
+      "before": "7f5ce83084394f1b40fb3947463e68ce76ff869a",
+      "size": 3,
+      "commits": [
+        {
+          "message": "Merge branch 'feature-minor-view-updates' into develop",
+          "sha": "be805df3e1130886c6d97e0eee506f7f381e5449",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/be805df3e1130886c6d97e0eee506f7f381e5449",
+          "distinct": true
+        },
+        {
+          "message": "Fix broken links in the templates\n\nThis closes #17",
+          "sha": "8b93d65c675fc686ef83118f69f9c3c113a4d9ae",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/8b93d65c675fc686ef83118f69f9c3c113a4d9ae",
+          "distinct": true
+        },
+        {
+          "message": "Merge branch 'fix-broken-links' into develop",
+          "sha": "75c4a573c4ff62cf50046b55aa1cd1b41e4f4aef",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/75c4a573c4ff62cf50046b55aa1cd1b41e4f4aef",
+          "distinct": true
+        }
+      ],
+      "head": "75c4a573c4ff62cf50046b55aa1cd1b41e4f4aef"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578273067"
+  },
+  {
+    "created_at": "2012-07-26T19:49:39Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "issue": {
+        "id": 5841918,
+        "milestone": null,
+        "updated_at": "2012-07-26T19:49:38Z",
+        "state": "closed",
+        "number": 17,
+        "created_at": "2012-07-25T22:12:55Z",
+        "body": "When clicking on a username, it is not transitioned to the route `root.users.index`. It looks like this is broken since 94d180b565a9a3894429269ddf1b94c3a7924be9\n\n\nSteps to reproduce: checkout latest `dev` branch, `bundle eexec rackup` and go to http://localhost:9292/#/nokinen/fdc. If you then click on the user `nokinen`, you are redirected to the default route http://localhost:9292/#/pangratz.",
+        "user": {
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "comments": 1,
+        "html_url": "https://github.com/pangratz/dashboard/issues/17",
+        "url": "https://api.github.com/repos/pangratz/dashboard/issues/17",
+        "title": "Clicking on a username is broken",
+        "assignee": null,
+        "closed_at": "2012-07-26T19:49:38Z",
+        "labels": [
+          {
+            "name": "bug",
+            "url": "https://api.github.com/repos/pangratz/dashboard/labels/bug",
+            "color": "fc2929"
+          }
+        ],
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578271454"
+  },
+  {
+    "created_at": "2012-07-26T19:49:39Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92991178,
+      "ref": "refs/heads/develop",
+      "before": "e3b77ee37e7b34d6c15536fd3654b4d60190aec4",
+      "commits": [
+        {
+          "message": "Fix broken links in the templates\n\nThis closes #17",
+          "sha": "7f5ce83084394f1b40fb3947463e68ce76ff869a",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/7f5ce83084394f1b40fb3947463e68ce76ff869a",
+          "distinct": true
+        }
+      ],
+      "size": 1,
+      "head": "7f5ce83084394f1b40fb3947463e68ce76ff869a"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578271450"
+  },
+  {
+    "created_at": "2012-07-26T19:35:58Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92987970,
+      "ref": "refs/heads/develop",
+      "before": "64b563563cb188696eed7bb0e78c571d00037e9b",
+      "size": 6,
+      "commits": [
+        {
+          "message": "Add template for FollowEvent",
+          "sha": "ec85d226663f4e35f9e7713b1f75beb0095c1269",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/ec85d226663f4e35f9e7713b1f75beb0095c1269",
+          "distinct": true
+        },
+        {
+          "message": "Add {{ago}} handlebars helper and change lookup of value",
+          "sha": "cf81138126691c1091aa0c74d6886ff3961e6b9b",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/cf81138126691c1091aa0c74d6886ff3961e6b9b",
+          "distinct": true
+        },
+        {
+          "message": "In the repositories template, show when a repository has been updated",
+          "sha": "22ca6959e58bca68dba985a3e269d20bfec84cce",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/22ca6959e58bca68dba985a3e269d20bfec84cce",
+          "distinct": true
+        },
+        {
+          "message": "Merge branch 'feature-minor-view-updates' into develop",
+          "sha": "641e0db12324093c99a6a331dea032560ac38a95",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/641e0db12324093c99a6a331dea032560ac38a95",
+          "distinct": true
+        },
+        {
+          "message": "Fix broken links in the templates",
+          "sha": "f8de3be22287b69a078bb7310776e59ea40f8cff",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/f8de3be22287b69a078bb7310776e59ea40f8cff",
+          "distinct": true
+        },
+        {
+          "message": "Merge branch 'fix-broken-links' into develop",
+          "sha": "e3b77ee37e7b34d6c15536fd3654b4d60190aec4",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/e3b77ee37e7b34d6c15536fd3654b4d60190aec4",
+          "distinct": true
+        }
+      ],
+      "head": "e3b77ee37e7b34d6c15536fd3654b4d60190aec4"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578265942"
+  },
+  {
+    "created_at": "2012-07-26T19:04:32Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "push_id": 92980345,
+      "ref": "refs/heads/develop",
+      "before": "0b586d9796eeb2994c1a76dd71d2281272eb2114",
+      "size": 1,
+      "commits": [
+        {
+          "message": "Bump to new version 0.0.15",
+          "sha": "64b563563cb188696eed7bb0e78c571d00037e9b",
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "url": "https://api.github.com/repos/pangratz/dashboard/commits/64b563563cb188696eed7bb0e78c571d00037e9b",
+          "distinct": true
+        }
+      ],
+      "head": "64b563563cb188696eed7bb0e78c571d00037e9b"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578252944"
+  },
+  {
+    "created_at": "2012-07-26T18:57:21Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "dev",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578249904"
+  },
+  {
+    "created_at": "2012-07-26T18:56:39Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "develop",
+      "master_branch": "dev",
+      "description": "GitHub Dashboard using Ember.js and Twitter Bootstrap",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578249654"
+  },
+  {
+    "created_at": "2012-07-26T17:45:58Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "v0.0.15",
+      "ref_type": "tag"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578219365"
+  },
+  {
+    "created_at": "2012-07-26T17:44:23Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "dev",
+      "master_branch": "master",
+      "description": "GitHub Dashboard using Ember.js and Twitter Bootstrap",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578218727"
+  },
+  {
+    "created_at": "2012-07-26T17:38:22Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "add_event_filtering_and_pagination",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578216238"
+  },
+  {
+    "created_at": "2012-07-26T17:37:44Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "id": 341877,
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "url": "https://api.github.com/users/pangratz"
+    },
+    "payload": {
+      "ref": "dev",
+      "ref_type": "branch"
+    },
+    "public": true,
+    "repo": {
+      "id": 3625527,
+      "url": "https://api.github.com/repos/pangratz/dashboard",
+      "name": "pangratz/dashboard"
+    },
+    "id": "1578215984"
+  }
+]

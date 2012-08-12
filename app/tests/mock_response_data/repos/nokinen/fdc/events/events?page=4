@@ -1,0 +1,2218 @@
+[
+  {
+    "created_at": "2012-06-01T09:22:53Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "action": "created",
+      "issue": {
+        "updated_at": "2012-06-01T09:22:52Z",
+        "body": "Be sure to login to da https://gemnasium.com/ ",
+        "number": 29,
+        "created_at": "2012-05-31T17:44:46Z",
+        "labels": [
+
+        ],
+        "title": "Add dependency status image to README",
+        "assignee": null,
+        "state": "closed",
+        "milestone": null,
+        "id": 4842027,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": "2012-06-01T09:22:18Z",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/29",
+        "comments": 1,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/29",
+        "pull_request": {
+          "patch_url": "https://github.com/nokinen/igc-kml/pull/29.patch",
+          "diff_url": "https://github.com/nokinen/igc-kml/pull/29.diff",
+          "html_url": "https://github.com/nokinen/igc-kml/pull/29"
+        }
+      },
+      "comment": {
+        "updated_at": "2012-06-01T09:22:52Z",
+        "body": "Nice stuff, pangratz! Thanks man!",
+        "created_at": "2012-06-01T09:22:52Z",
+        "id": 6056655,
+        "user": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/comments/6056655"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1558018472"
+  },
+  {
+    "created_at": "2012-06-01T09:22:19Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 2,
+      "commits": [
+        {
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "message": "Add dependency status image to README\n\nChecking for up to date dependencies like a pro!",
+          "sha": "a4b5e30d6fc1d2b27b7f14b1f0a68658906a239d",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/a4b5e30d6fc1d2b27b7f14b1f0a68658906a239d",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "nokinen"
+          },
+          "message": "Merge pull request #29 from pangratz/add_dependency_status\n\nAdd dependency status image to README",
+          "sha": "8aed0ad789b912bb4de03d8f78e355c7d4a49b68",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/8aed0ad789b912bb4de03d8f78e355c7d4a49b68",
+          "distinct": true
+        }
+      ],
+      "push_id": 81735248,
+      "head": "8aed0ad789b912bb4de03d8f78e355c7d4a49b68"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1558018290"
+  },
+  {
+    "created_at": "2012-06-01T09:22:18Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 29,
+      "action": "closed",
+      "pull_request": {
+        "updated_at": "2012-06-01T09:22:18Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/29"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/29/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/29"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/29"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/29/comments"
+          }
+        },
+        "body": "Be sure to login to da https://gemnasium.com/ ",
+        "number": 29,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/29",
+        "created_at": "2012-05-31T17:44:46Z",
+        "changed_files": 1,
+        "review_comments": 0,
+        "additions": 1,
+        "title": "Add dependency status image to README",
+        "mergeable": null,
+        "state": "closed",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/29.patch",
+        "merged": true,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/29.diff",
+        "merged_by": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "deletions": 1,
+        "id": 1466838,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": "2012-06-01T09:22:18Z",
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/29",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/29",
+        "base": {
+          "sha": "c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-06-01T09:22:18Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-06-01T09:22:18Z",
+            "open_issues": 3,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 280,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": "2012-06-01T09:22:18Z",
+        "head": {
+          "sha": "a4b5e30d6fc1d2b27b7f14b1f0a68658906a239d",
+          "ref": "add_dependency_status",
+          "label": "pangratz:add_dependency_status",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T19:22:32Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T19:22:32Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 132,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1558018288"
+  },
+  {
+    "created_at": "2012-06-01T09:19:08Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 2,
+      "commits": [
+        {
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "message": "Fix Gemfile to use gemspec\n\nHereby dependencies only need to be specified in igc-kml.gemspec",
+          "sha": "98e637523a92bed1f2e510cdb93ef2b6c1e8c77a",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/98e637523a92bed1f2e510cdb93ef2b6c1e8c77a",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "nokinen"
+          },
+          "message": "Merge pull request #28 from pangratz/fix_duplication\n\nFix Gemfile to use gemspec",
+          "sha": "007651fc731eaa3ac2c4d48bc2d1d0ae36cd4a96",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/007651fc731eaa3ac2c4d48bc2d1d0ae36cd4a96",
+          "distinct": true
+        }
+      ],
+      "push_id": 81734778,
+      "head": "007651fc731eaa3ac2c4d48bc2d1d0ae36cd4a96"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1558017414"
+  },
+  {
+    "created_at": "2012-06-01T09:19:08Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 28,
+      "action": "closed",
+      "pull_request": {
+        "updated_at": "2012-06-01T09:19:07Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/28"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/28/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/28"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/28"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/28/comments"
+          }
+        },
+        "body": "Hereby dependencies only need to be specified in igc-kml.gemspec",
+        "number": 28,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/28",
+        "created_at": "2012-05-31T17:41:46Z",
+        "changed_files": 2,
+        "review_comments": 0,
+        "additions": 11,
+        "title": "Fix Gemfile to use gemspec",
+        "mergeable": null,
+        "state": "closed",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/28.patch",
+        "merged": true,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/28.diff",
+        "merged_by": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "deletions": 4,
+        "id": 1466818,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": "2012-06-01T09:19:07Z",
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/28",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/28",
+        "base": {
+          "sha": "c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-06-01T09:19:07Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-06-01T09:19:07Z",
+            "open_issues": 4,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 216,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": "2012-06-01T09:19:07Z",
+        "head": {
+          "sha": "98e637523a92bed1f2e510cdb93ef2b6c1e8c77a",
+          "ref": "fix_duplication",
+          "label": "pangratz:fix_duplication",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T19:22:32Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T19:22:32Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 132,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1558017408"
+  },
+  {
+    "created_at": "2012-05-31T17:44:47Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 29,
+      "action": "opened",
+      "pull_request": {
+        "updated_at": "2012-05-31T17:44:46Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/29"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/29/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/29"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/29"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/29/comments"
+          }
+        },
+        "body": "Be sure to login to da https://gemnasium.com/ ",
+        "number": 29,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/29",
+        "created_at": "2012-05-31T17:44:46Z",
+        "changed_files": 1,
+        "review_comments": 0,
+        "additions": 1,
+        "title": "Add dependency status image to README",
+        "mergeable": null,
+        "state": "open",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/29.patch",
+        "merged": false,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/29.diff",
+        "merged_by": null,
+        "deletions": 1,
+        "id": 1466838,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": null,
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/29",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/29",
+        "base": {
+          "sha": "c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T14:42:53Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-31T14:42:53Z",
+            "open_issues": 5,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 216,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": null,
+        "head": {
+          "sha": "ae0c10118ab2fc002a0d3c74e7c4acd7b24b09d2",
+          "ref": "add_dependency_status",
+          "label": "pangratz:add_dependency_status",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T17:43:09Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T17:43:09Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 124,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557773253"
+  },
+  {
+    "created_at": "2012-05-31T17:41:47Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 28,
+      "action": "opened",
+      "pull_request": {
+        "updated_at": "2012-05-31T17:41:46Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/28"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/28/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/28"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/28"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/28/comments"
+          }
+        },
+        "body": "Hereby dependencies only need to be specified in igc-kml.gemspec",
+        "number": 28,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/28",
+        "created_at": "2012-05-31T17:41:46Z",
+        "changed_files": 2,
+        "review_comments": 0,
+        "additions": 10,
+        "title": "Fix Gemfile to use gemspec",
+        "mergeable": null,
+        "state": "open",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/28.patch",
+        "merged": false,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/28.diff",
+        "merged_by": null,
+        "deletions": 7,
+        "id": 1466818,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": null,
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/28",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/28",
+        "base": {
+          "sha": "c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T14:42:53Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-31T14:42:53Z",
+            "open_issues": 4,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 216,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": null,
+        "head": {
+          "sha": "5427a58aab0c4cdfe7b33d7022783e244e5c2018",
+          "ref": "fix_duplication",
+          "label": "pangratz:fix_duplication",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T17:38:20Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T17:38:20Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 124,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557772140"
+  },
+  {
+    "created_at": "2012-05-31T14:42:55Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add builder version number to Gemfile and .gemspec",
+          "sha": "c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/c145c7269d45570ef23bee1b8f93bc5989b5e003",
+          "distinct": true
+        }
+      ],
+      "push_id": 81552399,
+      "head": "c145c7269d45570ef23bee1b8f93bc5989b5e003"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557701905"
+  },
+  {
+    "created_at": "2012-05-31T14:27:41Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "6ac79046d413db68ff048b9445aef52474aa90fa",
+          "action": "edited",
+          "title": "Home",
+          "page_name": "Home",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Home",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557696333"
+  },
+  {
+    "created_at": "2012-05-31T14:25:12Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "0e941303688a6bf91a66a6ddbfe10948ae6cf75c",
+          "action": "edited",
+          "title": "Sync Skytraxx 2.0 and your computer with igc kml and ZSH",
+          "page_name": "Sync Skytraxx 2.0 and your computer with igc kml and ZSH",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Sync-Skytraxx-2.0-and-your-computer-with-igc-kml-and-ZSH",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557695423"
+  },
+  {
+    "created_at": "2012-05-31T14:24:40Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "ffdea598499eee39cd778dc5fc14846aa44316b1",
+          "action": "edited",
+          "title": "Home",
+          "page_name": "Home",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Home",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557695202"
+  },
+  {
+    "created_at": "2012-05-31T14:21:25Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "3dc986958341df5f04ff7e2fd150d6320a078cc8",
+          "action": "edited",
+          "title": "Home",
+          "page_name": "Home",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Home",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557694015"
+  },
+  {
+    "created_at": "2012-05-31T14:17:37Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "ad17cecbf675debdc5d92e6cda3e1b94ad400a42",
+          "action": "edited",
+          "title": "Sync Skytraxx 2.0 and your computer with igc kml and ZSH",
+          "page_name": "Sync Skytraxx 2.0 and your computer with igc kml and ZSH",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Sync-Skytraxx-2.0-and-your-computer-with-igc-kml-and-ZSH",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557692373"
+  },
+  {
+    "created_at": "2012-05-31T14:17:03Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "d21b2caaeb28690023904136088f5140aa8a7eb1",
+          "action": "created",
+          "title": "Sync Skytraxx 2.0 with your computer with igc kml and ZSH",
+          "page_name": "Sync Skytraxx 2.0 with your computer with igc kml and ZSH",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Sync-Skytraxx-2.0-with-your-computer-with-igc-kml-and-ZSH",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557692162"
+  },
+  {
+    "created_at": "2012-05-31T14:01:46Z",
+    "type": "GollumEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "pages": [
+        {
+          "sha": "426f924472a2d427f74378cfb9e6fff66b17d741",
+          "action": "created",
+          "title": "Home",
+          "page_name": "Home",
+          "html_url": "https://github.com/nokinen/igc-kml/wiki/Home",
+          "summary": null
+        }
+      ]
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557686837"
+  },
+  {
+    "created_at": "2012-05-31T14:01:43Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "action": "opened",
+      "issue": {
+        "updated_at": "2012-05-31T14:01:40Z",
+        "body": "",
+        "number": 27,
+        "created_at": "2012-05-31T14:01:40Z",
+        "labels": [
+
+        ],
+        "title": "Verbose output should be possible with a -v option",
+        "assignee": null,
+        "state": "open",
+        "milestone": null,
+        "id": 4837256,
+        "user": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "closed_at": null,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/27",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/27",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557686789"
+  },
+  {
+    "created_at": "2012-05-31T13:07:25Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 2,
+      "commits": [
+        {
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "message": "Fix TravisCI build\n\n- Remove Ruby version 1.8.7\n- Add Gemfile for dependencies",
+          "sha": "97f0e3157693bbeda6607771aec74373724fad59",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/97f0e3157693bbeda6607771aec74373724fad59",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "nokinen"
+          },
+          "message": "Merge pull request #26 from pangratz/fix_travisci\n\nFix TravisCI build",
+          "sha": "5e9ea4e4bbc8b19d306502d47c4376c752916dd7",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/5e9ea4e4bbc8b19d306502d47c4376c752916dd7",
+          "distinct": true
+        }
+      ],
+      "push_id": 81534161,
+      "head": "5e9ea4e4bbc8b19d306502d47c4376c752916dd7"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557668804"
+  },
+  {
+    "created_at": "2012-05-31T13:07:24Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 26,
+      "action": "closed",
+      "pull_request": {
+        "updated_at": "2012-05-31T13:07:24Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/26"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/26/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/26"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/26"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/26/comments"
+          }
+        },
+        "body": "- Remove Ruby version 1.8.7\n- Add Gemfile for dependencies",
+        "number": 26,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/26",
+        "created_at": "2012-05-31T08:56:44Z",
+        "changed_files": 3,
+        "review_comments": 0,
+        "additions": 16,
+        "title": "Fix TravisCI build",
+        "mergeable": null,
+        "state": "closed",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/26.patch",
+        "merged": true,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/26.diff",
+        "merged_by": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "deletions": 1,
+        "id": 1462719,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": "2012-05-31T13:07:24Z",
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/26",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/26",
+        "base": {
+          "sha": "00c355ae35332c78ca8be8fd7535666db746d524",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T13:07:24Z",
+            "full_name": "nokinen/igc-kml",
+            "watchers": 2,
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-31T13:07:24Z",
+            "open_issues": 2,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 200,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": "2012-05-31T13:07:24Z",
+        "head": {
+          "sha": "97f0e3157693bbeda6607771aec74373724fad59",
+          "ref": "fix_travisci",
+          "label": "pangratz:fix_travisci",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T08:56:11Z",
+            "full_name": "pangratz/igc-kml",
+            "watchers": 1,
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T08:56:11Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 128,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557668800"
+  },
+  {
+    "created_at": "2012-05-31T08:56:44Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 26,
+      "action": "opened",
+      "pull_request": {
+        "updated_at": "2012-05-31T08:56:44Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/26"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/26/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/26"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/26"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/26/comments"
+          }
+        },
+        "body": "- Remove Ruby version 1.8.7\n- Add Gemfile for dependencies",
+        "number": 26,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/26",
+        "created_at": "2012-05-31T08:56:44Z",
+        "changed_files": 3,
+        "review_comments": 0,
+        "additions": 16,
+        "title": "Fix TravisCI build",
+        "mergeable": null,
+        "state": "open",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/26.patch",
+        "merged": false,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/26.diff",
+        "merged_by": null,
+        "deletions": 1,
+        "id": 1462719,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": null,
+        "commits": 1,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/26",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/26",
+        "base": {
+          "sha": "00c355ae35332c78ca8be8fd7535666db746d524",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-30T23:08:28Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-30T23:08:27Z",
+            "open_issues": 3,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 200,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": null,
+        "head": {
+          "sha": "97f0e3157693bbeda6607771aec74373724fad59",
+          "ref": "fix_travisci",
+          "label": "pangratz:fix_travisci",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-31T08:56:11Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-31T08:56:11Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 128,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557597180"
+  },
+  {
+    "created_at": "2012-05-30T23:08:28Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add debug task to Rakefile",
+          "sha": "00c355ae35332c78ca8be8fd7535666db746d524",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/00c355ae35332c78ca8be8fd7535666db746d524",
+          "distinct": true
+        }
+      ],
+      "push_id": 81434723,
+      "head": "00c355ae35332c78ca8be8fd7535666db746d524"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557469545"
+  },
+  {
+    "created_at": "2012-05-30T22:34:18Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add rake task for launching irb preloaded with lib",
+          "sha": "f1e6e793dbddba2e2ff64650a518730f7d4e7517",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/f1e6e793dbddba2e2ff64650a518730f7d4e7517",
+          "distinct": true
+        }
+      ],
+      "push_id": 81428538,
+      "head": "f1e6e793dbddba2e2ff64650a518730f7d4e7517"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557459403"
+  },
+  {
+    "created_at": "2012-05-30T21:55:25Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 3,
+      "commits": [
+        {
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "message": "Add .travis.yml. CI baby!",
+          "sha": "1836f9f7bdfe9009b48de9b135304e6bda0a20a3",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/1836f9f7bdfe9009b48de9b135304e6bda0a20a3",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "cmueller.418@gmail.com",
+            "name": "pangratz"
+          },
+          "message": "Add TravisCI status image to README",
+          "sha": "d4df88c6d1ef6f4261c1fcf0f4d2a0eb162229ed",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/d4df88c6d1ef6f4261c1fcf0f4d2a0eb162229ed",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "nokinen"
+          },
+          "message": "Merge pull request #25 from pangratz/travisci\n\nTravisCI",
+          "sha": "8160f7459b9379a7f9985c3cb09ea9be03458bcb",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/8160f7459b9379a7f9985c3cb09ea9be03458bcb",
+          "distinct": true
+        }
+      ],
+      "push_id": 81420376,
+      "head": "8160f7459b9379a7f9985c3cb09ea9be03458bcb"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557446149"
+  },
+  {
+    "created_at": "2012-05-30T21:55:25Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 25,
+      "action": "closed",
+      "pull_request": {
+        "updated_at": "2012-05-30T21:55:21Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/25"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/25/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/25"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/25"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/25/comments"
+          }
+        },
+        "body": "- Merge this PR\n- Login to http://travis-ci.org/\n- go to http://travis-ci.org/profile\n- switch da button for `igc-kml` repo\n- profit from executed tests everytime you push to le GitHub\n\n:kiss:",
+        "number": 25,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/25",
+        "created_at": "2012-05-30T21:26:00Z",
+        "changed_files": 2,
+        "review_comments": 0,
+        "additions": 5,
+        "title": "TravisCI",
+        "mergeable": null,
+        "state": "closed",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/25.patch",
+        "merged": true,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/25.diff",
+        "merged_by": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "deletions": 1,
+        "id": 1459606,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": "2012-05-30T21:55:21Z",
+        "commits": 2,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/25",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/25",
+        "base": {
+          "sha": "dfc15166436d066f5482389a5dff20ec9c244943",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-30T21:55:22Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-30T21:55:22Z",
+            "open_issues": 2,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 676,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": "2012-05-30T21:55:21Z",
+        "head": {
+          "sha": "d4df88c6d1ef6f4261c1fcf0f4d2a0eb162229ed",
+          "ref": "travisci",
+          "label": "pangratz:travisci",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-30T21:32:59Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": false,
+            "pushed_at": "2012-05-30T21:23:07Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 596,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557446132"
+  },
+  {
+    "created_at": "2012-05-30T21:26:02Z",
+    "type": "PullRequestEvent",
+    "actor": {
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "number": 25,
+      "action": "opened",
+      "pull_request": {
+        "updated_at": "2012-05-30T21:26:00Z",
+        "_links": {
+          "html": {
+            "href": "https://github.com/nokinen/igc-kml/pull/25"
+          },
+          "review_comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/25/comments"
+          },
+          "self": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/pulls/25"
+          },
+          "issue": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/25"
+          },
+          "comments": {
+            "href": "https://api.github.com/repos/nokinen/igc-kml/issues/25/comments"
+          }
+        },
+        "body": "- Merge this PR\n- Login to http://travis-ci.org/\n- go to http://travis-ci.org/profile\n- switch da button for `igc-kml` repo\n- profit from executed tests everytime you push to le GitHub\n\n:kiss:",
+        "number": 25,
+        "issue_url": "https://github.com/nokinen/igc-kml/issues/25",
+        "created_at": "2012-05-30T21:26:00Z",
+        "changed_files": 2,
+        "review_comments": 0,
+        "additions": 5,
+        "title": "Travisci",
+        "mergeable": null,
+        "state": "open",
+        "patch_url": "https://github.com/nokinen/igc-kml/pull/25.patch",
+        "merged": false,
+        "diff_url": "https://github.com/nokinen/igc-kml/pull/25.diff",
+        "merged_by": null,
+        "deletions": 1,
+        "id": 1459606,
+        "user": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "closed_at": null,
+        "commits": 2,
+        "url": "https://api.github.com/repos/nokinen/igc-kml/pulls/25",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/pull/25",
+        "base": {
+          "sha": "dfc15166436d066f5482389a5dff20ec9c244943",
+          "ref": "master",
+          "label": "nokinen:master",
+          "user": {
+            "login": "nokinen",
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "id": 435811,
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "repo": {
+            "updated_at": "2012-05-30T19:54:09Z",
+            "watchers": 2,
+            "full_name": "nokinen/igc-kml",
+            "created_at": "2012-05-14T22:32:28Z",
+            "svn_url": "https://github.com/nokinen/igc-kml",
+            "forks": 2,
+            "has_wiki": true,
+            "pushed_at": "2012-05-30T19:54:09Z",
+            "open_issues": 3,
+            "ssh_url": "git@github.com:nokinen/igc-kml.git",
+            "clone_url": "https://github.com/nokinen/igc-kml.git",
+            "git_url": "git://github.com/nokinen/igc-kml.git",
+            "has_issues": true,
+            "size": 676,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": false,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4329788,
+            "has_downloads": true,
+            "owner": {
+              "login": "nokinen",
+              "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+              "id": 435811,
+              "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/nokinen"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/nokinen/igc-kml",
+            "html_url": "https://github.com/nokinen/igc-kml"
+          }
+        },
+        "merged_at": null,
+        "head": {
+          "sha": "d4df88c6d1ef6f4261c1fcf0f4d2a0eb162229ed",
+          "ref": "travisci",
+          "label": "pangratz:travisci",
+          "user": {
+            "login": "pangratz",
+            "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+            "id": 341877,
+            "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/pangratz"
+          },
+          "repo": {
+            "updated_at": "2012-05-30T21:23:07Z",
+            "watchers": 1,
+            "full_name": "pangratz/igc-kml",
+            "created_at": "2012-05-30T19:38:24Z",
+            "svn_url": "https://github.com/pangratz/igc-kml",
+            "forks": 0,
+            "has_wiki": true,
+            "pushed_at": "2012-05-30T21:23:07Z",
+            "open_issues": 0,
+            "ssh_url": "git@github.com:pangratz/igc-kml.git",
+            "clone_url": "https://github.com/pangratz/igc-kml.git",
+            "git_url": "git://github.com/pangratz/igc-kml.git",
+            "has_issues": false,
+            "size": 596,
+            "private": false,
+            "homepage": "https://rubygems.org/gems/igc-kml",
+            "language": "Ruby",
+            "name": "igc-kml",
+            "fork": true,
+            "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+            "id": 4499284,
+            "has_downloads": true,
+            "owner": {
+              "login": "pangratz",
+              "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+              "id": 341877,
+              "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+              "url": "https://api.github.com/users/pangratz"
+            },
+            "mirror_url": null,
+            "url": "https://api.github.com/repos/pangratz/igc-kml",
+            "html_url": "https://github.com/pangratz/igc-kml"
+          }
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557434450"
+  },
+  {
+    "created_at": "2012-05-30T19:54:11Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 2,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add file structure for tests",
+          "sha": "10f991ff24e5df7b7ee5c2dddb36fa8f209e10a5",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/10f991ff24e5df7b7ee5c2dddb36fa8f209e10a5",
+          "distinct": true
+        },
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add test data",
+          "sha": "dfc15166436d066f5482389a5dff20ec9c244943",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/dfc15166436d066f5482389a5dff20ec9c244943",
+          "distinct": true
+        }
+      ],
+      "push_id": 81390783,
+      "head": "dfc15166436d066f5482389a5dff20ec9c244943"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557396679"
+  },
+  {
+    "created_at": "2012-05-30T19:38:25Z",
+    "type": "ForkEvent",
+    "actor": {
+      "login": "pangratz",
+      "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+      "id": 341877,
+      "url": "https://api.github.com/users/pangratz",
+      "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "forkee": {
+        "updated_at": "2012-05-30T19:38:25Z",
+        "watchers": 1,
+        "full_name": "pangratz/igc-kml",
+        "created_at": "2012-05-30T19:38:24Z",
+        "svn_url": "https://github.com/pangratz/igc-kml",
+        "forks": 0,
+        "has_wiki": true,
+        "pushed_at": "2012-05-30T17:51:42Z",
+        "open_issues": 0,
+        "ssh_url": "git@github.com:pangratz/igc-kml.git",
+        "clone_url": "https://github.com/pangratz/igc-kml.git",
+        "git_url": "git://github.com/pangratz/igc-kml.git",
+        "has_issues": false,
+        "size": 1164,
+        "private": false,
+        "homepage": "https://rubygems.org/gems/igc-kml",
+        "language": "Ruby",
+        "name": "igc-kml",
+        "fork": true,
+        "description": "A Ruby tool for converting files in the avionics flight recorder data format (.igc) to keyhole markup language files (.kml) for their display in Google Earth.",
+        "id": 4499284,
+        "has_downloads": true,
+        "public": true,
+        "owner": {
+          "login": "pangratz",
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "id": 341877,
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "mirror_url": null,
+        "url": "https://api.github.com/repos/pangratz/igc-kml",
+        "html_url": "https://github.com/pangratz/igc-kml"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557390425"
+  },
+  {
+    "created_at": "2012-05-30T17:51:43Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Switch to YARD for doc",
+          "sha": "f58a1b76e8238fd64cea072356a1e3345d072a31",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/f58a1b76e8238fd64cea072356a1e3345d072a31",
+          "distinct": true
+        }
+      ],
+      "push_id": 81362094,
+      "head": "f58a1b76e8238fd64cea072356a1e3345d072a31"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557348134"
+  },
+  {
+    "created_at": "2012-05-30T16:02:42Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Add rdoc",
+          "sha": "7734201f1967106a860aff99372c99f20b7861f6",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/7734201f1967106a860aff99372c99f20b7861f6",
+          "distinct": true
+        }
+      ],
+      "push_id": 81336683,
+      "head": "7734201f1967106a860aff99372c99f20b7861f6"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557304960"
+  },
+  {
+    "created_at": "2012-05-30T12:35:29Z",
+    "type": "PushEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "ref": "refs/heads/master",
+      "size": 1,
+      "commits": [
+        {
+          "author": {
+            "email": "tobias.noiges@gmail.com",
+            "name": "Tobias Noiges"
+          },
+          "message": "Fixes #24 caused by appending Pathname object to string error output",
+          "sha": "8474065b406a8b4b61ca0c3ca7c27194a9bada4c",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/8474065b406a8b4b61ca0c3ca7c27194a9bada4c",
+          "distinct": true
+        }
+      ],
+      "push_id": 81286595,
+      "head": "8474065b406a8b4b61ca0c3ca7c27194a9bada4c"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557219086"
+  },
+  {
+    "created_at": "2012-05-30T12:35:28Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "login": "nokinen",
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "id": 435811,
+      "url": "https://api.github.com/users/nokinen",
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png"
+    },
+    "payload": {
+      "action": "closed",
+      "issue": {
+        "updated_at": "2012-05-30T12:35:28Z",
+        "body": "```\n/Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/lib/igc-kml.rb:59:in `initialize': can't convert Pathname into String (TypeError)\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:66:in `new'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:66:in `block in <top (required)>'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:64:in `each'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:64:in `<top (required)>'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/bin/igc-kml:19:in `load'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/bin/igc-kml:19:in `<main>'\n```",
+        "number": 24,
+        "created_at": "2012-05-30T12:10:08Z",
+        "labels": [
+
+        ],
+        "title": "Error with wildcards on directories where kml files are contained",
+        "assignee": null,
+        "state": "closed",
+        "milestone": null,
+        "id": 4814109,
+        "user": {
+          "login": "nokinen",
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "id": 435811,
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "closed_at": "2012-05-30T12:35:28Z",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/24",
+        "comments": 0,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/24",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557219081"
+  }
+]

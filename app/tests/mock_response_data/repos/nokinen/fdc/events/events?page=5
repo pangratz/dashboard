@@ -1,0 +1,1340 @@
+[
+  {
+    "created_at": "2012-05-30T12:10:09Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "open",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-30T12:10:08Z",
+        "id": 4814109,
+        "closed_at": null,
+        "number": 24,
+        "milestone": null,
+        "body": "/Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/lib/igc-kml.rb:59:in `initialize': can't convert Pathname into String (TypeError)\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:66:in `new'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:66:in `block in <top (required)>'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:64:in `each'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/gems/igc-kml-0.0.1/bin/igc-kml:64:in `<top (required)>'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/bin/igc-kml:19:in `load'\n\tfrom /Users/nokinen/.rvm/gems/ruby-1.9.3-p125@rails3tutorial2ndEd/bin/igc-kml:19:in `<main>'",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/24",
+        "title": "Error with wildcards on directories where kml files are contained",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/24",
+        "created_at": "2012-05-30T12:10:08Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "opened"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557211558"
+  },
+  {
+    "created_at": "2012-05-29T23:09:25Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "aea2e258336b8824ee17b16b79ed30be702e3b4b",
+      "push_id": 81180674,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "aea2e258336b8824ee17b16b79ed30be702e3b4b",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/aea2e258336b8824ee17b16b79ed30be702e3b4b",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557034329"
+  },
+  {
+    "created_at": "2012-05-29T22:52:37Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "open",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T22:52:37Z",
+        "id": 4806120,
+        "closed_at": null,
+        "number": 23,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/23",
+        "title": "Integrate tests with gem",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/23",
+        "created_at": "2012-05-29T22:52:37Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "opened"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557027554"
+  },
+  {
+    "created_at": "2012-05-29T22:49:20Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "bf8208645f5120288e4c127268d6c07bc857455c",
+      "push_id": 81177085,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "bf8208645f5120288e4c127268d6c07bc857455c",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/bf8208645f5120288e4c127268d6c07bc857455c",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557026561"
+  },
+  {
+    "created_at": "2012-05-29T22:44:25Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "d8a9b88fdcbbf81c79080fbd9aafe3a71c498d06",
+      "push_id": 81176262,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "d8a9b88fdcbbf81c79080fbd9aafe3a71c498d06",
+          "message": "Fix error in usage output and improve description in gemspec",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/d8a9b88fdcbbf81c79080fbd9aafe3a71c498d06",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557025205"
+  },
+  {
+    "created_at": "2012-05-29T22:11:28Z",
+    "type": "DeleteEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "ref_type": "branch",
+      "ref": "gem"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557014799"
+  },
+  {
+    "created_at": "2012-05-29T22:10:02Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+      "push_id": 81169602,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "ef41bbd23cd46d41dc8399be7a0043c654440d51",
+          "message": "Setup initial folder structure for gem",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/ef41bbd23cd46d41dc8399be7a0043c654440d51",
+          "distinct": false
+        },
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "a1644ac6f54fd9aa503dd2bfc0df9676c8c99b3f",
+          "message": "Create working ruby gem\ncloses #17",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/a1644ac6f54fd9aa503dd2bfc0df9676c8c99b3f",
+          "distinct": false
+        },
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "2c3be1cb7734e0d6e86159ba108b1645981a3e2f",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/2c3be1cb7734e0d6e86159ba108b1645981a3e2f",
+          "distinct": false
+        },
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+          "distinct": false
+        }
+      ],
+      "size": 4
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557014224"
+  },
+  {
+    "created_at": "2012-05-29T22:05:53Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+      "push_id": 81168799,
+      "ref": "refs/heads/gem",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/ea8ef04c32eeb7627c0d1ea84bd3bcc3a47419d3",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557012863"
+  },
+  {
+    "created_at": "2012-05-29T21:41:13Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "2c3be1cb7734e0d6e86159ba108b1645981a3e2f",
+      "push_id": 81163285,
+      "ref": "refs/heads/gem",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "2c3be1cb7734e0d6e86159ba108b1645981a3e2f",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/2c3be1cb7734e0d6e86159ba108b1645981a3e2f",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1557003521"
+  },
+  {
+    "created_at": "2012-05-29T21:20:57Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "a1644ac6f54fd9aa503dd2bfc0df9676c8c99b3f",
+      "push_id": 81158568,
+      "ref": "refs/heads/gem",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "a1644ac6f54fd9aa503dd2bfc0df9676c8c99b3f",
+          "message": "Create working ruby gem\ncloses #17",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/a1644ac6f54fd9aa503dd2bfc0df9676c8c99b3f",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556995460"
+  },
+  {
+    "created_at": "2012-05-29T21:20:57Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 2,
+        "state": "closed",
+        "user": {
+          "login": "pangratz",
+          "id": 341877,
+          "gravatar_id": "97c57e7e99431e76fbc04173cca51eab",
+          "avatar_url": "https://secure.gravatar.com/avatar/97c57e7e99431e76fbc04173cca51eab?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/pangratz"
+        },
+        "updated_at": "2012-05-29T21:20:56Z",
+        "id": 4753768,
+        "closed_at": "2012-05-29T21:20:56Z",
+        "number": 17,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/17",
+        "title": "Gem-ify this thing!!",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/17",
+        "created_at": "2012-05-25T13:50:38Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556995452"
+  },
+  {
+    "created_at": "2012-05-29T21:00:21Z",
+    "type": "CreateEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "ref_type": "branch",
+      "ref": "gem",
+      "description": "A Ruby tool for converting IGC files to KML",
+      "master_branch": "master"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556987239"
+  },
+  {
+    "created_at": "2012-05-29T20:17:35Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "dcfd893c07ebfce74b95716502851caafd1fda79",
+      "push_id": 81143366,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "dcfd893c07ebfce74b95716502851caafd1fda79",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/dcfd893c07ebfce74b95716502851caafd1fda79",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556969897"
+  },
+  {
+    "created_at": "2012-05-29T20:07:28Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "2d2b570c36948358dcc99b6165314df435dc9b4a",
+      "push_id": 81141198,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "c3794c97f7f7972f7ea65f0db9af26fe52e17187",
+          "message": "Fix file encoding issue with windows",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/c3794c97f7f7972f7ea65f0db9af26fe52e17187",
+          "distinct": true
+        },
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "2d2b570c36948358dcc99b6165314df435dc9b4a",
+          "message": "Merge branch 'master' of https://github.com/nokinen/igc-kml",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/2d2b570c36948358dcc99b6165314df435dc9b4a",
+          "distinct": true
+        }
+      ],
+      "size": 2
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556966141"
+  },
+  {
+    "created_at": "2012-05-29T19:14:42Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "19c0a276018c3dc6d5e6717e9df98c63f92c5dce",
+      "push_id": 81129541,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "nokinen",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "19c0a276018c3dc6d5e6717e9df98c63f92c5dce",
+          "message": "Update README.md",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/19c0a276018c3dc6d5e6717e9df98c63f92c5dce",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556946180"
+  },
+  {
+    "created_at": "2012-05-29T19:05:59Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "9fc13da3020af45c8c8af8710d91f4bd7adec27a",
+      "push_id": 81127595,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "9fc13da3020af45c8c8af8710d91f4bd7adec27a",
+          "message": "Add option to switch between barometric and gps altitude\nCloses #18",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/9fc13da3020af45c8c8af8710d91f4bd7adec27a",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556942724"
+  },
+  {
+    "created_at": "2012-05-29T19:05:59Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T19:05:59Z",
+        "id": 4782471,
+        "closed_at": "2012-05-29T19:05:59Z",
+        "number": 18,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/18",
+        "title": "Option to switch between barometric or GPS altitude",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/18",
+        "created_at": "2012-05-28T16:12:51Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556942722"
+  },
+  {
+    "created_at": "2012-05-29T18:07:04Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 1,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T18:07:03Z",
+        "id": 4602624,
+        "closed_at": "2012-05-29T18:07:03Z",
+        "number": 5,
+        "milestone": {
+          "state": "open",
+          "due_on": null,
+          "closed_issues": 7,
+          "creator": {
+            "login": "nokinen",
+            "id": 435811,
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "number": 1,
+          "id": 120607,
+          "open_issues": 1,
+          "description": null,
+          "title": "alpha",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/milestones/1",
+          "created_at": "2012-05-16T20:03:44Z"
+        },
+        "body": "0: no such file or directory (skip)\n0: is a directory (skip)\n0: incorrect file format (skip)\n-1: missing argument (exit)\n-2: invalid option (exit)\n-3: destination is not a directory (exit)\n-4: write permission denied (exit)",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/5",
+        "title": "Return error codes",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/5",
+        "created_at": "2012-05-16T11:41:45Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556919579"
+  },
+  {
+    "created_at": "2012-05-29T18:07:04Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "53d14bc3ace1bf30c46ab2869cbd3841845327a1",
+      "push_id": 81114389,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "53d14bc3ace1bf30c46ab2869cbd3841845327a1",
+          "message": "Handle write permission error and exit with corresponding code\nCloses #5",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/53d14bc3ace1bf30c46ab2869cbd3841845327a1",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556919578"
+  },
+  {
+    "created_at": "2012-05-29T17:59:35Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "acd499d80179d1e18868d3dfd2c562c057124aa8",
+      "push_id": 81112791,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "acd499d80179d1e18868d3dfd2c562c057124aa8",
+          "message": "Improve error handling in order to allow smooth batch processing\nDo not exit on source file errors\nRefactor exit codes and error handling",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/acd499d80179d1e18868d3dfd2c562c057124aa8",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556916677"
+  },
+  {
+    "created_at": "2012-05-29T17:57:34Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 1,
+        "state": "open",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:57:33Z",
+        "id": 4602624,
+        "closed_at": null,
+        "number": 5,
+        "milestone": {
+          "state": "open",
+          "due_on": null,
+          "closed_issues": 6,
+          "creator": {
+            "login": "nokinen",
+            "id": 435811,
+            "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+            "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+            "url": "https://api.github.com/users/nokinen"
+          },
+          "number": 1,
+          "id": 120607,
+          "open_issues": 2,
+          "description": null,
+          "title": "alpha",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/milestones/1",
+          "created_at": "2012-05-16T20:03:44Z"
+        },
+        "body": "0: no such file or directory (skip)\n0: is a directory (skip)\n0: incorrect file format (skip)\n-1: missing argument (exit)\n-2: invalid option (exit)\n-3: destination is not a directory (exit)\n-4: write permission denied (exit)",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/5",
+        "title": "Return error codes",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/5",
+        "created_at": "2012-05-16T11:41:45Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "created",
+      "comment": {
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:57:33Z",
+        "id": 5990832,
+        "body": "Do not exit on source path errors in order to allow batch processing!",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/comments/5990832",
+        "created_at": "2012-05-29T17:57:33Z"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556915861"
+  },
+  {
+    "created_at": "2012-05-29T17:31:54Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 1,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:31:53Z",
+        "id": 4790566,
+        "closed_at": "2012-05-29T17:31:53Z",
+        "number": 19,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/19",
+        "title": "Regex for B record should expect any extensions through I record",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/19",
+        "created_at": "2012-05-29T08:21:34Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556906229"
+  },
+  {
+    "created_at": "2012-05-29T17:31:53Z",
+    "type": "IssueCommentEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 1,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:31:53Z",
+        "id": 4790566,
+        "closed_at": "2012-05-29T17:31:53Z",
+        "number": 19,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/19",
+        "title": "Regex for B record should expect any extensions through I record",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/19",
+        "created_at": "2012-05-29T08:21:34Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "created",
+      "comment": {
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:31:53Z",
+        "id": 5990102,
+        "body": "Ignored with current regex",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/comments/5990102",
+        "created_at": "2012-05-29T17:31:53Z"
+      }
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556906225"
+  },
+  {
+    "created_at": "2012-05-29T17:27:10Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T17:27:09Z",
+        "id": 4798244,
+        "closed_at": "2012-05-29T17:27:09Z",
+        "number": 21,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/21",
+        "title": "Option to extend track to ground",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/21",
+        "created_at": "2012-05-29T15:58:27Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556904613"
+  },
+  {
+    "created_at": "2012-05-29T17:27:10Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "c773f15926b0ee03a036455dc56669aeb9e487a1",
+      "push_id": 81105862,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "c773f15926b0ee03a036455dc56669aeb9e487a1",
+          "message": "Add option to extrude track to ground\nCloses #21",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/c773f15926b0ee03a036455dc56669aeb9e487a1",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556904611"
+  },
+  {
+    "created_at": "2012-05-29T16:55:34Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "fce9c1e3c670386b9470ea8c5805115af33462d1",
+      "push_id": 81099049,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "fce9c1e3c670386b9470ea8c5805115af33462d1",
+          "message": "Add option to clamp track to ground\nCloses #22",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/fce9c1e3c670386b9470ea8c5805115af33462d1",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556893190"
+  },
+  {
+    "created_at": "2012-05-29T16:55:34Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T16:55:34Z",
+        "id": 4798310,
+        "closed_at": "2012-05-29T16:55:34Z",
+        "number": 22,
+        "milestone": null,
+        "body": "<altitudeMode>clampToGround</altitudeMode> ",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/22",
+        "title": "Option to clamp to ground",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/22",
+        "created_at": "2012-05-29T16:00:28Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556893189"
+  },
+  {
+    "created_at": "2012-05-29T16:34:17Z",
+    "type": "PushEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "head": "cb95a86f024b0f84a47065dbe0ded815aa56f752",
+      "push_id": 81094169,
+      "ref": "refs/heads/master",
+      "commits": [
+        {
+          "author": {
+            "name": "Tobias Noiges",
+            "email": "tobias.noiges@gmail.com"
+          },
+          "sha": "cb95a86f024b0f84a47065dbe0ded815aa56f752",
+          "message": "Add basic track style\nCloses #20",
+          "url": "https://api.github.com/repos/nokinen/igc-kml/commits/cb95a86f024b0f84a47065dbe0ded815aa56f752",
+          "distinct": true
+        }
+      ],
+      "size": 1
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556884840"
+  },
+  {
+    "created_at": "2012-05-29T16:34:17Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "closed",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T16:34:16Z",
+        "id": 4798232,
+        "closed_at": "2012-05-29T16:34:16Z",
+        "number": 20,
+        "milestone": null,
+        "body": "",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/20",
+        "title": "Track should be styled",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/20",
+        "created_at": "2012-05-29T15:58:04Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "closed"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556884839"
+  },
+  {
+    "created_at": "2012-05-29T16:00:39Z",
+    "type": "IssuesEvent",
+    "actor": {
+      "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+      "login": "nokinen",
+      "id": 435811,
+      "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+      "url": "https://api.github.com/users/nokinen"
+    },
+    "payload": {
+      "issue": {
+        "labels": [
+
+        ],
+        "comments": 0,
+        "state": "open",
+        "user": {
+          "login": "nokinen",
+          "id": 435811,
+          "gravatar_id": "b72c639457d872c7c65edb4bb94d8003",
+          "avatar_url": "https://secure.gravatar.com/avatar/b72c639457d872c7c65edb4bb94d8003?d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-140.png",
+          "url": "https://api.github.com/users/nokinen"
+        },
+        "updated_at": "2012-05-29T16:00:28Z",
+        "id": 4798310,
+        "closed_at": null,
+        "number": 22,
+        "milestone": null,
+        "body": "<altitudeMode>clampToGround</altitudeMode> ",
+        "url": "https://api.github.com/repos/nokinen/igc-kml/issues/22",
+        "title": "Option to clamp to ground",
+        "assignee": null,
+        "html_url": "https://github.com/nokinen/igc-kml/issues/22",
+        "created_at": "2012-05-29T16:00:28Z",
+        "pull_request": {
+          "patch_url": null,
+          "diff_url": null,
+          "html_url": null
+        }
+      },
+      "action": "opened"
+    },
+    "public": true,
+    "repo": {
+      "id": 4329788,
+      "url": "https://api.github.com/repos/nokinen/igc-kml",
+      "name": "nokinen/igc-kml"
+    },
+    "id": "1556871390"
+  }
+]

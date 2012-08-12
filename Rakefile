@@ -25,8 +25,24 @@ end
 
 def download(path)
   last_slash = path.rindex("/")
-  system "mkdir -p app/tests/data/#{path[0..last_slash]}"
-  system "wget https://api.github.com/#{path} -O app/tests/data/#{path}.json"
+  system "mkdir -p app/tests/mock_response_data/#{path[0..last_slash]}"
+  system "wget https://api.github.com/#{path} -O app/tests/mock_response_data/#{path}.json"
+end
+
+def download_event(url, page = 1)
+  folder = "app/tests/mock_response_data/#{url}"
+  system "mkdir -p #{folder}"
+  Dir.chdir folder do
+    system "wget https://api.github.com/#{url}?page=#{page}"
+  end
+end
+
+def download_user_event(user, page = 1)
+  download_event("users/#{user}/events", page)
+end
+
+def download_repo_event(user, repo, page = 1)
+  download_event("repos/#{user}/#{repo}/events", page)
 end
 
 task :download_mock_responses do
@@ -36,18 +52,16 @@ task :download_mock_responses do
   download "users/pangratz/repos"
   download "users/nokinen/repos"
 
-  download "users/pangratz/events"
-  download "users/nokinen/events"
+  (1..10).each {|page| download_user_event("pangratz", page)}
+  (1..10).each {|page| download_user_event("nokinen", page)}
 
   download "repos/pangratz/ember.js"
   download "repos/pangratz/dashboard"
-
   download "repos/nokinen/fdc"
 
-  download "repos/pangratz/ember.js/events"
-  download "repos/pangratz/dashboard/events"
-
-  download "repos/nokinen/fdc/events"
+  (1..10).each {|page| download_repo_event("pangratz", "ember.js", page)}
+  (1..10).each {|page| download_repo_event("pangratz", "dashboard", page)}
+  (1..10).each {|page| download_repo_event("nokinen", "fdc", page)}
 end
 
 task :test => ["test:all"]
