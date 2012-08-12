@@ -33,7 +33,7 @@ def download_event(url, page = 1)
   folder = "app/tests/mock_response_data/#{url}"
   system "mkdir -p #{folder}"
   Dir.chdir folder do
-    system "wget https://api.github.com/#{url}?page=#{page}"
+    system "wget https://api.github.com/#{url}?page=#{page}.json"
   end
 end
 
