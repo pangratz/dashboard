@@ -28,18 +28,30 @@ Dashboard.Router = Ember.Router.extend({
           var username = router.get('userController.id');
           var store = router.get('store');
 
+          router.get('eventsController').resetLoadMore();
+          router.get('repositoriesController').resetLoadMore();
+
+          // set current query
+          var query = { username: username, isLoadedCallback: function() {
+            router.set('eventsController.isLoading', false);
+          }};
+          router.set('eventsController.query', query);
+          router.set('eventsController.isLoading', true);
+
           // get repositories for user
-          var repos = store.findQuery(Dashboard.Repository, { username: username });
-          router.set('repositoriesController.content', repos);
+          var userRepositories = store.findQuery(Dashboard.Repository, { username: username });
 
           // get events performed by user
-          var userEvents = store.findQuery(Dashboard.Event, { username: username });
-          router.set('eventsController.content', userEvents);
+          var filter = function(data) {
+            if (Ember.get(data, 'savedData.org.login') === username) { return true; }
+            return Ember.get(data, 'savedData.actor.login') === username;
+          };
+          var userEvents = store.filter(Dashboard.Event, query, filter);
 
           // connect user with events and watched repositories
           router.get('applicationController').connectOutlet('user');
-          router.get('userController').connectOutlet('repositories', 'repositories');
-          router.get('userController').connectOutlet('events', 'events');
+          router.get('userController').connectOutlet('repositories', 'repositories', userRepositories);
+          router.get('userController').connectOutlet('events', 'events', userEvents);
         }
       }),
 
@@ -48,21 +60,47 @@ Dashboard.Router = Ember.Router.extend({
         connectOutlets: function(router, context) {
           var username = router.get('userController.id');
           var repoName = context.repository;
+          var name = '%@/%@'.fmt(username, repoName);
+
+          router.get('eventsController').resetLoadMore();
+
+          // set current query
+          var query = {
+            repoName: name,
+            isLoadedCallback: function() {
+              router.set('eventsController.isLoading', false);
+            }
+          };
+          router.set('eventsController.query', query);
+          router.set('eventsController.isLoading', true);
 
           // fetch repo for current user
-          var repo = router.get('store').find(Dashboard.Repository, '%@/%@'.fmt(username, repoName));
-          router.set('repositoryController.content', repo);
+          var repository = router.get('store').find(Dashboard.Repository, name);
 
-          var events = router.get('store').findQuery(Dashboard.Event, {
-            username: username,
-            repository: repoName
-          });
+          // get all events for this repository
+          var filter = function(data) {
+            return Ember.get(data, 'savedData.repo.name') === name;
+          };
+          var events = router.get('store').filter(Dashboard.Event, query, filter);
 
           // connect repository and events
+          router.set('repositoryController.content', repository);
           router.get('applicationController').connectOutlet('repository');
           router.get('repositoryController').connectOutlet('events', 'events', events);
         }
       }),
+
+      loadMoreEvents: function(router, page) {
+        var query = router.get('eventsController.query');
+        query.page = page;
+        router.get('store').findQuery(Dashboard.Event, query);
+        router.set('eventsController.isLoading', true);
+      },
+      loadMoreRepos: function(router, page) {
+        var username = router.get('userController.id');
+        var query = { username: username };
+        var store = router.get('store').findQuery(Dashboard.Repository, query);
+      },
 
       showUserOfEvent: function(router, evt) {
         var e = evt.context;

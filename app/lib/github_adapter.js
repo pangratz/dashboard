@@ -28,16 +28,17 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
     }
   },
 
-  _invoke: function(target, callback) {
+  _invoke: function(target, callback, query) {
     return function(data) {
       Ember.tryInvoke(target, callback, [data]);
-    }
+      Ember.tryInvoke(query, 'isLoadedCallback');
+    };
   },
 
   _storeLoad: function(store, type, id) {
     return function(data) {
       store.load(type, id, data);
-    }
+    };
   },
 
   find: function(store, type, id) {
@@ -58,12 +59,12 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
       this.ajax('/users/%@/repos'.fmt(query.username), this._invoke(modelArray, 'load'));
 
     // events for a repository
-    } else if (Dashboard.Event.detect(type) && query.username && query.repository) {
-      this.ajax('/repos/%@/%@/events'.fmt(query.username, query.repository), this._invoke(modelArray, 'load'));
+    } else if (Dashboard.Event.detect(type) && query.repoName) {
+      this.ajax('/repos/%@/events?page=%@'.fmt(query.repoName, query.page || 1), this._invoke(modelArray, 'load', query));
 
     // events for a user
-    } else if (Dashboard.Event.detect(type) && query.username && !query.repository) {
-      this.ajax('/users/%@/events'.fmt(query.username), this._invoke(modelArray, 'load'));
+    } else if (Dashboard.Event.detect(type) && query.username) {
+      this.ajax('/users/%@/events?page=%@'.fmt(query.username, query.page || 1), this._invoke(modelArray, 'load', query));
     }
   }
 });
@@ -71,12 +72,15 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
 Dashboard.GitHubFixtureAdpater = Dashboard.GitHubAdpater.extend({
   PREFIX: 'http://localhost:9292/app/tests/mock_response_data',
   _ajax: function(url, callback) {
-    Ember.$.ajax({
-      url: this.PREFIX + url + '.json',
-      context: this,
-      success: function(data) {
-       callback.call(this, {meta: {}, data: data});
-      }
-    });
+    var encodedUrl = url.replace(/\?/, '%3F').replace(/\=/, '%3D');
+    Ember.run.later(this, function() {
+      Ember.$.ajax({
+        url: this.PREFIX + encodedUrl + '.json',
+        context: this,
+        success: function(data) {
+         callback.call(this, {meta: {}, data: data});
+        }
+      });
+    }, 500);
   }
 });
