@@ -100,7 +100,7 @@ test("invokes ajax", function() {
   store.findQuery(Dashboard.Event, {username: 'buster', repository: 'bluth'});
 
   ok(ajaxCalled, 'ajax has been called');
-  deepEqual(ajaxUrl, '/repos/buster/bluth/events', "the passed url is correct");
+  deepEqual(ajaxUrl, '/repos/buster/bluth/events?page=1', "the passed url is correct");
 });
 
 module("Dashboard.GitHubAdpater#findQuery for events for a user calls ajax", setupDataSource);
@@ -109,5 +109,5 @@ test("invokes ajax", function() {
   store.findQuery(Dashboard.Event, {username: 'buster'});
 
   ok(ajaxCalled, 'ajax has been called');
-  deepEqual(ajaxUrl, '/users/buster/events', "the passed url is correct");
+  deepEqual(ajaxUrl, '/users/buster/events?page=1', "the passed url is correct");
 });
