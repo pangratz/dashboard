@@ -1,0 +1,1 @@
+Dashboard.RepositoryController = Ember.ObjectController.extend();
