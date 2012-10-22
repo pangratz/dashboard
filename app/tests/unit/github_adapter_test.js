@@ -20,7 +20,7 @@ var setupDataSource = {
       revision: 4
     });
   },
-  teardowm: function() {
+  teardown: function() {
     ajaxCallback = ajaxParams = null;
     ajaxUrl = ajaxCallback = null;
     dataSource.destroy();
