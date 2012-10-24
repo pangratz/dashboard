@@ -1,22 +1,4 @@
-require('dashboard/core');
-require('dashboard/handlebars_helpers');
 require('jquery.inview');
-
-Dashboard.ApplicationView = Ember.View.extend({
-  templateName: 'application'
-});
-
-Dashboard.LoadMoreView = Ember.View.extend({
-  templateName: 'loadMore',
-  didInsertElement: function() {
-    if (this.get('controller.autoFetch')) {
-      var view = this;
-      this.$().bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
-        if (isInView) Ember.tryInvoke(view.get('controller'), 'loadMore');
-      });
-    }
-  }
-});
 
 Dashboard.EventsView = Ember.View.extend({
   templateName: 'events',
@@ -54,16 +36,4 @@ Dashboard.EventsView = Ember.View.extend({
       })
     })
   })
-});
-
-Dashboard.UserView = Ember.View.extend({
-  templateName: 'user'
-});
-
-Dashboard.RepositoryView = Ember.View.extend({
-  templateName: 'repository'
-});
-
-Dashboard.RepositoriesView = Ember.View.extend({
-  templateName: 'repositories'
 });
