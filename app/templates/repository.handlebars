@@ -1,12 +1,12 @@
 <div class="well" >
-    <a {{action showUserOfRepository content }} >{{owner.login}}</a> / {{name}} – <a target="_blank" {{bindAttr href="html_url"}}>show on GitHub</a>
-    <dl class="dl-horizontal">
-    {{description}}
-    <dl class="dl-horizontal">
-    <span class="badge" title="watchers" ><i class="icon-eye-open" ></i> {{watchers}}</span>
-    <span class="badge" title="forks" ><i class="icon-heart" ></i> {{forks}}</span>
-    <span class="badge" ><i class="icon-tag" ></i> {{language}}</span>
+  <a {{action showUserOfRepository content }} >{{owner.login}}</a> / {{name}} – <a target="_blank" {{bindAttr href="html_url"}}>show on GitHub</a>
+  <dl class="dl-horizontal">
+  {{description}}
+  <dl class="dl-horizontal">
+  <span class="badge" title="watchers" ><i class="icon-eye-open" ></i> {{watchers}}</span>
+  <span class="badge" title="forks" ><i class="icon-heart" ></i> {{forks}}</span>
+  <span class="badge" ><i class="icon-tag" ></i> {{language}}</span>
 </div>
 <div class="events" >
-    {{outlet "events"}}
+  {{outlet "events"}}
 </div>

@@ -1,12 +1,12 @@
 <ul class="unstyled">
-    {{#each repository in controller}}
-        <li>
-            <div>
-                <a {{action showUserOfRepository repository }} >{{repository.owner.login}}</a> / <a {{action showRepository repository }} >{{repository.name}}</a>
-                - {{ago repository.updated_at}}
-            </div>
-            <div>{{repository.description}}</div>
-            <dl class="dl-horizontal">
-        </li>
-    {{/each}}
+ {{#each repository in controller}}
+  <li>
+   <div>
+    <a {{action showUserOfRepository repository }} >{{repository.owner.login}}</a> / <a {{action showRepository repository }} >{{repository.name}}</a>
+    - {{ago repository.updated_at}}
+   </div>
+   <div>{{repository.description}}</div>
+   <dl class="dl-horizontal">
+  </li>
+ {{/each}}
 </ul>

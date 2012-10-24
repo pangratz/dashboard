@@ -1,26 +1,26 @@
 <div class="well" >
-    <div class="profilePic" >
-        <img width="40" height="40" {{bindAttr src="avatar_url"}} ></img>
+  <div class="profilePic" >
+    <img width="40" height="40" {{bindAttr src="avatar_url"}} ></img>
+  </div>
+  <div>
+    <div>
+      <strong>{{login}}</strong> - {{name}}
+      {{#if blog}}
+        - <a target="_blank" {{bindAttr href="blog"}} >{{blog}}</a>
+      {{/if}}
     </div>
     <div>
-        <div>
-            <strong>{{login}}</strong> - {{name}}
-            {{#if blog}}
-                - <a target="_blank" {{bindAttr href="blog"}} >{{blog}}</a>
-            {{/if}}
-        </div>
-        <div>
-            <span class="badge" ><i class="icon-inbox" ></i> {{public_repos}} public repos</span>
-        </div>
+      <span class="badge" ><i class="icon-inbox" ></i> {{public_repos}} public repos</span>
     </div>
-    <div style="clear: both;" ></div>
+  </div>
+  <div style="clear: both;" ></div>
 </div>
 <div>
-    <div class="span6" >
-        <h3>Repositories</h3>
-        {{outlet "repositories"}}
-    </div>
-    <div class="span6" >
-        {{outlet "events"}}
-    </div>
+  <div class="span6" >
+    <h3>Repositories</h3>
+    {{outlet "repositories"}}
+  </div>
+  <div class="span6" >
+    {{outlet "events"}}
+  </div>
 </div>

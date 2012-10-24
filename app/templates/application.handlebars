@@ -1,19 +1,19 @@
 <div id="main" class="container-fluid">
-  <nav class="navbar navbar-fixed-top">
-    <div class="navbar-inner">
-      <div class="container">
-        <a class="brand" target="_blank" {{action gotoIndex}} >GitHub Dashboard v{{Dashboard.VERSION}}</a>
-        <div class="nav-collapse" >
-          <ul class="nav" >
-            <li>
-              <a href="https://github.com/pangratz/dashboard" >Show on GitHub</a>
-            </li> 
-          </ul>
-        </div>
-      </div>
+ <nav class="navbar navbar-fixed-top">
+  <div class="navbar-inner">
+   <div class="container">
+    <a class="brand" target="_blank" {{action gotoIndex}} >GitHub Dashboard v{{Dashboard.VERSION}}</a>
+    <div class="nav-collapse" >
+     <ul class="nav" >
+      <li>
+       <a href="https://github.com/pangratz/dashboard" >Show on GitHub</a>
+      </li> 
+     </ul>
     </div>
-  </nav>
-  <div class="row-fluid">
-    {{outlet}}
+   </div>
   </div>
+ </nav>
+ <div class="row-fluid">
+  {{outlet}}
+ </div>
 </div>
