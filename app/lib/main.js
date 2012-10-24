@@ -7,3 +7,8 @@ require('dashboard/store');
 require('dashboard/router');
 
 Dashboard.initialize();
+
+// temporary fix until Ember-Data is updated and store injection is available
+if (!Dashboard.get('router.store')) {
+  Dashboard.set('router.store', Dashboard.Store.create());
+}
