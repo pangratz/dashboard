@@ -1,5 +1,5 @@
 require('dashboard/core');
-require('dashboard/controller');
+require('dashboard/controllers/main');
 require('dashboard/view');
 require('dashboard/store');
 require('dashboard/router');
