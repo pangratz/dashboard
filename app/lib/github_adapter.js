@@ -59,8 +59,8 @@ Dashboard.GitHubAdpater = DS.Adapter.extend({
       this.ajax('/users/%@/repos'.fmt(query.username), this._invoke(modelArray, 'load'));
 
     // events for a repository
-    } else if (Dashboard.Event.detect(type) && query.repository && query.username) {
-      this.ajax('/repos/%@/%@/events?page=%@'.fmt(query.username, query.repository, query.page || 1), this._invoke(modelArray, 'load', query));
+    } else if (Dashboard.Event.detect(type) && query.repoName) {
+      this.ajax('/repos/%@/events?page=%@'.fmt(query.repoName, query.page || 1), this._invoke(modelArray, 'load', query));
 
     // events for a user
     } else if (Dashboard.Event.detect(type) && query.username) {

@@ -97,7 +97,7 @@ test("invokes ajax", function() {
 module("Dashboard.GitHubAdpater#findQuery for events for a repository calls ajax", setupDataSource);
 
 test("invokes ajax", function() {
-  store.findQuery(Dashboard.Event, {username: 'buster', repository: 'bluth'});
+  store.findQuery(Dashboard.Event, {repoName: 'buster/bluth'});
 
   ok(ajaxCalled, 'ajax has been called');
   deepEqual(ajaxUrl, '/repos/buster/bluth/events?page=1', "the passed url is correct");
