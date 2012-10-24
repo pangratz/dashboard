@@ -1,5 +1,5 @@
 require('dashboard/core');
-require('dashboard/model');
+require('dashboard/models/main');
 
 Dashboard.Router = Ember.Router.extend({
   root: Ember.Route.extend({

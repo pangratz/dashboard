@@ -1,5 +1,5 @@
 require('dashboard/store');
-require('dashboard/model');
+require('dashboard/models/main');
 require('dashboard/github_adapter');
 
 var store, adapter;

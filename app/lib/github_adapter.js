@@ -1,5 +1,5 @@
 require('dashboard/core');
-require('dashboard/model');
+require('dashboard/models/main');
 
 Dashboard.GitHubAdpater = DS.Adapter.extend({
   PREFIX: 'https://api.github.com',
