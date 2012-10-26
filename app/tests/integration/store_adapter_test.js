@@ -14,96 +14,106 @@ var callLater = function(func) {
   }, 50);
 };
 
+var origAjax;
+var ajaxUrl, ajaxType, ajaxHash;
+
+var expectUrl = function(url) {
+  equal(ajaxUrl, 'https://api.github.com' + url, "url is expected");
+};
+var expectType = function(type) {
+  equal(ajaxType, type, "the type is expected");
+};
+var expectAPICall = function(type, url) {
+  expectType(type);
+  expectUrl(url);
+};
+var expectState = function(m, state, value) {
+  if (value === undefined) { value = true; }
+
+  var flag = "is" + state.charAt(0).toUpperCase() + state.substr(1);
+  equal(Ember.get(m, flag), value, "the model is " + (value === false ? "not " : "") + state);
+};
+
 module("Dashboard.Store and Dashboard.GitHubAdpater integration tests", {
   setup: function() {
+    origAjax = jQuery.ajax;
+    jQuery.ajax = function(hash) {
+      ajaxUrl = hash.url;
+      ajaxType = hash.type || 'GET';
+      ajaxHash = {};
+      ajaxHash.success = function(data) {
+        hash.success.call(hash.context || this, {
+          data: data
+        });
+      };
+    };
     adapter = Dashboard.GitHubAdpater.create();
     store = Dashboard.Store.create({ adapter: adapter });
   },
   teardown: function() {
     adapter.destroy();
     store.destroy();
+    jQuery.ajax = origAjax;
   }
 });
 
-test("find works for getting a repository", 4, function() {
-  // it is expected that a find for Dashboard.Repository
-  // invokes ajax
-  adapter.reopen({
-    ajax: function(url, callback) {
-      ok(true, "ajax has been called");
-      equal(url, '/repos/pangratz/ember.js', 'correct url has been passed');
+test("find works for getting a repository", function() {
+  var repository = store.find(Dashboard.Repository, 'pangratz/ember.js');
+  expectState(repository, 'loaded', false);
 
-      callback({full_name: 'pangratz/ember.js'});
-    }
+  expectAPICall('GET', '/repos/pangratz/ember.js');
+  ajaxHash.success({
+    full_name: 'pangratz/ember.js'
   });
 
-  var repo = store.find(Dashboard.Repository, 'pangratz/ember.js');
-  ok(repo);
-  equal(repo.get('id'), 'pangratz/ember.js', 'id is set immediately');
+  expectState(repository, 'loaded');
+  equal(repository.get('id'), 'pangratz/ember.js');
 });
 
-test("find works for getting a user", 4, function() {
-  // it is expected that a find for Dashboard.User
-  // invokes ajax
-  adapter.reopen({
-    ajax: function(url, callback) {
-      ok(true, "ajax has been called");
-      equal(url, '/users/pangratz', 'correct url has been passed');
-
-      callback({login: 'pangratz'});
-    }
-  });
-
+test("find works for getting an user", function() {
   var user = store.find(Dashboard.User, 'pangratz');
-  ok(user, 'user is found');
-  ok(user.get('id'), 'pangratz', 'id is set immediately');
-});
+  expectState(user, 'loaded', false);
 
-test("findQuery works for watched repositories", 4, function() {
-  // it is expected that a findQuery for Dashboard.Repository
-  // invokes `watchedRepositories` on adapter when type in the query is 'watched'
-  adapter.reopen({
-    ajax: function(url, callback) {
-      ok(true, "watched repositories has been called");
-      equal(url, '/users/pangratz/watched', 'correct url has been passed');
-
-      callLater(callback, [{full_name: 'first/repo'}, {full_name: 'second/repo'}]);
-    }
+  expectAPICall('GET', '/users/pangratz');
+  ajaxHash.success({
+    login: 'pangratz'
   });
 
+  expectState(user, 'loaded');
+  equal(user.get('id'), 'pangratz');
+});
+
+test("findQuery works for watched repositories", function() {
   var watchedRepos = store.findQuery(Dashboard.Repository, {
     username: 'pangratz',
     type: 'watched'
   });
-  equal(watchedRepos.get('length'), 0, 'length is initially 0');
+  expectState(watchedRepos, 'loaded', false);
+  equal(watchedRepos.get('length'), 0);
 
-  watchedRepos.addArrayObserver(this, {
-    didChange: function() {
-      equal(watchedRepos.get('length'), 2);
-    },
-    willChange: Ember.K
-  });
+  expectAPICall('GET', '/users/pangratz/watched');
+  ajaxHash.success([{ full_name: 'first/repo' }, { full_name: 'second/repo' }]);
+
+  expectState(watchedRepos, 'loaded');
+  equal(watchedRepos.get('length'), 2);
+
+  expectState(store.find(Dashboard.Repository, 'first/repo'), 'loaded');
+  expectState(store.find(Dashboard.Repository, 'second/repo'), 'loaded');
 });
 
-test("findQuery works for repositories", 4, function() {
-  // it is expected that a findQuery for Dashboard.Repository
-  // invokes `repositories` on adapter when there is just a username
-  adapter.reopen({
-    ajax: function(url, callback) {
-      ok(true, "repositories has been called");
-      equal(url, '/users/pangratz/repos', 'correct username has been passed');
-
-      callLater(callback, [{full_name: 'pangratz/first'}, {full_name: 'pangratz/second'}]);
-    }
+test("findQuery works for repositories", function() {
+  var repos = store.findQuery(Dashboard.Repository, {
+    username: 'pangratz'
   });
+  expectState(repos, 'loaded', false);
+  equal(repos.get('length'), 0);
 
-  var repos = store.findQuery(Dashboard.Repository, { username: 'pangratz' });
-  equal(repos.get('length'), 0, 'length is initially 0');
+  expectAPICall('GET', '/users/pangratz/repos');
+  ajaxHash.success([{ full_name: 'pangratz/first' }, { full_name: 'pangratz/second' }]);
 
-  repos.addArrayObserver(this, {
-    didChange: function(target, start, removed, added) {
-      equal(repos.get('length'), 2, 'the array is populated');
-    },
-    willChange: Ember.K
-  });
+  expectState(repos, 'loaded');
+  equal(repos.get('length'), 2);
+
+  expectState(store.find(Dashboard.Repository, 'pangratz/first'), 'loaded');
+  expectState(store.find(Dashboard.Repository, 'pangratz/second'), 'loaded');
 });
